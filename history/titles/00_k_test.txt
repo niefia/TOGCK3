@@ -1,0 +1,853 @@
+d_wknights {
+	11765.1.1 = {
+		holder = 7000014
+		government = feudal_government
+	}
+}
+
+k_misthalin = {
+
+	11500.1.1 = {
+		holder = 6000015
+		change_development_level = 3
+		government = feudal_government
+	}
+
+
+	11550.1.1 = {
+		holder = 6000014
+		government = feudal_government
+	}
+
+	11585.1.1 = {
+		holder = 6000013
+		government = feudal_government
+	}
+
+	11600.1.1 = {
+		holder = 6000012
+		government = feudal_government
+	}
+
+	11656.1.1 = {
+		holder = 6000011
+		government = feudal_government
+	}
+	11687.6.6 = {
+		holder = 6000010
+		government = feudal_government
+	}
+	11787.6.6 = {
+		holder = 6000009
+		government = feudal_government
+	}
+
+	11817.6.6 = {
+		holder = 6000002
+		government = feudal_government
+	}
+
+
+
+}
+c_champ = {
+	11825.1.1 = {
+		holder = 6000022
+		liege = k_misthalin
+		government = feudal_government
+	}
+}
+
+
+
+
+d_varrock = {
+	11765.1.1 = {
+		holder = 6000002
+		government = feudal_government
+	}
+}
+
+c_varrock = {
+	11765.1.1 = {
+		holder = 6000002
+		government = feudal_government
+	}
+}
+
+c_pvar = {
+	11765.1.1 = {
+		holder = 6000002
+		change_development_level = 16
+		government = feudal_government
+	}
+}
+
+d_lumbridge = {
+	11765.1.1 = {
+		holder = 6000003
+		liege = "k_misthalin"
+		government = feudal_government
+	}
+}
+
+c_lumbridge {
+	11765.1.1 = {
+		holder = 6000003
+		change_development_level = 7
+		government = feudal_government
+	}
+}
+
+c_barb {
+	11765.1.1 = {
+		holder = 6000004
+		change_development_level = 6
+		government = feudal_government
+	}
+}
+
+c_wizard  {
+	11765.1.1 = {
+		holder = 6000005
+		change_development_level = 5
+		government = feudal_government
+	}
+}
+
+c_draynor {
+	11765.1.1 = {
+		holder = 6000006
+		change_development_level = 4
+		government = feudal_government
+	}
+}
+
+c_manor {
+	11765.1.1 = {
+		holder = 6000006
+		change_development_level = 3
+		government = feudal_government
+	}
+}
+
+c_lumbnor {
+	11807.1.1 = {
+		holder = 6000007
+		liege = "d_lumbridge"
+		government = feudal_government
+	}
+}
+
+c_tutorial{
+	11765.1.1 = {
+		holder = 6000008
+		government = feudal_government
+	}
+}
+
+
+c_kharid {
+	11765.1.1 = {
+		holder = 8000008
+		change_development_level = 9
+		government = feudal_government
+	}
+}
+
+c_scorp {
+	11765.1.1 = {
+		holder = 8000008
+		change_development_level = 3
+		government = feudal_government
+	}
+}
+
+c_darena {
+	11765.1.1 = {
+		holder = 8000008
+		change_development_level = 10
+		government = feudal_government
+	}
+}
+c_marena {
+	11765.1.1 = {
+		holder = 8000008
+		change_development_level = 6
+		government = feudal_government
+
+	}
+}
+
+d_kharid{
+	11765.1.1 = {
+		holder = 8000008
+		government = feudal_government
+	}
+}
+
+
+
+k_asgarnia  {
+	11765.1.1 = {
+		holder = 7000000
+		change_development_level = 2
+		government = feudal_government
+	}
+}
+
+
+
+c_asgarnia {
+	11765.1.1 = {
+	change_development_level = 11
+		holder = 7000014
+		government = feudal_government
+	}
+}
+
+c_mudskipper  {
+	11765.1.1 = {
+		holder = 7000001
+		government = feudal_government
+	}
+}
+
+c_sarim {
+	11765.1.1 = {
+		holder = 7000002
+		change_development_level = 6
+		government = feudal_government
+	}
+}
+
+c_rimmington {
+	11765.1.1 = {
+		holder = 7000003
+		change_development_level = 4
+		government = feudal_government
+	}
+}
+
+c_cguild {
+	11765.1.1 = {
+		holder = 7000004
+		liege = d_wknights
+		change_development_level = 3
+		government = feudal_government
+	}
+}
+
+c_sfalfarm {
+	11765.1.1 = {
+		holder = 7000005
+		liege = d_wknights
+		change_development_level = 3
+		government = feudal_government
+	}
+}
+c_goblin {
+	11765.1.1 = {
+		holder = 7000006
+		change_development_level = 4
+		government = feudal_government
+	}
+}
+
+c_nfal {
+	11765.1.1 = {
+		holder = 7000007
+		liege = "d_wknights"
+		government = feudal_government
+	}
+}
+
+c_bknight {
+	11765.1.1 = {
+		holder = 7000008
+		change_development_level = 8
+		government = feudal_government
+	}
+}
+c_ctemple {
+	11765.1.1 = {
+		holder = 7000008
+		change_development_level = 3
+		government = feudal_government
+	}
+}
+d_kinshra {
+	11765.1.1 = {
+		holder = 7000008
+		government = theocracy_government
+	}
+}
+c_eice {
+	11765.1.1 = {
+		holder = 7000008
+		government = theocracy_government
+	}
+}
+c_ice {
+	11765.1.1 = {
+		holder = 7000008
+		government = theocracy_government
+	}
+}
+c_dwarf {
+	11765.1.1 = {
+		holder = 7000009
+		change_development_level = 6
+		government = feudal_government
+	}
+}
+
+c_burthorpe {
+	11807.1.1 = {
+		holder = 7000010
+		change_development_level = 8
+		government = feudal_government
+	}
+}
+d_burthorpe {
+	11807.1.1 = {
+		holder = 7000010
+		government = feudal_government
+	}
+}
+c_wwolf {
+	11807.1.1 = {
+		holder = 7000010
+		change_development_level = 0
+		government = feudal_government
+	}
+}
+
+c_crandor {
+	11765.1.1 = {
+		holder = 7000013
+		change_development_level = 1
+		government = feudal_government
+	}
+}
+
+c_etrana {
+	11765.1.1 = {
+		holder = 7000011
+		change_development_level = 4
+		government = theocracy_government
+	}
+}
+
+d_hpriestsar {
+	11765.1.1 = {
+		holder = 7000011
+		government = theocracy_government
+	}
+}
+
+c_bfieldn  {
+	11765.1.1 = {
+		holder = 9000000
+		change_development_level = 1
+		government = feudal_government
+	}
+}
+
+c_nmare {
+	11765.1.1 = {
+		holder = 9000000
+		change_development_level = 3
+		government = feudal_government
+	}
+}
+
+
+c_farena {
+	11765.1.1 = {
+		holder = 9000000
+		change_development_level = 6
+		government = feudal_government
+	}
+}
+
+c_khazard {
+	11765.1.1 = {
+		holder = 9000000
+		change_development_level = 5
+		government = feudal_government
+	}
+}
+
+c_tlife {
+	11765.1.1 = {
+		holder = 9000000
+		change_development_level = 3
+		government = feudal_government
+	}
+}
+
+c_necromancer {
+	11765.1.1 = {
+		holder = 9000000
+		change_development_level = 3
+		government = feudal_government
+	}
+}
+
+d_khazard {
+	11765.1.1 = {
+		holder = 9000000
+		government = feudal_government
+	}
+}
+
+c_morytania  {
+	11765.1.1 = {
+		holder = 9000005
+		government = feudal_government
+	}
+}
+d_morytania  {
+	11765.1.1 = {
+		holder = 9000005
+		change_development_level = 11
+		government = feudal_government
+	}
+}
+k_morytania  {
+	11765.1.1 = {
+		holder = 9000005
+		government = feudal_government
+	}
+}
+
+
+c_gagil  {
+	11765.1.1 = {
+		holder = 9000009
+		government = feudal_government
+	}
+}
+
+c_gball  {
+	11765.1.1 = {
+		holder = 9000009
+		government = feudal_government
+	}
+}
+
+c_egnome  {
+	11765.1.1 = {
+		holder = 9000009
+		government = feudal_government
+	}
+}
+
+c_gnor  {
+	11765.1.1 = {
+		holder = 9000009
+		government = feudal_government
+	}
+}
+c_grand  {
+	11765.1.1 = {
+		holder = 9000009
+		government = feudal_government
+	}
+}
+
+c_treegnome  {
+	11765.1.1 = {
+		holder = 9000019
+		change_development_level = 10
+		government = feudal_government
+	}
+}
+c_gfarm  {
+	11765.1.1 = {
+		holder = 9000019
+		government = feudal_government
+	}
+}
+c_gbattle  {
+	11765.1.1 = {
+		holder = 9000019
+		change_development_level = 2
+		government = feudal_government
+	}
+}
+d_treegnome  {
+	97.1.1 = {
+		holder = 9000019
+		change_development_level = 4
+		government = feudal_government
+	}
+}
+d_gnome {
+	11765.1.1 = {
+		holder = 9000009
+		change_development_level = 7
+		government = feudal_government
+	}
+}
+
+d_gnome {
+	11765.1.1 = {
+		holder = 9000009
+		government = feudal_government
+	}
+}
+
+c_weard {
+	11803.5.25= {
+		holder = 9000029
+		change_development_level = 8
+		government = feudal_government
+	}
+}
+
+c_epeak {
+	11803.5.25= {
+		holder = 9000029
+		government = feudal_government
+	}
+}
+c_falconer {
+	11803.5.25= {
+		holder = 9000029
+		government = feudal_government
+	}
+}
+c_pfc {
+	11803.5.25= {
+		holder = 9000029
+		government = feudal_government
+	}
+}
+
+
+c_nardougne {
+	11803.5.25 = {
+		holder = 9000029
+		government = feudal_government
+	}
+}
+c_ctc {
+	11803.5.25 = {
+		holder = 9000029
+		government = feudal_government
+	}
+}
+c_nardthree {
+	11803.5.25 = {
+		holder = 9000029
+		government = feudal_government
+	}
+}
+
+
+d_weard {
+	11803.5.25 = {
+		holder = 9000029
+		government = feudal_government
+	}
+}
+
+d_eapal {
+	11803.5.25 = {
+		holder = 9000039
+		government = feudal_government
+	}
+}
+c_eapal {
+	11803.5.25 = {
+		holder = 9000039
+		change_development_level = 9
+		government = feudal_government
+	}
+}
+c_zoo {
+	11803.5.25 = {
+		holder = 9000039
+		change_development_level = 7
+		government = feudal_government
+	}
+}
+c_ardman {
+	11803.5.25 = {
+		holder = 9000039
+		change_development_level = 7
+		government = feudal_government
+	}
+}
+c_ardport {
+	11803.5.25 = {
+		holder = 9000039
+		change_development_level = 8
+		government = feudal_government
+	}
+}
+c_arfarm {
+	11803.5.25 = {
+		holder = 9000039
+		change_development_level = 2
+		government = feudal_government
+	}
+}
+
+c_witchhaven {
+	11803.5.25 = {
+		holder = 9000039
+		government = feudal_government
+	}
+}
+
+
+c_leguild {
+	11803.5.25 = {
+		holder = 9000039
+		government = feudal_government
+	}
+}
+
+
+c_fguild {
+	11803.5.25 = {
+		holder = 9000039
+		government = feudal_government
+	}
+}
+c_kand {
+	11803.5.25 = {
+		holder = 9000039
+		government = feudal_government
+	}
+}
+c_stower {
+	11803.5.25 = {
+		holder = 9000039
+		government = feudal_government
+	}
+}
+
+c_rguild {
+	11803.5.25 = {
+		holder = 9000039
+		government = feudal_government
+	}
+}
+c_hemenster {
+	11803.5.25 = {
+		holder = 9000039
+		government = feudal_government
+	}
+}
+
+
+c_emil {
+	11803.5.25 = {
+		holder = 9000039
+		government = feudal_government
+	}
+}
+c_armill {
+	11803.5.25 = {
+		holder = 9000039
+		change_development_level = 2
+		government = feudal_government
+	}
+}
+
+c_dwiz {
+	11765.1.1 = {
+		holder = 9000044
+		liege = d_kinshra
+		change_development_level = 3
+		government = feudal_government
+	}
+}
+
+
+
+
+c_taverly {
+	11807.1.1 = {
+		holder = 9000045
+		liege = "d_burthorpe"
+		change_development_level = 3
+		government = feudal_government
+	}
+}
+c_druid {
+	11807.1.1 = {
+		holder = 9000046
+		liege = "d_burthorpe"
+		government = feudal_government
+	}
+}
+
+c_sinclair {
+	11765.1.1 = {
+		holder = 9000050
+		change_development_level = 2
+		government = feudal_government
+	}
+}
+c_wsinclair {
+	11765.1.1 = {
+		holder = 9000050
+		government = feudal_government
+	}
+}
+
+c_citharede {
+	11765.1.1 = {
+		holder = 8000088
+		change_development_level = 4
+		government = theocracy_government
+	}
+}
+
+c_canifis {
+	11765.1.1 = {
+		holder = 9000508
+		change_development_level = 5
+		liege = k_morytania
+		government = feudal_government
+	}
+}
+
+
+c_falador {
+	11765.1.1 = {
+		change_development_level = 10
+		holder = 7000014
+		liege = k_asgarnia
+		government = feudal_government
+	}
+}
+
+
+
+c_camelot {
+	11765.1.1 = {
+		holder = 9000057
+		change_development_level = 6
+		government = feudal_government
+	}
+}
+
+d_camelot {
+	11765.1.1 = {
+		holder = 9000057
+		government = feudal_government
+	}
+}
+c_catherby {
+	11765.1.1 = {
+		holder = 9000057
+		change_development_level = 4
+		government = feudal_government
+	}
+}
+c_flax {
+	11765.1.1 = {
+		holder = 9000057
+		government = feudal_government
+	}
+}
+
+c_karamja {
+	11765.1.1 = {
+		holder = k000001
+		change_development_level = 4
+		government = feudal_government
+	}
+}
+
+c_cairn {
+	11765.1.1 = {
+		holder = k000003
+		change_development_level = 1
+		government = feudal_government
+	}
+}
+
+c_sophanem {
+	11765.1.1 = {
+		holder = s000001
+		change_development_level = 10
+		government = theocracy_government
+	}
+}
+
+
+c_bfieldn {
+	11765.1.1 = {
+		holder = 9000000
+		change_development_level = 2
+		government = feudal_government
+	}
+}
+
+c_camdozaal {
+	11765.1.1 = {
+		holder = 7000101
+		change_development_level = 7
+		government = feudal_government
+	}
+}
+
+
+
+ k_kandarin {
+
+
+	 11687.8.23 = {
+		holder = 9000041
+		change_development_level = 2
+		government = feudal_government
+	}
+
+
+	11752.8.6 = {
+		holder = 9000040
+		government = feudal_government
+	}
+
+
+
+}
+
+
+d_guthix {
+	1.1.1 = {
+		holder = gu00001
+		government = theocracy_government
+	}
+}
+
+
+d_keldagrim {
+	11765.1.1 = {
+		holder = kelda01
+		government = republic_government
+	}
+}
+
+
+c_keldagrim {
+	11765.1.1 = {
+		holder = kelda01
+		government = republic_government
+	}
+}
+
+c_keldafull {
+	11765.1.1 = {
+		change_development_level = 17
+		holder = kelda01
+		government = republic_government
+	}
+}

@@ -1,0 +1,1531 @@
+﻿@neg1_min = 0.45
+@neg1_max = 0.55
+
+@neg2_min = 0.4
+@neg2_max = 0.6
+
+@neg3_min = 0.35
+@neg3_max = 0.65
+
+@pos1_min = 0.5
+@pos1_max = 0.6
+
+@pos2_min = 0.6
+@pos2_max = 0.7
+
+@pos3_min = 0.7
+@pos3_max = 0.9
+
+@beauty1min = 0.35
+@beauty1max = 0.65
+
+@beauty2min = 0.4
+@beauty2max = 0.6
+
+@beauty3min = 0.45
+@beauty3max = 0.55
+
+@blend1min = 0.0
+@blend1max = 0.5
+
+@blend2min = 0.2
+@blend2max = 0.5
+
+@blend3min = 0.5
+@blend3max = 0.8
+	
+
+	
+drakin = {
+	template = "vanity_character_base"
+	
+ gene_body_hair = {
+        20 = {  name = body_hair_sparse             range = { 0.0 0.0 }     }
+
+    }
+	
+beast_head = {
+
+100 = { name = reptile_head range = { 0.5 1.0 } }
+	0 = { name = kat_head range = { 0.5 1.0 } }
+	0 = { name = ape_head range = { 0.5 1.0 } }
+	0 = { name = wolf_head range = { 0.5 1.0 } }
+	0 = { name = ape_head range = { 0.5 1.0 } }
+	0 = { name = bear_head range = { 0.5 1.0 } }
+	0 = { name = demon_head range = { 0.5 1.0 } }
+	0 = { name = shark_head range = { 0.5 1.0 } }	
+}	
+
+beast_torso = {
+
+100 = { name = reptile_body range = { 0.5 1.0 } }
+	0 = { name = kat_body range = { 0.5 1.0 } }
+	0 = { name = ape_body range = { 0.5 1.0 } }
+	0 = { name = wolf_body range = { 0.5 1.0 } }
+	0 = { name = ape_body range = { 0.5 1.0 } }
+	0 = { name = bear_body range = { 0.5 1.0 } }
+	0 = { name = demon_body range = { 0.5 1.0 } }
+	0 = { name = shark_body range = { 0.5 1.0 } }	
+}
+
+beast_legs = {
+
+100 = { name = reptile_legs range = { 0.5 1.0 } }
+	0 = { name = kat_legs range = { 0.5 1.0 } }
+	0 = { name = ape_legs range = { 0.5 1.0 } }
+	0 = { name = wolf_legs range = { 0.5 1.0 } }
+	0 = { name = ape_legs range = { 0.5 1.0 } }
+	0 = { name = bear_legs range = { 0.5 1.0 } }
+	0 = { name = demon_legs range = { 0.5 1.0 } }
+	0 = { name = shark_legs range = { 0.5 1.0 } }	
+}
+	
+POD_tzm_amphibieyes = {
+		100 = { name = igoreyes  range = { 0.5 0.75 }   }
+		}
+	
+POD_tzm_BROW = {
+	20 = { name = pox  range = { 0.0 0.6 }   }			
+			}
+	
+
+POD_tzm_NOSE = {
+		 20 = { name = nosblade  range = { 0.5 1.0 }   }   
+  
+			}
+
+POD_tzm_TEMPLE = {
+		10 = { name = templecuts  range = { 0.5 1.0 }   }   
+		 10 = { name = templepox  range = { 0.0 0.6 }   }  
+	   }
+	      
+	
+skin_color = {
+        #Pale White
+        10 = { 1.0 0.05 1.0 0.55 }
+    }
+    
+   eye_color = {
+       #Light Blue/Green
+       10 = { 0.1 0.2 0.25 0.6 }
+   }
+
+   hair_color = {
+       # White/Blonde
+       10 = { 0.0 0.0 1.0 1.0 }
+   }
+	head_transform = {
+    0 = { name = snake_head		range = { 1.0 1.0 } }
+    0 = { name = dryad_head		range = { 1.0 1.0 } }
+	0 = { name = merkin_head		range = { 1.0 1.0 } }
+	30 = { name = demon_head		range = { 1.0 1.0 } }
+    0 = { name = dirty_head		range = { 1.0 1.0 } }
+	0 = { name = fish_head		range = { 1.0 1.0 } }
+    0 = { name = leather_head		range = { 1.0 1.0 } }
+    0 = { name = goldface		range = { 1.0 1.0 } }	
+    }
+	
+	body_transform = {
+    0 = { name = dryad_body		range = { 1.0 1.0 } }
+	0 = { name = dirty_body		range = { 1.0 1.0 } }
+	0 = { name = merkin_body		range = { 1.0 1.0 } }
+	100 = { name = demon_body		range = { 0.7 1.0 } }
+	0 = { name = succubus_body		range = { 1.0 1.0 } }
+	0 = { name = fish_body		range = { 1.0 1.0 } }
+	0 = { name = leather_body		range = { 1.0 1.0 } }	
+	0 = { name = lavaskin		range = { 1.0 1.0 } }
+	0 = { name = iceskin		range = { 1.0 1.0 } }
+	0 = { name = rogue		range = { 1.0 1.0 } }
+	0 = { name = barbarian		range = { 1.0 1.0 } }
+	0 = { name = furnips		range = { 1.0 1.0 } }
+    }
+	
+	eye_accessory = {
+        10 = { name = normal_eyes_dark_iris     range = { 0.0 1.0 } }
+    }
+	POD_tzm_serpentinejaw = {
+	0 = { name = smile  range = { 0.5 0.85 }   }		
+			}
+			
+			
+	gene_roughskin = {
+	10 = { name = roughskin1     range = { 0.6 1.0 } }
+	10 = { name = roughskin2     range = { 0.6 1.0 } }
+	10 = { name = roughskin4     range = { 0.6 1.0 } }
+	0 = { name = bloodied		range = { 0.6 1.0 } }
+	0 = { name = shark_skin     range = { 0.6 1.0 } }
+	10 = { name = gold_skin     range = { 0.6 1.0 } }
+	
+    }
+		
+	bods = {
+        10 = { name = beast_bod     range = { 0.6 1.0 } }
+    }
+	heads = {
+        0 = { name = fat_head     range = { 0.6 1.0 } }
+		0 = { name = flat_head     range = { 0.6 1.0 } }
+    }
+	tails = {
+        0 = { name = cat_tail     range = { 0.6 1.0 } }
+		10 = { name = lizard_tail     range = { 1.0 1.0 } }
+    }
+	tail_length = {
+        10 = { name = tail_length     range = { 0.6 1.0 } }
+    }  
+	
+fur_shading = {
+ 
+0 = { name = light_color     range = { 0.6 1.0 } }
+20 = { name = dark_color     range = { 0.75 1.0 } }
+0 = { name = vibrant_color     range = { 1.0 1.0 } }
+   }
+
+	
+skin_pattern_1 = {
+ 
+0 = { name = pattern_1     range = { 0.6 1.0 } }
+10 = { name = pattern_2	     range = { 0.75 1.0 } }
+10 = { name = pattern_3     range = { 1.0 1.0 } }
+10 = { name = pattern_4     range = { 1.0 1.0 } }
+   }
+skin_pattern_2 = {
+ 
+0 = { name = pattern_1     range = { 0.6 1.0 } }
+10 = { name = pattern_2	     range = { 0.75 1.0 } }
+10 = { name = pattern_3     range = { 1.0 1.0 } }
+10 = { name = pattern_4     range = { 1.0 1.0 } }
+   }  
+ 
+horns = {
+        30 = { name = archdemon_head     range = { 1.0 1.0 } }
+		10 = { name = backward_horns     range = { 1.0 1.0 } }
+		0 = { name = front_horns     range = { 1.0 1.0 } }
+		0 = { name = no_horns     range = { 1.0 1.0 } }
+    }	
+claws = {
+        0 = { name = no_claws     range = { 0.6 1.0 } }
+		10 = { name = claws_std_tan     range = { 1.0 1.0 } }
+		10 = { name = claws_std_white     range = { 1.0 1.0 } }
+    }
+beast_back = {
+        0 = { name = no_wings     	range = { 0.6 1.0 } }
+		0 = { name = demon_wings     range = { 1.0 1.0 } }
+		30 = { name = dragon_wings     range = { 1.0 1.0 } }
+		0 = { name = fins     		range = { 1.0 1.0 } }
+    }
+	
+    gene_bs_body_type = {
+	30 = { name = body_average 		range = { 0.5 0.9 } }
+	
+    10 = { name = body_fat_head_fat_low   range = { 0.25 0.76 }      }
+  
+    5 = { name = body_fat_head_fat_medium   range = { 0.25 0.75 }      }
+    
+    5 = { name = body_fat_head_fat_full   range = { 0.25 0.8 }      }
+        
+    }
+	
+
+    gene_bs_body_shape = {
+
+
+    1 = { name = body_shape_average     range = { 0.5 0.8 }      }
+    1 = { name = body_shape_hourglass_half     range = { 0.2 0.4 }      }
+    1 = { name = body_shape_hourglass_full     range = { 0.25 0.45 }      }
+    50 = { name = body_shape_pear_half     range = { 0.25 0.45 }      }
+    50 = { name = body_shape_pear_full     range = { 0.25 0.45 }      }
+    2 = { name = body_shape_triangle_half     range = { 0.2 0.5 }      }
+    1 = { name = body_shape_triangle_full     range = { 0.5 0.8 }      }
+
+    10 = { name = body_shape_average     range = { 0.3 0.8 }      }
+    10 = { name = body_shape_hourglass_half     range = { 0.4 0.8 }      }
+    10 = { name = body_shape_hourglass_full     range = { 0.4 0.6 }      }
+    10 = { name = body_shape_rectangle_half     range = { 0.4 0.6 }      }
+    50 = { name = body_shape_rectangle_full     range = { 0.6 1.0 }      }
+    10 = { name = body_shape_triangle_half     range = { 0.4 0.6 }      }
+    50 = { name = body_shape_triangle_full     range = { 0.6 1.0 }      }
+    }
+
+    gene_chin_forward = {
+        2 = { name = chin_forward_neg    range = { @neg1_min @neg1_max }    }
+        20 = { name = chin_forward_pos    range = { 0.5 0.9 }    }
+ 
+    }
+
+    gene_chin_height = {
+
+        20 = { name = chin_height_pos    range = { 0.0 1.0  }    }
+
+    }
+
+    gene_chin_width = {
+     
+
+        20 = { name = chin_width_pos    range = { 0.0 1.00  }    }
+
+    }
+
+    gene_eye_angle = {
+       
+        20 = { name = eye_angle_neg    range = { 0.45 0.5  }    }
+        20 = { name = eye_angle_pos    range = { 0.5 0.55  }    }
+        10 = { name = eye_angle_neg    range = { @beauty1min @beauty1max }      }
+        10 = { name = eye_angle_neg    range = { @beauty2min @beauty2max }       }
+        10 = { name = eye_angle_neg    range = { @beauty3min @beauty3max }       }
+
+        #Beauty Section
+        0 = { name = eye_angle_neg    range = { @beauty1min @beauty1max }    traits = { beauty_1 }    }
+        0 = { name = eye_angle_neg    range = { @beauty2min @beauty2max }    traits = { beauty_2 }    }
+        0 = { name = eye_angle_neg    range = { @beauty3min @beauty3max }    traits = { beauty_3 }    }
+    }
+
+    gene_eye_depth = {
+       
+        20 = { name = eye_depth_neg    range = { 0.4 1.0 }    }
+
+    }
+
+    gene_eye_height = {
+
+        20 = { name = eye_height_neg    range = { 0.2 0.8 }    }
+
+    }
+	  gene_forehead_height = {
+     
+        25 = { name = forehead_height_neg    range = { 0.0 0.3 }    }
+
+    }
+
+    gene_head_height = {
+       
+        25 = { name = head_height_neg    range = { @neg1_min @neg1_max }    }
+
+    }
+
+    gene_head_width = {
+       
+        25 = { name = head_width_neg    range = { 0.65 1.0 }    }
+
+    }
+
+    gene_head_profile = {
+       
+        25 = { name = head_profile_pos    range = { 0.25 0.75 }    }
+    }
+
+    gene_head_top_height = {
+     
+
+        25 = { name = head_top_height_pos    range = { 0.0 0.15  }    }
+
+    }
+
+    gene_head_top_width = {
+    
+
+        25 = { name = head_top_width_pos    range = { 0.0 0.25 }    }
+
+    }
+
+    gene_jaw_angle = {
+      
+
+        20 = { name = jaw_angle_pos    range = { 0.25 0.75 }    }
+
+    }
+
+    gene_jaw_forward = {
+      
+
+        20 = { name = jaw_forward_pos    range = { 0.4 0.8  }    }
+
+    }
+
+    gene_jaw_height = {
+      
+        2 = { name = jaw_height_neg    range = { 0.4 1.0  }    }
+        30 = { name = jaw_height_pos    range = { 0.4 1.0  }    }
+
+    }
+
+    gene_jaw_width = {
+      
+        25 = { name = jaw_width_neg    range = { 0.5 1.0 }    }
+        25 = { name = jaw_width_pos    range = { 0.5 1.0 }    }
+
+    }
+		POD_horn = {
+		10 = { name = horns   range = { 0.2 1.0 }   }   	 
+	}
+	
+	POD_NOSschnoz = {  
+		 100 = { name = schnozies   range = { 1.0 1.00 }   }   
+	}	
+	
+	POD_NOSsification = {
+		 10 = { name = nossification  range = { 0.0 0.00 }   }   
+		 10 = { name = nosferatitude  range = { 0.0 0.00 }   }  
+		 10 = { name = nosfferization  range = { 0.0 0.00 }   } 
+		 10 = { name = nossimization  range = { 0.0 0.00 }   } 		 
+	}		
+
+	POD_NOSjawz = {
+		 00 = { name = jawwies   range = { 0.0 0.00 }   }   
+		 00 = { name = wawwies   range = { 0.0 0.00 }   }   
+	}	
+	
+	POD_NOSforehead_height = {
+		 0 = { name = Nosheadhigh   range = { 0.0 0.00 }   }   	 
+	}	
+	
+	POD_NOSforehead_forward = {
+		 0 = { name = Nosheadforward   range = { 0.0 0.00 }   }   	 
+	}	
+	
+	POD_NOSforehead_curve = {
+		 0 = { name = Nosheadcurve  range = { 0.0 0.00 }   }   	 
+	}
+	
+	POD_NOSconifier = {
+		0 = { name = smallerhats  range = { 0.5 1.00 }   }
+	}
+	
+	POD_NOSeye = {
+		 0 = { name = aye range = { 0.0 0.0 }   }   	
+		 0 = { name = eyee range = { 0.0 0.0 }   }
+	}	
+	
+	POD_NOSear = {
+		 0 = { name = nosear range = { 0.0 0.0 }   } 
+	}
+	
+	POD_tzm_browcrest = { 
+		0 = { name = zerghead	range = { 0.6 1.0 } }
+	}
+	POD_tzm_longbrain = { 
+		0 = { name = akhenaten	range = { 0.5 1.0 } }
+	}
+	POD_tzm_amphibieyes = {
+		0 = { name = igoreyes  range = { 0.75 1.0 }   }
+		}
+	
+	POD_tzm_spliceeyes = {
+	100 = { name = thegreys  range = { 0.25 0.75 }   }		
+			}
+
+	POD_tzm_serpentinejaw = {
+	100 = { name = smile  range = { 0.5 0.85 }   }		
+			}
+	POD_tzm_BROW = {
+	60 = { name = spike  range = { 0.5 1.0 }   }
+	20 = { name = pox  range = { 0.5 1.0 }   }			
+			}
+	
+	POD_tzm_FACE = {
+			100 = { name = mowhawk  range = { 0.0 0.00 }   }    	 
+						}
+	POD_tzm_JAW = { 
+	10 = { name = jawspike  range = { 0.3 1.0 }   }
+				}
+	POD_tzm_NOSE = {
+		 40 = { name = nosblade  range = { 0.6 1.0 }   }   
+		 0 = { name = nosespike  range = { 0.5 1.0 }   }  
+		 0 = { name = nosespine  range = { 0.5 1.0 }   }  
+			}
+	POD_tzm_upperlip = {
+		0 = { name = catfish  range = { 0.0 0.2 }   }   		
+		 }
+	POD_tzm_TEMPLE = {
+		0 = { name = templecuts  range = { 0.2 1.0 }   }   
+		0 = { name = templepox  range = { 0.2 1.0 }   }  
+		 10 = { name = templespike  range = { 0.2 1.0 }   } 
+	   }
+			
+}
+
+	
+krok = {
+	
+	template = "vanity_character_base"
+	
+		 gene_height = {
+    80 = { name = normal_height  range = { 0.6 0.75 }      }
+    20 = { name = normal_height  range = { 0.8 0.9 }      }
+    }
+	    skin_color = {
+        #Pale White
+        10 = { 0.6 0.4 0.8 0.75 }
+    }
+	
+    
+   eye_color = {
+       #Light Blue/Green
+       10 = { 0.10 0.15 1.0 0.6 }
+   }
+
+   hair_color = {
+       # White/Blonde
+       10 = { 0.0 0.0 0.1 .2 }
+   }
+	    eye_accessory = {
+        10 = { name = normal_eyes_dark_iris      range = { 0.0 1.0 } }
+    }
+	    teeth_accessory = {
+        10 = { name = no_teeth      range = { 0.0 1.0 } }
+    }
+ gene_body_hair = {
+        20 = {  name = body_hair_sparse             range = { 0.0 0.0 }     }
+
+    }
+	
+	beast_fur_thickness_1 = {
+	 0 = {  name = no_fur             range = { 0.0 1.0 }     }
+	  0 = {  name = fur_thickness             range = { 0.5 1.0 }     }
+	  }
+	  beast_fur_thickness_2 = {
+	 0 = {  name = no_additional_fur             range = { 0.0 1.0 }     }
+	  0 = {  name = fur_thickness             range = { 0.2 0.6 }     }
+	  }
+	skin_change = {
+        0 = {  name = full_color_change_pos             range = { 0.0 1.0 }     }
+    }
+	  fish_features = {
+        0 = {  name = no_fishy             range = { 0.0 1.0 }     }
+	   0 = {  name = fish_head             range = { 0.5 1.0 }     }
+   }
+     fish_gills = {
+        0 = {  name = no_gilly            range = { 0.0 1.0 }     }
+	   0 = {  name = gills             range = { 0.5 1.0 }     }
+   }
+   
+    fish_form = {
+        0 = {  name = no_form            range = { 0.0 1.0 }     }
+	   0 = {  name = fish_form             range = { 0.1 0.5 }     }
+   }
+    long_neck = {
+        0 = {  name = no_longer           range = { 0.0 1.0 }     }
+	   20 = {  name = long_neck             range = { 0.35 0.75 }     }
+   }
+beast_head = {
+
+	10 = { name = reptile_head range = { 1.0 1.0 } }
+	0 = { name = kat_head range = { 0.5 1.0 } }
+	0 = { name = ape_head range = { 0.5 1.0 } }
+	0 = { name = wolf_head range = { 0.5 1.0 } }
+	0 = { name = ape_head range = { 0.5 1.0 } }
+	0 = { name = bear_head range = { 0.5 1.0 } }
+	0 = { name = demon_head range = { 0.5 1.0 } }
+	0 = { name = shark_head range = { 0.5 1.0 } }	
+}	
+
+beast_torso = {
+
+	0 = { name = reptile_body range = { 0.6 0.8 } }
+	0 = { name = kat_body range = { 0.5 1.0 } }
+	10 = { name = ape_body range = { 0.5 1.0 } }
+	0 = { name = wolf_body range = { 0.5 1.0 } }
+	0 = { name = ape_body range = { 0.5 1.0 } }
+	0 = { name = bear_body range = { 0.5 1.0 } }
+	0 = { name = demon_body range = { 0.5 1.0 } }
+	0 = { name = shark_body range = { 0.5 1.0 } }	
+}
+
+beast_legs = {
+
+	10 = { name = reptile_legs range = { 0.5 0.8 } }
+	0 = { name = kat_legs range = { 0.5 1.0 } }
+	0 = { name = ape_legs range = { 0.5 1.0 } }
+	0 = { name = wolf_legs range = { 0.5 1.0 } }
+	0 = { name = ape_legs range = { 0.5 1.0 } }
+	0 = { name = bear_legs range = { 0.5 1.0 } }
+	0 = { name = demon_legs range = { 0.5 1.0 } }
+	0 = { name = shark_legs range = { 0.5 1.0 } }	
+}
+	
+POD_tzm_amphibieyes = {
+		100 = { name = igoreyes  range = { 0.5 0.75 }   }
+		}
+	
+POD_tzm_BROW = {
+	20 = { name = pox  range = { 0.0 0.6 }   }			
+			}
+	
+
+POD_tzm_NOSE = {
+		 20 = { name = nosblade  range = { 0.5 1.0 }   }   
+  
+			}
+
+POD_tzm_TEMPLE = {
+		10 = { name = templecuts  range = { 0.5 1.0 }   }   
+		 10 = { name = templepox  range = { 0.5 1.0 }   }  
+	   }
+	      
+	
+
+
+   hair_color = {
+       # White/Blonde
+       10 = { 0.5 0.5 1.0 1.0 }
+   }
+	head_transform = {
+    0 = { name = snake_head		range = { 1.0 1.0 } }
+    0 = { name = dryad_head		range = { 1.0 1.0 } }
+	0 = { name = merkin_head		range = { 0.5 1.0 } }
+	10 = { name = demon_head		range = { 0.6 0.9 } }
+    0 = { name = dirty_head		range = { 1.0 1.0 } }
+	0 = { name = fish_head		range = { 1.0 1.0 } }
+    0 = { name = leather_head		range = { 1.0 1.0 } }
+    0 = { name = goldface		range = { 1.0 1.0 } }	
+    }
+	
+	body_transform = {
+    0 = { name = dryad_body		range = { 1.0 1.0 } }
+	0 = { name = dirty_body		range = { 1.0 1.0 } }
+	0 = { name = merkin_body		range = { 0.5 1.0 } }
+	10 = { name = demon_body		range = { 0.6 0.9 } }
+	0 = { name = succubus_body		range = { 1.0 1.0 } }
+	0 = { name = fish_body		range = { 1.0 1.0 } }
+	0 = { name = leather_body		range = { 1.0 1.0 } }	
+	0 = { name = lavaskin		range = { 1.0 1.0 } }
+	0 = { name = iceskin		range = { 1.0 1.0 } }
+	0 = { name = rogue		range = { 1.0 1.0 } }
+	0 = { name = barbarian		range = { 1.0 1.0 } }
+	0 = { name = furnips		range = { 1.0 1.0 } }
+    }
+	
+	eye_accessory = {
+        10 = { name = normal_eyes_dark_iris     range = { 0.0 1.0 } }
+    }
+	
+	gene_roughskin = {
+	0 = { name = roughskin1     range = { 0.6 1.0 } }
+	0 = { name = roughskin2     range = { 0.6 1.0 } }
+	0 = { name = roughskin4     range = { 0.6 1.0 } }
+	0 = { name = bloodied		range = { 0.6 1.0 } }
+	0 = { name = shark_skin     range = { 0.4 1.0 } }
+	0 = { name = gold_skin     range = { 0.4 1.0 } }
+	
+    }
+		
+	bods = {
+        10 = { name = beast_bod     range = { 0.5 1.0 } }
+    }
+	heads = {
+        0 = { name = fat_head     range = { 0.4 0.8 } }
+		0 = { name = flat_head     range = { 0.7 1.0 } }
+    }
+	tails = {
+        0 = { name = cat_tail     range = { 0.6 1.0 } }
+		10 = { name = lizard_tail     range = { 1.0 1.0 } }
+    }
+	tail_length = {
+        0 = { name = tail_length     range = { 1.0 1.0 } }
+    }  
+	
+fur_shading = {
+ 
+10 = { name = light_color     range = { 0.5 0.6 } }
+0 = { name = dark_color     range = { 0.5 1.0 } }
+0 = { name = vibrant_color     range = { 0.5 1.0 } }
+   }
+
+	
+skin_pattern_1 = {
+ 
+0 = { name = pattern_1     range = { 0.6 1.0 } }
+0 = { name = pattern_2	     range = { 0.75 1.0 } }
+0 = { name = pattern_3     range = { 0.7 1.0 } }
+0  = { name = pattern_4     range = { 0.7 1.0 } }
+   }
+skin_pattern_2 = {
+ 
+0 = { name = pattern_1     range = { 0.6 1.0 } }
+0 = { name = pattern_2	     range = { 0.75 1.0 } }
+0 = { name = pattern_3     range = { 1.0 1.0 } }
+0 = { name = pattern_4     range = { 1.0 1.0 } }
+   }  
+ 
+horns = {
+        0 = { name = archdemon_head     range = { 1.0 1.0 } }
+		0 = { name = backward_horns     range = { 1.0 1.0 } }
+		0 = { name = front_horns     range = { 1.0 1.0 } }
+		30 = { name = no_horns     range = { 1.0 1.0 } }
+    }	
+claws = {
+        0 = { name = no_claws     range = { 0.6 1.0 } }
+		10 = { name = claws_std_tan     range = { 1.0 1.0 } }
+		10 = { name = claws_std_white     range = { 1.0 1.0 } }
+    }
+beast_back = {
+        0 = { name = no_wings     	range = { 0.6 1.0 } }
+		0 = { name = demon_wings     range = { 1.0 1.0 } }
+		0 = { name = dragon_wings     range = { 1.0 1.0 } }
+		0 = { name = fins     		range = { 1.0 1.0 } }
+    }
+	
+    gene_bs_body_type = {
+	10 = { name = body_average 		range = { 0.5 1.0 } }
+	
+    10 = { name = body_fat_head_fat_low   range = { 0.25 0.6 }      }
+  
+    5 = { name = body_fat_head_fat_medium   range = { 0.25 0.6 }      }
+    
+    5 = { name = body_fat_head_fat_full   range = { 0 0.5 }      }
+        
+    }
+	
+
+    gene_bs_body_shape = {
+
+
+    1 = { name = body_shape_average     range = { 0.4 0.8 }      }
+    1 = { name = body_shape_hourglass_half     range = { 0. 0.4 }      }
+    1 = { name = body_shape_hourglass_full     range = { 0.3 0.65 }      }
+    50 = { name = body_shape_pear_half     range = { 0.3 0.65 }      }
+    50 = { name = body_shape_pear_full     range = { 0.3 0.65 }      }
+    2 = { name = body_shape_triangle_half     range = { 0 0.5 }      }
+    1 = { name = body_shape_triangle_full     range = { 0.0 0.5 }      }
+
+    10 = { name = body_shape_average     range = { 0.3 0.8 }      }
+    10 = { name = body_shape_hourglass_half     range = { 0 0.5 }      }
+    10 = { name = body_shape_hourglass_full     range = { 0 0.5 }      }
+    10 = { name = body_shape_rectangle_half     range = { 0 0.6 }      }
+    50 = { name = body_shape_rectangle_full     range = { 0.5 1.0 }      }
+    10 = { name = body_shape_triangle_half     range = { 0.5 1.0 }      }
+    50 = { name = body_shape_triangle_full     range = { 0.5 1.0 }      }
+    }
+
+    gene_chin_forward = {
+        2 = { name = chin_forward_neg    range = { @neg1_min @neg1_max }    }
+        20 = { name = chin_forward_pos    range = { 0.3 0.5 }    }
+ 
+    }
+
+    gene_chin_height = {
+
+        20 = { name = chin_height_pos    range = { 0.3 0.5 }    }
+
+    }
+
+    gene_chin_width = {
+     
+
+        20 = { name = chin_width_pos    range = { 0.0 1.00  }    }
+
+    }
+
+    gene_eye_angle = {
+       
+        20 = { name = eye_angle_neg    range = { 0.45 0.5  }    }
+        20 = { name = eye_angle_pos    range = { 0.5 0.55  }    }
+        10 = { name = eye_angle_neg    range = { @beauty1min @beauty1max }      }
+        10 = { name = eye_angle_neg    range = { @beauty2min @beauty2max }       }
+        10 = { name = eye_angle_neg    range = { @beauty3min @beauty3max }       }
+
+        #Beauty Section
+        0 = { name = eye_angle_neg    range = { @beauty1min @beauty1max }    traits = { beauty_1 }    }
+        0 = { name = eye_angle_neg    range = { @beauty2min @beauty2max }    traits = { beauty_2 }    }
+        0 = { name = eye_angle_neg    range = { @beauty3min @beauty3max }    traits = { beauty_3 }    }
+    }
+
+    gene_eye_depth = {
+       
+        20 = { name = eye_depth_neg    range = { 0.4 1.0 }    }
+
+    }
+
+    gene_eye_height = {
+
+        20 = { name = eye_height_neg    range = { 0.2 0.8 }    }
+
+    }
+	  gene_forehead_height = {
+     
+        25 = { name = forehead_height_neg    range = { 0.0 0.3 }    }
+
+    }
+
+    gene_head_height = {
+       
+        25 = { name = head_height_neg    range = { @neg1_min @neg1_max }    }
+
+    }
+
+    gene_head_width = {
+       
+        25 = { name = head_width_neg    range = { 0.65 1.0 }    }
+
+    }
+
+    gene_head_profile = {
+       
+        25 = { name = head_profile_pos    range = { 0.0 0.5 }    }
+    }
+
+    gene_head_top_height = {
+     
+
+        25 = { name = head_top_height_pos    range = { 0.5 1.  }    }
+
+    }
+
+    gene_head_top_width = {
+    
+
+        25 = { name = head_top_width_pos    range = { 0.4 0.8 }    }
+
+    }
+
+    gene_jaw_angle = {
+      
+
+        20 = { name = jaw_angle_pos    range = { 0.25 0.75 }    }
+
+    }
+
+    gene_jaw_forward = {
+      
+
+        20 = { name = jaw_forward_pos    range = { 0.0 0.5  }    }
+
+    }
+
+    gene_jaw_height = {
+      
+        2 = { name = jaw_height_neg    range = { 0.0 0.5  }    }
+        30 = { name = jaw_height_pos    range = { 0.5 1.0  }    }
+
+    }
+
+    gene_jaw_width = {
+      
+        25 = { name = jaw_width_neg    range = { 0.2 1.0 }    }
+        25 = { name = jaw_width_pos    range = { 0.5 1.0 }    }
+
+    }
+		POD_horn = {
+		10 = { name = horns   range = { 0.4 0.7 }   }   	 
+	}
+	
+	POD_NOSschnoz = {  
+		 10 = { name = schnozies   range = { 0.5 0.8 }   }   
+	}	
+	
+	POD_NOSsification = {
+		 10 = { name = nossification  range = { 0.0 0.00 }   }   
+		 10 = { name = nosferatitude  range = { 0.0 0.00 }   }  
+		 10 = { name = nosfferization  range = { 0.0 0.00 }   } 
+		 10 = { name = nossimization  range = { 0.0 0.00 }   } 		 
+	}		
+
+	POD_NOSjawz = {
+		 00 = { name = jawwies   range = { 0.0 0.00 }   }   
+		 00 = { name = wawwies   range = { 0.0 0.00 }   }   
+	}	
+	
+	POD_NOSforehead_height = {
+		 0 = { name = Nosheadhigh   range = { 0.0 0.00 }   }   	 
+	}	
+	
+	POD_NOSforehead_forward = {
+		 0 = { name = Nosheadforward   range = { 0.0 0.00 }   }   	 
+	}	
+	
+	POD_NOSforehead_curve = {
+		 0 = { name = Nosheadcurve  range = { 0.0 0.00 }   }   	 
+	}
+	
+	POD_NOSconifier = {
+		0 = { name = smallerhats  range = { 0.5 1.00 }   }
+	}
+	
+	POD_NOSeye = {
+		 0 = { name = aye range = { 0.0 0.0 }   }   	
+		 0 = { name = eyee range = { 0.0 0.0 }   }
+	}	
+	
+	POD_NOSear = {
+		 0 = { name = nosear range = { 0.0 0.0 }   } 
+	}
+	
+	POD_tzm_browcrest = { 
+		0 = { name = zerghead	range = { 0.0 1.0 } }
+	}
+	POD_tzm_longbrain = { 
+		0 = { name = akhenaten	range = { 0.0 1.0 } }
+	}
+	POD_tzm_amphibieyes = {
+		10 = { name = igoreyes  range = { 0.4 0.6 }   }
+		}
+	
+	POD_tzm_spliceeyes = {
+	100 = { name = thegreys  range = { 0.0 0.75 }   }		
+			}
+
+	POD_tzm_serpentinejaw = {
+	0 = { name = smile  range = { 0.5 0.85 }   }		
+			}
+	POD_tzm_BROW = {
+	60 = { name = spike  range = { 0.5 1.0 }   }
+	20 = { name = pox  range = { 0.5 1.0 }   }			
+			}
+	
+	POD_tzm_FACE = {
+			0 = { name = mowhawk  range = { 0.5 1.00 }   }    	 
+						}
+	POD_tzm_JAW = { 
+	10 = { name = jawspike  range = { 0.0 1.0 }   }
+				}
+				
+	POD_tzm_NOSE = {
+		 0 = { name = nosblade  range = { 0.6 1.0 }   }   
+		 0 = { name = nosespike  range = { 0.5 1.0 }   }  
+		10 = { name = nosespine  range = { 0.75 1.0 }   }  
+			}
+	POD_tzm_upperlip = {
+		0 = { name = catfish  range = { 0.3 0.4 }   }   		
+		 }
+	POD_tzm_TEMPLE = {
+		10 = { name = templecuts  range = { 0.2 1.0 }   }   
+		10 = { name = templepox  range = { 0.2 1.0 }   }  
+		 5 = { name = templespike  range = { 0.2 1.0 }   } 
+	   }
+	race_gene_elf_ears_1 = {
+		0 = { name = human_ears  range = { 0.2 1.0 }   }   
+		0 = { name = elf_ears_1  range = { 0.2 1.0 }   }  
+		 0 = { name = pointy_ears_02  range = { 0.2 1.0 }   } 
+		 15 = { name = fish_ears_03  range = { 0.6 1.0 }   } 
+	   }
+	   	race_gene_elf_ears_2 = {
+		0 = { name = human_ears  range = { 0.2 1.0 }   }   
+		5 = { name = elf_ears_2  range = { 0.2 1.0 }   }  
+		 5 = { name = pointy_ears_02  range = { 0.2 1.0 }   } 
+		 5 = { name = fish_ears_03  range = { 0.2 1.0 }   } 
+	   }
+	
+		
+}	
+
+salamen = {
+	
+	template = "vanity_character_base"
+	
+		 gene_height = {
+    80 = { name = normal_height  range = { 0.4 0.5 }      }
+    20 = { name = normal_height  range = { 0.5 0.7 }      }
+    }
+	    skin_color = {
+        #Pale White
+        10 = { 0.6 0.4 0.8 0.75 }
+    }
+	
+    
+   eye_color = {
+       #Light Blue/Green
+       10 = { 0.10 0.15 1.0 0.6 }
+   }
+
+   hair_color = {
+       # White/Blonde
+       10 = { 1.0 1.0 1.0 1.0 }
+   }
+	    eye_accessory = {
+        10 = { name = normal_eyes_dark_iris      range = { 0.0 1.0 } }
+    }
+	    teeth_accessory = {
+        10 = { name = no_teeth      range = { 0.0 1.0 } }
+    }
+ gene_body_hair = {
+        20 = {  name = body_hair_sparse             range = { 0.0 0.0 }     }
+
+    }
+	
+	beast_fur_thickness_1 = {
+	 0 = {  name = no_fur             range = { 0.0 1.0 }     }
+	  0 = {  name = fur_thickness             range = { 0.5 1.0 }     }
+	  }
+	  beast_fur_thickness_2 = {
+	 0 = {  name = no_additional_fur             range = { 0.0 1.0 }     }
+	  0 = {  name = fur_thickness             range = { 0.2 0.6 }     }
+	  }
+	skin_change = {
+        0 = {  name = default_1             range = { 0.0 1.0 }     }
+		   0 = {  name = skin_color_hue_pos             range = { 0.0 1.0 }     }
+		      10 = {  name = skin_color_saturation_pos             range = { 0.0 1.0 }     }
+			     0 = {  name = full_color_change_pos             range = { 0.0 1.0 }     }
+    }
+	  fish_features = {
+        0 = {  name = no_fishy             range = { 0.0 1.0 }     }
+	   0 = {  name = fish_head             range = { 0.5 1.0 }     }
+   }
+     fish_gills = {
+        0 = {  name = no_gilly            range = { 0.0 1.0 }     }
+	   0 = {  name = gills             range = { 0.5 1.0 }     }
+   }
+   
+    fish_form = {
+        0 = {  name = no_form            range = { 0.0 1.0 }     }
+	   0 = {  name = fish_form             range = { 0.1 0.5 }     }
+   }
+    long_neck = {
+        0 = {  name = no_longer           range = { 0.0 1.0 }     }
+	   0 = {  name = long_neck             range = { 0.35 0.75 }     }
+   }
+beast_head = {
+
+	10 = { name = reptile_head range = { 0.4 0.7 } }
+	0 = { name = kat_head range = { 0.5 1.0 } }
+	0 = { name = ape_head range = { 0.5 1.0 } }
+	0 = { name = wolf_head range = { 0.5 1.0 } }
+	0 = { name = ape_head range = { 0.5 1.0 } }
+	0 = { name = bear_head range = { 0.5 1.0 } }
+	0 = { name = demon_head range = { 0.5 1.0 } }
+	0 = { name = shark_head range = { 0.5 1.0 } }	
+}	
+
+beast_torso = {
+
+	10 = { name = reptile_body range = { 0.5 0.8 } }
+	0 = { name = kat_body range = { 0.5 1.0 } }
+	0 = { name = ape_body range = { 0.5 1.0 } }
+	0 = { name = wolf_body range = { 0.5 1.0 } }
+	0 = { name = ape_body range = { 0.5 1.0 } }
+	0 = { name = bear_body range = { 0.5 1.0 } }
+	0 = { name = demon_body range = { 0.5 1.0 } }
+	0 = { name = shark_body range = { 0.5 1.0 } }	
+}
+
+beast_legs = {
+
+	10 = { name = reptile_legs range = { 0.4 0.6 } }
+	0 = { name = kat_legs range = { 0.5 1.0 } }
+	0 = { name = ape_legs range = { 0.5 1.0 } }
+	0 = { name = wolf_legs range = { 0.5 1.0 } }
+	0 = { name = ape_legs range = { 0.5 1.0 } }
+	0 = { name = bear_legs range = { 0.5 1.0 } }
+	0 = { name = demon_legs range = { 0.5 1.0 } }
+	0 = { name = shark_legs range = { 0.5 1.0 } }	
+}
+	
+POD_tzm_amphibieyes = {
+		100 = { name = igoreyes  range = { 1.0 1.0 }   }
+		}
+	
+POD_tzm_BROW = {
+	20 = { name = pox  range = { 0.0 0.6 }   }			
+			}
+	
+
+POD_tzm_NOSE = {
+		 20 = { name = nosblade  range = { 0.5 1.0 }   }   
+  
+			}
+
+POD_tzm_TEMPLE = {
+		0 = { name = templecuts  range = { 0.5 1.0 }   }   
+		 10 = { name = templepox  range = { 0.5 1.0 }   }  
+	   }
+
+	head_transform = {
+    0 = { name = snake_head		range = { 1.0 1.0 } }
+    0 = { name = dryad_head		range = { 1.0 1.0 } }
+	0 = { name = merkin_head		range = { 0.5 1.0 } }
+	10 = { name = demon_head		range = { 0.7 0.7 } }
+    0 = { name = dirty_head		range = { 1.0 1.0 } }
+	0 = { name = fish_head		range = { 1.0 1.0 } }
+    0 = { name = leather_head		range = { 1.0 1.0 } }
+    0 = { name = goldface		range = { 1.0 1.0 } }	
+    }
+	
+	body_transform = {
+    0 = { name = dryad_body		range = { 1.0 1.0 } }
+	0 = { name = dirty_body		range = { 1.0 1.0 } }
+	0 = { name = merkin_body		range = { 0.5 1.0 } }
+	10 = { name = demon_body		range = { 0.7 0.7 } }
+	0 = { name = succubus_body		range = { 1.0 1.0 } }
+	0 = { name = fish_body		range = { 1.0 1.0 } }
+	0 = { name = leather_body		range = { 1.0 1.0 } }	
+	0 = { name = lavaskin		range = { 1.0 1.0 } }
+	0 = { name = iceskin		range = { 1.0 1.0 } }
+	0 = { name = rogue		range = { 1.0 1.0 } }
+	0 = { name = barbarian		range = { 1.0 1.0 } }
+	0 = { name = furnips		range = { 1.0 1.0 } }
+    }
+	
+	eye_accessory = {
+        10 = { name = normal_eyes_dark_iris     range = { 0.0 1.0 } }
+    }
+	
+	gene_roughskin = {
+	0 = { name = roughskin1     range = { 0.6 1.0 } }
+	0 = { name = roughskin2     range = { 0.6 1.0 } }
+	0 = { name = roughskin4     range = { 0.6 1.0 } }
+	0 = { name = bloodied		range = { 0.6 1.0 } }
+	0 = { name = shark_skin     range = { 0.4 1.0 } }
+	0 = { name = gold_skin     range = { 0.4 1.0 } }
+	
+    }
+		
+	bods = {
+        10 = { name = beast_bod     range = { 0.5 1.0 } }
+    }
+	heads = {
+        0 = { name = fat_head     range = { 0.4 0.8 } }
+		0 = { name = flat_head     range = { 0.7 1.0 } }
+    }
+	tails = {
+        0 = { name = cat_tail     range = { 0.6 1.0 } }
+		10 = { name = lizard_tail     range = { 1.0 1.0 } }
+    }
+	tail_length = {
+        10 = { name = tail_length     range = { 0.0 0.3 } }
+    }  
+	
+fur_shading = {
+ 
+10 = { name = light_color     range = { 0.5 0.5 } }
+0 = { name = dark_color     range = { 0.5 1.0 } }
+0 = { name = vibrant_color     range = { 0.5 1.0 } }
+   }
+
+	
+skin_pattern_1 = {
+ 
+10 = { name = pattern_1     range = { 0.6 1.0 } }
+0 = { name = pattern_2	     range = { 0.75 1.0 } }
+0 = { name = pattern_3     range = { 0.7 1.0 } }
+0  = { name = pattern_4     range = { 0.7 1.0 } }
+   }
+skin_pattern_2 = {
+ 
+0 = { name = pattern_1     range = { 0.6 1.0 } }
+1 = { name = pattern_2	     range = { 0.75 1.0 } }
+0 = { name = pattern_3     range = { 1.0 1.0 } }
+0 = { name = pattern_4     range = { 1.0 1.0 } }
+   }  
+ 
+horns = {
+        0 = { name = archdemon_head     range = { 1.0 1.0 } }
+		0 = { name = backward_horns     range = { 1.0 1.0 } }
+		0 = { name = front_horns     range = { 1.0 1.0 } }
+		30 = { name = no_horns     range = { 1.0 1.0 } }
+    }	
+claws = {
+        0 = { name = no_claws     range = { 0.6 1.0 } }
+		10 = { name = claws_std_tan     range = { 1.0 1.0 } }
+		10 = { name = claws_std_white     range = { 1.0 1.0 } }
+    }
+beast_back = {
+        0 = { name = no_wings     	range = { 0.6 1.0 } }
+		0 = { name = demon_wings     range = { 1.0 1.0 } }
+		0 = { name = dragon_wings     range = { 1.0 1.0 } }
+		0 = { name = fins     		range = { 1.0 1.0 } }
+    }
+	
+    gene_bs_body_type = {
+	5 = { name = body_average 		range = { 0.2 0.6 } }
+	
+    15 = { name = body_fat_head_fat_low   range = { 0.0 0.4 }      }
+  
+    0 = { name = body_fat_head_fat_medium   range = { 0.2 0.6 }      }
+    
+    0 = { name = body_fat_head_fat_full   range = { 0 0.5 }      }
+        
+    }
+	
+	
+
+    gene_bs_body_shape = {
+
+
+    1 = { name = body_shape_average     range = { 0.1 0.5 }      }
+    1 = { name = body_shape_hourglass_half     range = { 0. 0.4 }      }
+    1 = { name = body_shape_hourglass_full     range = { 0.1 0.65 }      }
+    50 = { name = body_shape_pear_half     range = { 0.1 0.3 }      }
+    50 = { name = body_shape_pear_full     range = { 0.1 0.3 }      }
+    2 = { name = body_shape_triangle_half     range = { 0 0.5 }      }
+    1 = { name = body_shape_triangle_full     range = { 0.0 0.5 }      }
+
+    10 = { name = body_shape_average     range = { 0.0 0.5 }      }
+    10 = { name = body_shape_hourglass_half     range = { 0 0.5 }      }
+    10 = { name = body_shape_hourglass_full     range = { 0 0.5 }      }
+    10 = { name = body_shape_rectangle_half     range = { 0 0.6 }      }
+    50 = { name = body_shape_rectangle_full     range = { 0.1 0.5 }      }
+    10 = { name = body_shape_triangle_half     range = { 0.1 0.5 }      }
+    50 = { name = body_shape_triangle_full     range = { 0.1 0.5 }      }
+    }
+
+    gene_chin_forward = {
+        2 = { name = chin_forward_neg    range = { @neg1_min @neg1_max }    }
+        20 = { name = chin_forward_pos    range = { 0.3 0.5 }    }
+ 
+    }
+
+    gene_chin_height = {
+
+        20 = { name = chin_height_pos    range = { 0.3 0.5 }    }
+
+    }
+
+    gene_chin_width = {
+     
+
+        20 = { name = chin_width_pos    range = { 0.0 1.00  }    }
+
+    }
+
+    gene_eye_angle = {
+       
+        20 = { name = eye_angle_neg    range = { 0.45 0.5  }    }
+        20 = { name = eye_angle_pos    range = { 0.5 0.55  }    }
+        10 = { name = eye_angle_neg    range = { @beauty1min @beauty1max }      }
+        10 = { name = eye_angle_neg    range = { @beauty2min @beauty2max }       }
+        10 = { name = eye_angle_neg    range = { @beauty3min @beauty3max }       }
+
+        #Beauty Section
+        0 = { name = eye_angle_neg    range = { @beauty1min @beauty1max }    traits = { beauty_1 }    }
+        0 = { name = eye_angle_neg    range = { @beauty2min @beauty2max }    traits = { beauty_2 }    }
+        0 = { name = eye_angle_neg    range = { @beauty3min @beauty3max }    traits = { beauty_3 }    }
+    }
+
+    gene_eye_depth = {
+       
+        20 = { name = eye_depth_neg    range = { 0.4 1.0 }    }
+
+    }
+
+    gene_eye_height = {
+
+        20 = { name = eye_height_neg    range = { 0.2 0.8 }    }
+
+    }
+	  gene_forehead_height = {
+     
+        25 = { name = forehead_height_neg    range = { 0.0 0.3 }    }
+
+    }
+
+    gene_head_height = {
+       
+        25 = { name = head_height_neg    range = { @neg1_min @neg1_max }    }
+
+    }
+
+    gene_head_width = {
+       
+        25 = { name = head_width_neg    range = { 0.65 1.0 }    }
+
+    }
+
+    gene_head_profile = {
+       
+        25 = { name = head_profile_pos    range = { 0.0 0.5 }    }
+    }
+
+    gene_head_top_height = {
+     
+
+        25 = { name = head_top_height_pos    range = { 0.5 1.  }    }
+
+    }
+
+    gene_head_top_width = {
+    
+
+        25 = { name = head_top_width_pos    range = { 0.4 0.8 }    }
+
+    }
+
+    gene_jaw_angle = {
+      
+
+        20 = { name = jaw_angle_pos    range = { 0.25 0.75 }    }
+
+    }
+
+    gene_jaw_forward = {
+      
+
+        20 = { name = jaw_forward_pos    range = { 0.0 0.5  }    }
+
+    }
+
+    gene_jaw_height = {
+      
+        2 = { name = jaw_height_neg    range = { 0.0 0.5  }    }
+        30 = { name = jaw_height_pos    range = { 0.2 0.6  }    }
+
+    }
+
+    gene_jaw_width = {
+      
+        25 = { name = jaw_width_neg    range = { 0.2 0.8 }    }
+        25 = { name = jaw_width_pos    range = { 0.2 0.8 }    }
+
+    }
+		POD_horn = {
+		10 = { name = horns   range = { 0.4 0.7 }   }   	 
+	}
+	
+	POD_NOSschnoz = {  
+		 10 = { name = nosies   range = { 0.5 0.8 }   }   
+	}	
+	
+	POD_NOSsification = {
+		 10 = { name = nossification  range = { 0.0 0.00 }   }   
+		 10 = { name = nosferatitude  range = { 0.0 0.00 }   }  
+		 10 = { name = nosfferization  range = { 0.0 0.00 }   } 
+		 10 = { name = nossimization  range = { 0.0 0.00 }   } 		 
+	}		
+
+	POD_NOSjawz = {
+		 00 = { name = jawwies   range = { 0.0 0.00 }   }   
+		 00 = { name = wawwies   range = { 0.0 0.00 }   }   
+	}	
+	
+	POD_NOSforehead_height = {
+		 0 = { name = Nosheadhigh   range = { 0.0 0.00 }   }   	 
+	}	
+	
+	POD_NOSforehead_forward = {
+		 0 = { name = Nosheadforward   range = { 0.0 0.00 }   }   	 
+	}	
+	
+	POD_NOSforehead_curve = {
+		 0 = { name = Nosheadcurve  range = { 0.0 0.00 }   }   	 
+	}
+	
+	POD_NOSconifier = {
+		0 = { name = smallerhats  range = { 0.5 1.00 }   }
+	}
+	
+	POD_NOSeye = {
+		 0 = { name = aye range = { 0.0 0.0 }   }   	
+		 0 = { name = eyee range = { 0.0 0.0 }   }
+	}	
+	
+	POD_NOSear = {
+		 0 = { name = nosear range = { 0.0 0.0 }   } 
+	}
+	
+	POD_tzm_browcrest = { 
+		10 = { name = zerghead	range = { 0.0 1.0 } }
+	}
+	POD_tzm_longbrain = { 
+		10 = { name = akhenaten	range = { 0.0 1.0 } }
+	}
+	POD_tzm_amphibieyes = {
+		10 = { name = igoreyes  range = { 1.0 1.0 }   }
+		}
+	
+	POD_tzm_spliceeyes = {
+	100 = { name = thegreys  range = { 0.0 1.0 }   }		
+			}
+
+	POD_tzm_serpentinejaw = {
+	0 = { name = smile  range = { 0.5 0.85 }   }		
+			}
+	POD_tzm_BROW = {
+	60 = { name = spike  range = { 0.5 1.0 }   }
+	20 = { name = pox  range = { 0.5 1.0 }   }			
+			}
+	
+	POD_tzm_FACE = {
+			0 = { name = mowhawk  range = { 0.5 1.00 }   }    	 
+						}
+	POD_tzm_JAW = { 
+	10 = { name = jawspike  range = { 0.0 1.0 }   }
+				}
+				
+	POD_tzm_NOSE = {
+		 0 = { name = nosblade  range = { 0.6 1.0 }   }   
+		 0 = { name = nosespike  range = { 0.5 1.0 }   }  
+		0 = { name = nosespine  range = { 0.75 1.0 }   }  
+			}
+	POD_tzm_upperlip = {
+		0 = { name = catfish  range = { 0.3 0.4 }   }   		
+		 }
+	POD_tzm_TEMPLE = {
+		10 = { name = templecuts  range = { 0.2 1.0 }   }   
+		10 = { name = templepox  range = { 0.2 1.0 }   }  
+		 5 = { name = templespike  range = { 0.2 1.0 }   } 
+	   }
+	race_gene_elf_ears_1 = {
+		0 = { name = human_ears  range = { 0.2 1.0 }   }   
+		0 = { name = elf_ears_1  range = { 0.2 1.0 }   }  
+		 0 = { name = pointy_ears_02  range = { 0.2 1.0 }   } 
+		 15 = { name = fish_ears_03  range = { 0.6 1.0 }   } 
+	   }
+	   	race_gene_elf_ears_2 = {
+		0 = { name = human_ears  range = { 0.2 1.0 }   }   
+		5 = { name = elf_ears_2  range = { 0.2 1.0 }   }  
+		 5 = { name = pointy_ears_02  range = { 0.2 1.0 }   } 
+		 5 = { name = fish_ears_03  range = { 0.2 1.0 }   } 
+	   }
+	
+		
+}
+
+geckin = {
+template = "vanity_character_base"
+	skin_change = {
+        0 = {  name = default_1             range = { 0.0 1.0 }     }
+		   0 = {  name = skin_color_hue_pos             range = { 0.0 1.0 }     }
+		      0 = {  name = skin_color_saturation_pos             range = { 0.0 1.0 }     }
+			     10 = {  name = full_color_change_pos             range = { 0.0 1.0 }     }
+    }
+	  fish_features = {
+        0 = {  name = no_fishy             range = { 0.0 1.0 }     }
+	   0 = {  name = fish_head             range = { 0.5 1.0 }     }
+   }
+     fish_gills = {
+        0 = {  name = no_gilly            range = { 0.0 1.0 }     }
+	   0 = {  name = gills             range = { 0.5 1.0 }     }
+   }
+   
+    fish_form = {
+        0 = {  name = no_form            range = { 0.0 1.0 }     }
+	   0 = {  name = fish_form             range = { 0.1 0.5 }     }
+   }
+    long_neck = {
+        0 = {  name = no_longer           range = { 0.0 1.0 }     }
+	   10 = {  name = long_neck             range = { 0.5 1.0 }     }
+   }
+beast_head = {
+
+	10 = { name = reptile_head range = { 0.3 0.3 } }
+	0 = { name = kat_head range = { 0.5 1.0 } }
+	0 = { name = ape_head range = { 0.5 1.0 } }
+	0 = { name = wolf_head range = { 0.5 1.0 } }
+	0 = { name = ape_head range = { 0.5 1.0 } }
+	0 = { name = bear_head range = { 0.5 1.0 } }
+	0 = { name = demon_head range = { 0.5 1.0 } }
+	0 = { name = shark_head range = { 0.5 1.0 } }	
+}	
+
+beast_torso = {
+
+	10 = { name = reptile_body range = { 0.5 0.5 } }
+	0 = { name = kat_body range = { 0.5 1.0 } }
+	0 = { name = ape_body range = { 0.5 1.0 } }
+	0 = { name = wolf_body range = { 0.5 1.0 } }
+	0 = { name = ape_body range = { 0.5 1.0 } }
+	0 = { name = bear_body range = { 0.5 1.0 } }
+	0 = { name = demon_body range = { 0.5 1.0 } }
+	0 = { name = shark_body range = { 0.5 1.0 } }	
+}
+
+beast_legs = {
+
+	10 = { name = reptile_legs range = { 0.4 0.4 } }
+	0 = { name = kat_legs range = { 0.5 1.0 } }
+	0 = { name = ape_legs range = { 0.5 1.0 } }
+	0 = { name = wolf_legs range = { 0.5 1.0 } }
+	0 = { name = ape_legs range = { 0.5 1.0 } }
+	0 = { name = bear_legs range = { 0.5 1.0 } }
+	0 = { name = demon_legs range = { 0.5 1.0 } }
+	0 = { name = shark_legs range = { 0.5 1.0 } }	
+}
+	
+POD_tzm_amphibieyes = {
+		100 = { name = igoreyes  range = { 1.0 1.0 }   }
+		}
+	
+POD_tzm_BROW = {
+	20 = { name = pox  range = { 0.0 0.6 }   }			
+			}
+	
+
+POD_tzm_NOSE = {
+		 20 = { name = nosblade  range = { 0.5 1.0 }   }   
+  
+			}
+
+POD_tzm_TEMPLE = {
+		0 = { name = templecuts  range = { 0.5 1.0 }   }   
+		 10 = { name = templepox  range = { 0.5 1.0 }   }  
+	   }
+
+	head_transform = {
+    0 = { name = snake_head		range = { 1.0 1.0 } }
+    0 = { name = dryad_head		range = { 1.0 1.0 } }
+	0 = { name = merkin_head		range = { 0.5 1.0 } }
+	0 = { name = demon_head		range = { 0.7 0.7 } }
+    0 = { name = dirty_head		range = { 1.0 1.0 } }
+	0 = { name = fish_head		range = { 1.0 1.0 } }
+    0 = { name = leather_head		range = { 1.0 1.0 } }
+    0 = { name = goldface		range = { 1.0 1.0 } }	
+    }
+	
+	body_transform = {
+    5 = { name = dryad_body		range = { 1.0 1.0 } }
+	0 = { name = dirty_body		range = { 1.0 1.0 } }
+	0 = { name = merkin_body		range = { 0.5 1.0 } }
+	0 = { name = demon_body		range = { 0.7 0.7 } }
+	1 = { name = succubus_body		range = { 1.0 1.0 } }
+	0 = { name = fish_body		range = { 1.0 1.0 } }
+	0 = { name = leather_body		range = { 1.0 1.0 } }	
+	0 = { name = lavaskin		range = { 1.0 1.0 } }
+	0 = { name = iceskin		range = { 1.0 1.0 } }
+	0 = { name = rogue		range = { 1.0 1.0 } }
+	0 = { name = barbarian		range = { 1.0 1.0 } }
+	0 = { name = furnips		range = { 1.0 1.0 } }
+    }
+	
+	eye_accessory = {
+        10 = { name = normal_eyes_dark_iris     range = { 0.0 1.0 } }
+    }
+	
+	gene_roughskin = {
+	0 = { name = roughskin1     range = { 0.6 1.0 } }
+	0 = { name = roughskin2     range = { 0.6 1.0 } }
+	10 = { name = roughskin4     range = { 0.8 1.0 } }
+	0 = { name = bloodied		range = { 0.6 1.0 } }
+	0 = { name = shark_skin     range = { 0.4 1.0 } }
+	10 = { name = gold_skin     range = { 0.4 1.0 } }
+	
+    }
+		
+	bods = {
+        10 = { name = beast_bod     range = { 0.5 1.0 } }
+    }
+	heads = {
+        0 = { name = fat_head     range = { 0.4 0.8 } }
+		10 = { name = flat_head     range = { 0.75 1.0 } }
+    }
+	tails = {
+        10 = { name = cat_tail     range = { 0.6 1.0 } }
+		10 = { name = lizard_tail     range = { 1.0 1.0 } }
+    }
+	tail_length = {
+        10 = { name = tail_length     range = { 0.0 1.0 } }
+    }  
+	
+fur_shading = {
+ 
+20 = { name = light_color     range = { 0.5 0.5 } }
+10 = { name = dark_color     range = { 0.5 1.0 } }
+10 = { name = vibrant_color     range = { 0.5 1.0 } }
+   }
+
+	
+skin_pattern_1 = {
+ 
+10 = { name = pattern_1     range = { 1.0 1.0 } }
+10 = { name = pattern_2	     range = { 1.0 1.0 } }
+10 = { name = pattern_3     range = { 1.0 1.0 } }
+10  = { name = pattern_4     range = { 1.0 1.0 } }
+   }
+skin_pattern_2 = {
+ 
+10 = { name = pattern_1     range = { 1.0 1.0 } }
+10 = { name = pattern_2	     range = { 1.0 1.0 } }
+10 = { name = pattern_3     range = { 1.0 1.0 } }
+10 = { name = pattern_4     range = { 1.0 1.0 } }
+   }  
+   race_gene_dwarf_height {
+		0 = { name = default_1     range = { 0.25 0.50 } }
+	 10 = { name = dwarf_height     range = { 0.0 0.50 } }
+    }
+}	

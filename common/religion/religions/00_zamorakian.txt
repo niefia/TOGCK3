@@ -1,0 +1,244 @@
+﻿zamorakian_religion = {
+	family = rf_eastern
+
+	doctrine = doctrine_monogamy
+	doctrine = heresy_hostility_doctrine # Needs to be before eastern_hostility_doctrine in order to override the same religion hostility
+	doctrine = eastern_hostility_doctrine
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_no_head
+	doctrine = doctrine_concubines
+	doctrine = doctrine_divorce_approval
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_witchcraft_shunned
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_consanguinity_cousins
+	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_clerical_function_taxation
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_fixed_appointment
+	piety_icon_group = "zoroastrian"
+
+	traits = {
+		virtues = { honest just diligent }
+		sins = { deceitful lazy sadistic }
+	}
+
+	reserved_male_names = {
+		Hormazd Maziar Shapur Vandad Zartosht
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_kinshra" }
+		{ name = "holy_order_ahura_mazdas_champions" }
+		{ name = "holy_order_fire_walkers" }
+	}
+
+	holy_order_maa = { mubarizun }
+
+	localization = {
+		HighGodName = zamorakian_high_god_name
+		HighGodNamePossessive = zamorakian_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = zamorakian_high_god_name_alternate
+		HighGodNameAlternatePossessive = zamorakian_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = zamorakian_creator_god_name
+		CreatorNamePossessive = zamorakian_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+		HealthGodName = zamorakian_health_god_name
+		HealthGodNamePossessive = zamorakian_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#FertilityGod
+		FertilityGodName = zamorakian_fertility_god_name
+		FertilityGodNamePossessive = zamorakian_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_HE
+		FertilityGodHerHis = CHARACTER_HERHIS_HIS
+		FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WealthGod
+		WealthGodName = zamorakian_wealth_god_name
+		WealthGodNamePossessive = zamorakian_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = zamorakian_household_god_name
+		HouseholdGodNamePossessive = zamorakian_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+		#FateGod
+		FateGodName = zamorakian_fate_god_name
+		FateGodNamePossessive = zamorakian_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_IT
+		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHim = CHARACTER_HERHIM_IT
+
+		#KnowledgeGod
+		KnowledgeGodName = zamorakian_knowledge_god_name
+		KnowledgeGodNamePossessive = zamorakian_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = zamorakian_war_god_name
+		WarGodNamePossessive = zamorakian_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#TricksterGod
+		TricksterGodName = zamorakian_trickster_god_name
+		TricksterGodNamePossessive = zamorakian_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_SHE
+		TricksterGodHerHis = CHARACTER_HERHIS_HER
+		TricksterGodHerHim = CHARACTER_HERHIM_HER
+
+		#NightGod
+		NightGodName = zamorakian_night_god_name
+		NightGodNamePossessive = zamorakian_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WaterGod
+		WaterGodName = zamorakian_water_god_name
+		WaterGodNamePossessive = zamorakian_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+
+
+		PantheonTerm = zamorakian_high_god_name
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = {
+			zamorakian_high_god_name
+			zamorakian_high_god_name_alternate
+			zamorakian_good_god_zoroaster
+			zamorakian_good_god_asha
+			zamorakian_good_god_truth
+			zamorakian_good_god_amesha_spenta
+			zamorakian_good_god_divine_spark
+			zamorakian_good_god_saoshyant
+		}
+		DevilName = zamorakian_devil_name
+		DevilNamePossessive = zamorakian_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = {
+			zamorakian_devil_name
+			zamorakian_evil_god_angra_mainyu
+			zamorakian_evil_god_daevas
+		}
+		HouseOfWorship = zamorakian_house_of_worship
+		HouseOfWorshipPlural = zamorakian_house_of_worship_plural
+		ReligiousSymbol = zamorakian_religious_symbol
+		ReligiousText = zamorakian_religious_text
+		ReligiousHeadName = zamorakian_religious_head_title
+		ReligiousHeadTitleName = dualism_religious_head_title_name
+		DevoteeMale = zamorakian_devotee_male
+		DevoteeMalePlural = zamorakian_devotee_male_plural
+		DevoteeFemale = zamorakian_devotee_female
+		DevoteeFemalePlural = zamorakian_devotee_female_plural
+		DevoteeNeuter = zamorakian_devotee_male
+		DevoteeNeuterPlural = zamorakian_devotee_male_plural
+		PriestMale = zamorakian_priest_male
+		PriestMalePlural = zamorakian_priest_male_plural
+		PriestFemale = zamorakian_priest_female
+		PriestFemalePlural = zamorakian_priest_female_plural
+		PriestNeuter = zamorakian_priest_male
+		PriestNeuterPlural = zamorakian_priest_male_plural
+		AltPriestTermPlural = zamorakian_alternate_priest_term_plural
+		BishopMale = zamorakian_bishop_male
+		BishopMalePlural = zamorakian_bishop_male_plural
+		BishopFemale = zamorakian_bishop_female
+		BishopFemalePlural = zamorakian_bishop_female_plural
+		BishopNeuter = zamorakian_bishop_male
+		BishopNeuterPlural = zamorakian_bishop_male_plural
+		DivineRealm = zamorakian_divine_realm
+		PositiveAfterLife = zamorakian_positive_afterlife
+		NegativeAfterLife = zamorakian_negative_afterlife
+		DeathDeityName = zamorakian_devil_name
+		DeathDeityNamePossessive = zamorakian_devil_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = zamorakian_devil_name
+		WitchGodHerHis = CHARACTER_SHEHE_HE
+		WitchGodSheHe = CHARACTER_HERHIS_HIS
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = master
+		WitchGodMotherFather = father
+
+		GHWName = ghw_purification
+		GHWNamePlural = ghw_purifications
+	}
+
+	faiths = {
+		zamorakian = {
+			color = { 1 0.1 0.1 }
+			icon = zamorak
+			religious_head = d_hpriestzam
+			holy_site = entrana
+			holy_site = digsite
+
+			doctrine = tenet_pacifism
+			doctrine = tenet_sky_burials
+			doctrine = tenet_ritual_celebrations
+
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_consanguinity_unrestricted
+		}
+		zarosian = {
+			color = { 0.5 0.1 0.5 }
+			icon = zaros
+			religious_head = d_hpriestzar
+			holy_site = entrana
+			holy_site = digsite
+
+			doctrine = tenet_warmonger
+			doctrine = tenet_sky_burials
+			doctrine = tenet_ritual_celebrations
+
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_consanguinity_unrestricted
+		}
+		}
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,34 @@
+﻿
+petra_01 = {
+	asset = {
+		type = pdxmesh
+		name = "building_special_petra_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_petra.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = 3000
+
+	county_modifier = {
+		tax_mult = 0.1
+		supply_limit_mult = 0.25
+		development_growth = 0.1
+		development_growth_factor = 0.15
+	}
+
+	province_modifier = {
+		monthly_income = good_building_tax_tier_2
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+}

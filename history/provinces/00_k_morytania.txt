@@ -1,0 +1,152 @@
+128 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+129 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+130 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+131 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+132 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+
+133 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+134 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+135 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+136 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+137 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+138 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+
+139 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+140 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+
+
+
+141 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+
+142 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+143 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+144 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}
+
+
+7 = {	# 1 - 1
+	
+	# Misc
+	culture = morytanian
+	religion = zamorakian
+	holding = castle_holding
+
+}

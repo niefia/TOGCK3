@@ -1,0 +1,145 @@
+﻿bandosian = {
+	color = frankish
+
+	ethos = ethos_bellicose
+	heritage = heritage_frankish
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warrior_culture
+		tradition_hereditary_hierarchy
+		tradition_stand_and_fight
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+goblin = {
+	color = polish
+	created = 100.1.1
+	parents = { bandosian }
+
+	ethos = ethos_bellicose
+	heritage = heritage_frankish
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_frugal_armorsmiths
+		tradition_quarrelsome
+		tradition_life_is_just_a_joke
+	}
+
+	name_list = name_list_french
+
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+troll = {
+	color = french
+	created = 100.1.1
+	parents = { bandosian }
+
+	ethos = ethos_courtly
+	heritage = heritage_frankish
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_life_is_just_a_joke
+		tradition_hill_dwellers
+		tradition_mountain_homes
+		tradition_culinary_art
+	}
+
+	name_list = name_list_french
+
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+ogre = {
+	color = english
+	created = 100.1.1
+	parents = { bandosian }
+
+	ethos = ethos_courtly
+	heritage = heritage_frankish
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_life_is_just_a_joke
+		tradition_hill_dwellers
+		tradition_fp1_trials_by_combat
+	}
+
+	name_list = name_list_french
+
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+
+mahjarrat = {
+	color = african
+	created = 100.1.1
+	parents = { bandosian }
+
+	ethos = ethos_courtly
+	heritage = heritage_frankish
+	language = language_mahjarrat
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_chanson_de_geste
+		tradition_hereditary_hierarchy
+		tradition_chivalry
+	}
+
+	name_list = name_list_french
+
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		10 = caucasian_blond
+	}
+}

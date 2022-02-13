@@ -1,0 +1,31 @@
+﻿#*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+sleepofguthix = {
+	index = 300
+	can_have_children = no
+
+	genetic = no
+	physical = yes
+	health_trait  = yes
+	good = yes
+
+	health = 10
+	negate_health_penalty_add = 10
+	inherit_chance = 0
+
+
+
+	#negate_prowess_penalty_add = 20
+
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_sleepofguthix
+            }
+            desc = trait_sleepofguthix_character
+        }
+    }
+}

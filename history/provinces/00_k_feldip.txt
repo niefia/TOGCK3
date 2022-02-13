@@ -1,0 +1,48 @@
+10 = {	# 1 - 1
+
+	# Misc
+	culture = ogre
+	religion = bandosian
+	holding = castle_holding
+
+}
+186 = {	# 1 - 1
+
+	# Misc
+	culture = ogre
+	religion = bandosian
+	holding = castle_holding
+
+}
+187 = {	# 1 - 1
+
+	# Misc
+	culture = ogre
+	religion = bandosian
+	holding = castle_holding
+
+}
+188 = {	# 1 - 1
+
+	# Misc
+	culture = ogre
+	religion = bandosian
+	holding = castle_holding
+
+}
+189 = {	# 1 - 1
+
+	# Misc
+	culture = ogre
+	religion = bandosian
+	holding = castle_holding
+
+}
+190 = {	# 1 - 1
+
+	# Misc
+	culture = ogre
+	religion = bandosian
+	holding = castle_holding
+
+}

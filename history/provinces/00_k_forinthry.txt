@@ -1,0 +1,142 @@
+4 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+169 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+
+170 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+171 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+172 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+
+173 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+
+174 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+
+175 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+176 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+177 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+178 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+179 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+180 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+181 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+182 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+183 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+184 = {	# 1 - 1
+	
+	# Misc
+	culture = ldemon
+	religion = zamorakian
+	holding = castle_holding
+
+}
+
+

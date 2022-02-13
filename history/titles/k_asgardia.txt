@@ -1,0 +1,20 @@
+k_asgardia = {
+	150.1.1 = {
+		holder = 7000000
+		government = feudal_government
+	}
+}
+
+d_asgarnia = {
+	98.1.1 = {
+		holder = 7000000
+		government = feudal_government
+	}
+}
+
+c_asgarnia = {
+	98.1.1 = {
+		holder = 7000000
+		government = feudal_government
+	}
+}

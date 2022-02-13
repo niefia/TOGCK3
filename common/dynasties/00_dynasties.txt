@@ -1,0 +1,96 @@
+﻿5000000 = {
+	name = "dynn_tester"
+	culture = "testish"
+}
+
+5000002 = {
+	name = "Remanis"
+	culture = "testish"
+}
+
+5000003 = {
+	name = "Lumbridge"
+	culture = "testish"
+}
+
+5000006 = {
+	name = "Drakan"
+	culture = "morytanian"
+}
+
+5000007 = {
+	name = "Miller"
+	culture = "testish"
+}
+
+8000008 = {
+	name = "Mizra"
+	culture = "kharid"
+}
+
+7000010 = {
+	name = "Donblas"
+	culture = "asgarnian"
+}
+
+7000002 = {
+	name = "Redbeard"
+	culture = "asgarnian"
+}
+7000003 = {
+	name = "the Mad"
+	culture = "asgarnian"
+}
+7000004 = {
+	name = "Crafter"
+	culture = "asgarnian"
+}
+
+7000008 = {
+	name = "Rennard"
+	culture = "asgarnian"
+}
+
+7000009 = {
+	name = "Nurmof"
+	culture = "testish"
+}
+
+7000014 = {
+	name = "Varze"
+	culture = "asgarnian"
+}
+
+
+9000000 = {
+	name = "Khazard"
+	culture = "mahjarrat"
+}
+
+9000009 = {
+	name = "Shareen"
+	culture = "gnomeish"
+}
+
+9000029 = {
+	name = "Ardignas"
+	culture = "kandarin"
+}
+9000044 = {
+	name = "Horfyre"
+	culture = "testish"
+}
+9000050 = {
+	name = "Sinclair"
+	culture = "kandarin"
+}
+
+9000057 = {
+	name = "Pendragon"
+	culture = "kandarin"
+}
+k000001 = {
+	name = "Wannai"
+	culture = "karamjan"
+}
+

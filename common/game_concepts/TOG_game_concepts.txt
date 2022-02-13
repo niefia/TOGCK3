@@ -1,0 +1,24 @@
+firstage = {
+	alias = { ageFA }
+	parent = age
+}
+secondage = {
+	alias = { ageSA }
+	parent = age
+}
+thirdage = {
+	alias = { ageTA }
+	parent = age
+}
+fourthage = {
+	alias = { ageFA }
+	parent = age
+}
+fifthage = {
+	alias = { ageFIA }
+	parent = age
+}
+sixthage= {
+	alias = { ageSIA }
+	parent = age
+}

@@ -1,0 +1,52 @@
+﻿l_english:
+ #Testish group
+ testish_group:0 "Asgar-Misthalian"
+ testish_group_collective_noun:0 "Asgar-Misthalians"
+ testish:0 "Misthalian"
+ testish_collective_noun:1 "Misthalians"
+
+asgarnian:0 "Asgarnian"
+ testish_collective_noun:1 "Asgarnians"
+
+
+
+kandarinish_group:0 "Kandarin"
+kandarinish_group_collective_noun:0 "Kandarins"
+kandarin:0 "Kandarin"
+testish_collective_noun:1 "Kandarins"
+
+
+
+morytanian_group:0 "Morytanian"
+morytanian_group_collective_noun:0 "Morytanian"
+morytanian:0 "Morytanian"
+morytanian_collective_noun:1 "Morytanian"
+
+gnomeish_group:0 "Gnomeish"
+gnomeish_group_collective_noun:0 "Gnomeish"
+gnomeish:0 "Gnomeish"
+gnomeish_collective_noun:1 "Gnomeish"
+
+kharid_group:0 "Kharidian"
+kharid_group_collective_noun:0 "Kharidian"
+kharid:0 "Kharidian"
+kharid:1 "Kharidian"
+
+language_commmon_name:0 "Common Tongue"
+menaphite:0 "Menaphite"
+karamjan:0 "Karmajan"
+dwarven:0 "Dwarven"
+
+
+ldemon:0 "Lesser Demon"
+ldemon_group:0 "Demonic"
+dragon:0 "Dragon"
+dragon_group:0 "Dragon"
+goblin_group:0 "Bandosian Creatures"
+ogre:0 "Ogre"
+troll:0 "Troll"
+goblin:0 "Goblin"
+mahjarrat:0 "Mahjarrat"
+mahjarrat_group:0 "Freneskaen"
+fremenik:0 "Fremenik"
+fremenik_group:0 "Barbarian"

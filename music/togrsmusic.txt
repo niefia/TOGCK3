@@ -1,0 +1,582 @@
+main_theme_track = {
+	music = "file:/music/Scape_Main.ogg"
+	can_be_interrupted = yes
+}
+
+mx_cue_crusade_starts = {
+	music = "file:/music/Attack_1.mp3"
+	weight = 25
+	# play every time
+
+}
+
+
+
+#### MOOD TRACKS
+
+mx_mood_call_01 = {
+	music = "file:/music/Wonder.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_02 = {
+	music = "file:/music/Spirit.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_03 = {
+	music = "file:/music/Newbie Melody.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_04 = {
+	music = "file:/music/Newbie Melody.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_05 = {
+	music = "file:/music/Newbie Melody.ogg"
+	pause_factor = 14
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_06 = {
+	music = "file:/music/Newbie Melody.ogg"
+	pause_factor = 8
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_07 = {
+	music = "file:/music/Newbie Melody.ogg"
+	pause_factor = 10
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_chants_08 = {
+	music = "file:/music/Newbie Melody.ogg"
+	pause_factor = 11
+	mood = yes
+	can_be_interrupted = yes
+}
+
+
+mx_mood_call_10_dusk = {
+	music = "file:/music/Baroque.ogg"
+	pause_factor = 21
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_11_dawn_part1 = {
+	music = "file:/music/Baroque.ogg"
+	pause_factor = 22
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_12_dawn_part2 = {
+	music = "file:/music/Baroque.ogg"
+	pause_factor = 20
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_13_dawn_part3 = {
+	music = "file:/music/Baroque.ogg"
+	pause_factor = 17
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_14_dawn_part4 = {
+	music = "file:/music/Baroque.ogg"
+	pause_factor = 16
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_15_dawn_part5 = {
+	music = "file:/music/Baroque.ogg"
+	pause_factor = 13
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_16_duskingsky = {
+	music = "file:/music/Baroque.ogg"
+	pause_factor = 12
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_17_murkiness = {
+	music = "file:/music/Warrior.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_balik_part1 = {
+	music = "file:/music/Baroque.ogg"
+	pause_factor = 14
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_balik_part2 = {
+	music = "file:/music/Baroque.ogg"
+	pause_factor = 12
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_18_mysterious_part1 = {
+	music = "file:/music/Spooky.ogg"
+	pause_factor = 18
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_19_mysterious_part2 = {
+	music = "file:/music/Spooky.ogg"
+	pause_factor = 20
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call__21_mysterious_part4 = {
+	music = "file:/music/Spooky.ogg"
+	pause_factor = 10
+	mood = yes
+	can_be_interrupted = yes
+}
+
+
+mx_mood_call_22_veni_part2 = {
+	music = "file:/music/Baroque.ogg"
+	pause_factor = 7
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_23_veni_part3 = {
+	music = "file:/music/Baroque.ogg"
+	pause_factor = 18
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_resurrection_part1 = {
+	music = "file:/music/Baroque.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_resurrection_part2 = {
+	music = "file:/music/Baroque.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_resurrection_part3 = {
+	music = "file:/music/Baroque.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+##### MENA MOOD
+
+mx_mood_call__20_mysterious_part3 = {
+	music = "file:/music/Spooky.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_mena_01 = {
+	music = "file:/music/Barbarianism.ogg"
+	pause_factor = 36
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_call_mena_04 = {
+	music = "file:/music/Barbarianism.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+##### MUSIC CUES
+
+mx_cue_general_crusade_event_1 = {
+	music = "file:/music/Dogs of War.ogg"
+	pause_factor = 25
+	# play every time
+
+}
+
+mx_cue_general_crusade_event_2 = {
+	music = "file:/music/Dogs of War.ogg"
+	pause_factor = 25
+	# play every time
+
+}
+
+mx_cue_general_crusade_event_3 = {
+	music = "file:/music/Dogs of War.ogg"
+	pause_factor = 25
+	# play every time
+
+}
+  
+mx_cue_touching_moment = {
+	music = "file:/music/Expanse.ogg"
+	pause_factor = 25
+	# Cooldown
+	years = 1
+
+}
+
+mx_cue_meadandwine = {
+	music = "file:/music/Harmony.ogg"
+	pause_factor = 25
+	# play every time
+	calls = 2
+
+}
+
+
+mx_cue_in_taberna_instrumental = {
+	music = "file:/music/Expanse.ogg"
+	pause_factor = 25
+	# play every time
+
+}
+
+mx_cue_epic_sacral_moment = {
+	music = "file:/music/Camelot.ogg"
+	pause_factor = 25
+	# Cooldown
+	years = 2
+
+}
+
+mx_cue_prison = {
+	music = "event:/MUSIC/Cues/Events/Prison/mx_cue_prison"
+	pause_factor = 25
+	# play every time
+	calls = 2
+
+}
+
+mx_cue_sacredrite = {
+	music = "file:/music/Magic Dance.ogg""
+	pause_factor = 25
+	# play every time
+}
+
+
+mx_cue_death = {
+	music = "file:/music/dead.ogg"
+	pause_factor = 25
+	# play every time
+}
+
+mx_cue_combat_3 = {
+	music = "file:/music/Attack_1.ogg"
+	pause_factor = 25
+	# Cooldown
+	years = 1
+}
+
+mx_cue_combat_2 = {
+	music = "file:/music/Dogs of War.ogg"
+	pause_factor = 25
+	# Cooldown
+	years = 1
+}
+
+mx_cue_ck3_vocal_maintheme = {
+	music = "file:/music/SeaShanty.ogg""
+	pause_factor = 25
+	# play every time
+
+}
+
+mx_cue_banquet = {
+		music = "file:/music/Autumn Voyage.ogg"
+	pause_factor = 25
+	# play every time
+	calls = 2
+
+}
+
+mx_cue_crusade_starts = {
+	music = "file:/music/Dogs of War.ogg"
+	pause_factor = 25
+	# play every time
+
+}
+
+mx_cue_war_declared = {
+	music = "file:/music/Attack_2.ogg"
+	pause_factor = 35
+	# play every time
+}
+
+mx_cue_combat_stinger = {
+	music = "file:/music/Bludgeon_attack_sound.ogg"
+	pause_factor = 25
+	# Cooldown
+	#years = 1
+}
+
+mx_cue_positive_effect = {
+	music = "file:/music/Expanse.ogg"
+	pause_factor = 25
+	# Cooldown
+	#months = 3
+}
+
+ mx_cue_peace_ensues = {
+	music = "file:/music/Fanfare.ogg"
+	pause_factor = 25
+	# play every time
+}
+
+ mx_cue_faith_conversion = {
+	music = "file:/music/Expanse.ogg"
+	pause_factor = 25
+	# Cooldown
+	calls = 2
+}
+
+ mx_cue_birth = {
+	music = "file:/music/Expanse.ogg"
+	pause_factor = 25
+	# play only once
+}
+
+ mx_cue_stress = {
+	music = "file:/music/Attack_2.ogg"
+	pause_factor = 25
+	# Cooldown
+	calls = 3
+}
+
+mx_cue_illness = {
+	music = "file:/music/Expanse.ogg"
+	pause_factor = 25
+	# Cooldown
+	calls = 3
+}
+
+mx_cue_murder = {
+	music = "file:/music/dead.ogg"
+	pause_factor = 25
+	# Cooldown
+	years = 1
+}
+
+mx_cue_succession = {
+		music = "file:/music/Fanfare.ogg"
+	pause_factor = 25
+	# play every time
+}
+
+mx_cue_succession_instrumental = {
+		music = "file:/music/Fanfare.ogg"
+	pause_factor = 25
+	# play every time
+}
+
+mx_cue_seduction = {
+	music = "file:/music/Autumn Voyage.ogg"
+	pause_factor = 25
+	# Cooldown
+	calls = 3
+}
+
+mx_cue_marriage = {
+		music = "file:/music/Autumn Voyage.ogg"
+	pause_factor = 25
+	# play only once
+}
+mx_cue_negative = {
+	music = "file:/music/Bludgeon_attack_sound.ogg"
+	pause_factor = 25
+}
+mx_cue_low_key_positive = {
+	music = "file:/music/Autumn Voyage.ogg"
+	pause_factor = 25
+}
+mx_cue_secret = {
+	music = "file:/music/Down_Below.ogg"
+	pause_factor = 25
+}
+
+############ PLACEHOLDERS
+
+
+mx_cue_majesty = {
+	music = "file:/music/Expanse.ogg"
+	pause_factor = 25
+}
+
+mx_cue_patronage = {
+	music = "file:/music/Expanse.ogg"
+	pause_factor = 25
+}
+
+mx_cue_personal_negative = {
+	music = "file:/music/Bludgeon_attack_sound.ogg"
+	pause_factor = 25
+}
+
+mx_cue_personal_positive = {
+	music = "file:/music/Expanse.ogg"
+	pause_factor = 25
+}
+
+mx_cue_playful = {
+	music = "file:/music/Expanse.ogg"
+	pause_factor = 25
+}
+
+#### TNL MUSC
+
+mx_raid = {
+	music = "file:/music/Warrior.ogg"
+	pause_factor = 35
+}
+
+mx_drakkar = {
+	music = "file:/music/Barbarianism.ogg"
+	mood = yes
+	pause_factor = 15
+	can_be_interrupted = yes
+	is_prioritized_mood = yes
+
+	is_valid = {
+		OR = {
+			culture = { has_cultural_pillar = heritage_north_germanic }
+			religion = religion:germanic_religion
+		}
+	}
+}
+
+mx_scandinavia = {
+	music = "file:/music/Ballad_of_the_Basilisk.ogg"
+	mood = yes
+	pause_factor = 15
+	can_be_interrupted = yes
+	is_prioritized_mood = yes
+
+	is_valid = {
+		OR = {
+			culture = { has_cultural_pillar = heritage_north_germanic }
+			religion = religion:germanic_religion
+		}
+	}
+}
+
+mx_thefeast = {
+	music = "file:/music/Ballad_of_the_Basilisk.ogg"
+	mood = yes
+	pause_factor = 15
+	can_be_interrupted = yes
+	is_prioritized_mood = yes
+
+	is_valid = {
+		OR = {
+			culture = { has_cultural_pillar = heritage_north_germanic }
+			religion = religion:germanic_religion
+		}
+	}
+}
+
+
+
+
+
+#### RoCo MUSC
+
+#### Cue Tracks
+
+middleeasterncourt_cue = {
+	music = "file:/music/Al_Kharid.ogg"
+	pause_factor = 30
+}
+
+europeancourt_cue = {
+	music = "file:/music/Ballad_of_the_Basilisk.ogg"
+	pause_factor = 30
+}
+
+indiancourt_cue = {
+	music = "file:/music/Al_Kharid.ogg"
+	pause_factor = 30
+}
+
+mediterraneancourt_cue = {
+	music = "file:/music/Fanfare.ogg"
+	pause_factor = 30
+}
+
+#### Mood Tracks
+
+mep1_mood_01 = {
+	music = "file:/music/Principality.ogg"
+	pause_factor = 15
+	group = group_roco
+
+	is_valid = { has_ep1_dlc_trigger = yes }
+}
+
+mep1_mood_02 = {
+	music = "file:/music/Spirit.ogg"
+	pause_factor = 15
+	group = group_roco
+
+	is_valid = { has_ep1_dlc_trigger = yes }
+}
+
+mep1_mood_03 = {
+	music = "file:/music/Harmony_2.ogg"
+	pause_factor = 15
+	group = group_roco
+
+	is_valid = { has_ep1_dlc_trigger = yes }
+}
+
+mep1_mood_04 = {
+		music = "file:/music/Fanfare.ogg"
+	pause_factor = 15
+	group = group_roco
+
+	is_valid = { has_ep1_dlc_trigger = yes }
+}
+
+group_roco = {
+ 	subsequent_playback_chance = { 0.65 0.35 0.1 }
+ 	mood = yes
+ 	trigger_prio_override = yes
+
+	is_valid = { has_ep1_dlc_trigger = yes }
+}
+
+

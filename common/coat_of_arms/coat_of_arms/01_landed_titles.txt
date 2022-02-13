@@ -1,0 +1,82 @@
+@smCastleX = 0.27
+@smCastleY = 0.23
+@smLysX = 0.23
+@smLysY = 0.26
+@smCross = 0.22
+
+
+d_lumbridge = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_ordinary_chevron_5.dds"
+		color1 = "white"
+	}
+}
+
+k_morytania = {
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "black"
+	colored_emblem = {
+		texture = "morytania.dds"
+		color1 = "red"
+		color2 = "yellow"
+	}
+}
+
+d_varrock = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "varrock.dds"
+		color1 = "grey"
+	}
+}
+
+k_misthalin = {
+	pattern = "pattern_solid.dds"
+	color1 = "purple"
+	color2 = "purple"
+	colored_emblem = {
+		texture = "misthalin.dds"
+		color1 = "green"
+		color2 = "green"
+	}
+	
+}
+
+d_kharid = {
+	pattern = "pattern_solid.dds"
+	color1 = "purple"
+	color2 = "purple"
+	colored_emblem = {
+		texture = "kharid.dds"
+		color1 = "yellow"
+	}
+}
+
+
+
+
+
+
+c_draynor = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_bends_02.dds"
+		color1 = "red"
+	}
+}
+
+ 
+
+	
+
+	
+	
+	
+	

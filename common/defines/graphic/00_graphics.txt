@@ -1,0 +1,3 @@
+﻿NCamera{
+PANNING_WIDTH =  8192
+}

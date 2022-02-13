@@ -1,0 +1,276 @@
+﻿human = {
+	color = frankish
+
+	ethos = ethos_bellicose
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warrior_culture
+		tradition_hereditary_hierarchy
+		tradition_stand_and_fight
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+asgarnian = {
+	color = polish
+	created = 100.1.1
+	parents = { human }
+
+	ethos = ethos_courtly
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_castle_keepers
+		tradition_martial_admiration
+		tradition_monastic_communities
+	}
+
+	name_list = name_list_french
+
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+testish = {
+	color = french
+	created = 100.1.1
+	parents = { human }
+
+	ethos = ethos_bureaucratic
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_gardening
+		tradition_legalistic
+		tradition_loyal_soldiers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_french
+
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+kandarin = {
+	color = { 0.6 0.1 0.1 }
+	created = 100.1.1
+	parents = { human }
+
+	ethos = ethos_courtly
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_chanson_de_geste
+		tradition_hereditary_hierarchy
+		tradition_chivalry
+	}
+
+	name_list = name_list_french
+
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+kharid = {
+	color = arabic
+	created = 100.1.1
+	parents = { human }
+
+	ethos = ethos_courtly
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_philosopher_culture
+		tradition_medicinal_plants
+		tradition_mubarizuns
+		tradition_dryland_dwellers
+	}
+
+	name_list = name_list_levantine
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		10 = arab
+	}
+}
+
+menaphite = {
+	color = { 0.3 0.3 0.1 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_human
+	language = language_menaphite
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_philosopher_culture
+		tradition_agrarian
+		tradition_zealous_people
+		tradition_mubarizuns
+	}
+
+	name_list = name_list_egyptian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		10 = arab
+	}
+}
+
+
+
+
+karamjan = {
+	color = { 0.1 0.6 0.1 }
+	created = 100.1.1
+	parents = { human }
+
+	ethos = ethos_courtly
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fishermen
+		tradition_practiced_pirates
+		tradition_bush_hunting
+	}
+
+	name_list = name_list_akan
+
+	coa_gfx = { west_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+
+	ethnicities = {
+		10 = african
+	}
+}
+
+morytanian = {
+	color = { 0.6 0.1 0.3 }
+
+	ethos = ethos_stoic
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hit_and_run
+		tradition_wetlanders
+		tradition_medicinal_plants
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+fremenik = {
+	color = norse
+	# T_ 222 þ 254 Ð 208 T_ 240 E_
+
+	ethos = ethos_bellicose
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_things
+	}
+
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+
+	# FP1 Traditions
+	dlc_tradition = {
+		trait = tradition_fp1_coastal_warriors
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_hird
+	}
+	dlc_tradition = {
+		trait = tradition_fp1_performative_honour
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_poetry
+	}
+	dlc_tradition = {
+		trait = tradition_fp1_northern_stories
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_runestones
+	}
+
+	name_list = name_list_norse
+
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+
+	ethnicities = {
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}

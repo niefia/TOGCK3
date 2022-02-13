@@ -1,0 +1,853 @@
+﻿6000000 = {
+	name = "Test"
+	dna = 6000000_test
+	dynasty = 5000000
+	religion = "saradominism"
+	culture = "testish"
+	135.1.1 = {
+		birth = yes
+	}
+}
+
+6000002 = {
+	name = "Roald"
+	dna = 6000002
+	father = 6000009
+	wife = 6000021
+	dynasty = 5000002
+	stewardship = 21
+	religion = "saradominism"
+	culture = "testish"
+	11802.6.6 = {
+		birth = yes
+	}
+}
+
+6000003 = {
+	name = "Horacio"
+	dna = 6000003_Horacio
+	dynasty = 5000003
+	religion = "saradominism"
+	culture = "testish"
+	11803.7.19 = {
+		birth = yes
+	}
+}
+
+6000004 = {
+	name = "Gunthor"
+	dynasty = 5000004
+	religion = "guthixian"
+	culture = "fremenik"
+	11809.1.1 = {
+		birth = yes
+	}
+}
+
+6000005 = {
+	name = "Sedridor"
+	dynasty = 5000005
+	religion = "saradominism"
+	culture = "testish"
+	11763.1.1 = {
+		birth = yes
+	}
+}
+
+6000006 = {
+	name = "Draynor"
+	dna = draynor
+	dynasty = 5000006
+	father = 9000006
+	trait = disinherited
+	trait = immortality_vampire
+	religion = "saradominism"
+	culture = "testish"
+	115.1.1 = {
+		birth = yes
+	}
+}
+
+6000007 = {
+	name = "Millicent"
+	female = yes
+	dynasty = 5000007
+	religion = "saradominism"
+	culture = "testish"
+	11823.1.1 = {
+		birth = yes
+	}
+}
+
+6000008 = {
+	name = "Guide"
+	dynasty = 5000008
+	religion = "saradominism"
+	culture = "testish"
+	11800.1.1 = {
+		birth = yes
+	}
+}
+
+6000009 = {
+	name = "Roald"
+	dynasty = 5000002
+	father = 6000010
+	religion = "saradominism"
+	culture = "testish"
+	11744.6.6 = {
+		birth = yes
+	}
+	11817.6.6 = {
+		death = yes
+	}
+
+}
+
+6000010 = {
+	name = "Roald"
+	dynasty = 5000002
+	father = 6000011
+	religion = "saradominism"
+	culture = "testish"
+	11692.6.6 = {
+		birth = yes
+	}
+	11787.6.6 = {
+		death = yes
+	}
+
+}
+
+6000011 = {
+	name = "Botolph"
+	dynasty = 5000002
+	father = 6000012
+	religion = "saradominism"
+	culture = "testish"
+	11641.1.1 = {
+		birth = yes
+	}
+	11687.6.6 = {
+		death = yes
+	}
+
+}
+6000012 = {
+	name = "Claudius"
+	dynasty = 5000002
+	father = 6000013
+	religion = "saradominism"
+	culture = "testish"
+	11591.1.1 = {
+		birth = yes
+	}
+	11656.6.6 = {
+		death = yes
+	}
+
+}
+
+6000013 = {
+	name = "Horacio"
+	dynasty = 5000002
+	father = 6000014
+	religion = "saradominism"
+	culture = "testish"
+	11535.1.1 = {
+		birth = yes
+	}
+	11600.6.6 = {
+		death = yes
+	}
+
+}
+
+
+
+
+6000014 = {
+	name = "Laris"
+	dynasty = 5000002
+	father = 6000015
+	religion = "saradominism"
+	culture = "testish"
+	11515.1.1 = {
+		birth = yes
+	}
+	11585.6.6 = {
+		death = yes
+	}
+
+}
+6000015 = {
+	name = "Tarrlo"
+	dynasty = 5000002
+	religion = "saradominism"
+	culture = "testish"
+	11485.1.1 = {
+		birth = yes
+	}
+	11550.6.6 = {
+		death = yes
+	}
+
+}
+
+6000016 = {
+	name = "Tenebra"
+	dynasty = 5000002
+	father = 6000014
+	religion = "saradominism"
+	culture = "testish"
+	11525.1.1 = {
+		birth = yes
+	}
+	11551.6.6  = {
+		death = yes
+	}
+
+}
+6000017 = {
+	name = "Bran"
+	dynasty = 5000002
+	father = 6000014
+	religion = "saradominism"
+	culture = "testish"
+	11527.1.1 = {
+		birth = yes
+	}
+	11551.6.6 = {
+		death = yes
+	}
+
+}
+6000018 = {
+	name = "Hywell"
+	dynasty = 5000002
+	father = 6000014
+	religion = "saradominism"
+	culture = "testish"
+	11530.1.1 = {
+		birth = yes
+	}
+	11551.6.6 = {
+		death = yes
+	}
+
+}
+6000019 = {
+	name = "Henry"
+	dynasty = 5000002
+	father = 6000014
+	religion = "saradominism"
+	culture = "testish"
+	11532.1.1 = {
+		birth = yes
+	}
+	11551.6.6 = {
+		death = yes
+	}
+
+}
+6000020 = {
+	name = "Gar'rth"
+	dynasty = 5000002
+	father = 6000016
+	religion = "saradominism"
+	culture = "testish"
+	11543.1.1 = {
+		birth = yes
+	}
+
+
+}
+
+6000021 = {
+	name = "Ellamaria"
+	dynasty = lowborn
+	female = yes
+	religion = "saradominism"
+	culture = "testish"
+	11806.1.1 = {
+		birth = yes
+	}
+
+
+}
+6000022 = {
+	name = "Guildmaster"
+	dynasty = lowborn
+	religion = "saradominism"
+	culture = "testish"
+	11806.1.1 = {
+		birth = yes
+	}
+
+
+}
+
+
+
+
+8000008 = {
+	name = "Shah"
+	dynasty = 8000008
+	religion = "saradominism"
+	culture = "kharid"
+	11773.11.11 = {
+		birth = yes
+	}
+}
+8000808 = {
+	name = "Ali"
+	dynasty = 8000008
+	father = 8000008
+	religion = "saradominism"
+	culture = "kharid"
+	11810.11.11 = {
+		birth = yes
+	}
+}
+
+
+
+
+8000088 = {
+	name = "Benita"
+	female = yes
+	religion = "saradominism"
+	culture = "testish"
+	11783.11.11 = {
+		birth = yes
+	}
+}
+
+
+7000000 = {
+	name = "Vallance"
+	dynasty = 7000010
+	religion = "saradominism"
+	culture = "asgarnian"
+	11799.1.1 = {
+		birth = yes
+	}
+}
+
+7000001 = {
+	name = "Thurgo"
+	dynasty = 7000001
+	religion = "saradominism"
+	culture = "dwarven"
+	11802.1.1 = {
+		birth = yes
+	}
+}
+7000101 = {
+	name = "Ramarno"
+	religion = "saradominism"
+	culture = "dwarven"
+	11799.3.3 = {
+		birth = yes
+	}
+}
+
+
+7000002 = {
+	name = "Frank"
+	dynasty = 7000002
+	religion = "saradominism"
+	culture = "asgarnian"
+	11799.1.1 = {
+		birth = yes
+	}
+}
+7000003 = {
+	name = "Melzar"
+	trait = lunatic
+	religion = "saradominism"
+	11810.1.1 = {
+		give_nickname = nick_the_mad
+	}
+	culture = "asgarnian"
+	11790.1.1 = {
+		birth = yes
+	}
+}
+
+7000004 = {
+	name = "Master"
+	dynasty = 7000004
+	religion = "saradominism"
+	culture = "asgarnian"
+	11798.1.1 = {
+		birth = yes
+	}
+}
+
+7000005 = {
+	name = "Sarah"
+	female = yes
+	dynasty = 7000005
+	religion = "saradominism"
+	culture = "asgarnian"
+	11803.1.1 = {
+		birth = yes
+	}
+}
+
+7000006 = {
+	name = "Wartface"
+	dynasty = 7000005
+	religion = "bandosian"
+	culture = "goblin"
+	11803.1.1 = {
+		birth = yes
+	}
+}
+
+7000007 = {
+	name = "Doric"
+	dynasty = 7000007
+	religion = "saradominism"
+	culture = "dwarven"
+	11803.1.1 = {
+		birth = yes
+	}
+}
+
+7000008 = {
+	name = "Daquarius"
+	dynasty = 7000008
+	religion = "zamorakian"
+	culture = "asgarnian"
+	11803.1.1 = {
+		birth = yes
+	}
+}
+
+7000009 = {
+	name = "Drogo"
+	dynasty = 7000009
+	religion = "guthixian"
+	culture = "dwarven"
+	11803.1.1 = {
+		birth = yes
+	}
+}
+
+7000010 = {
+	name = "Analf"
+	dynasty = 7000010
+	father = 7000000
+	religion = "saradominism"
+	culture = "asgarnian"
+	11818.1.1 = {
+		birth = yes
+	}
+}
+
+7000011 = {
+	name = "Leo"
+	dynasty = 7000011
+	religion = "saradominism"
+	culture = "testish"
+	11787.1.1 = {
+		birth = yes
+	}
+}
+
+7000013 = {
+	name = "Elvarg"
+	dynasty = 7000013
+	female = yes
+	trait = Immortality
+	religion = "saradominism"
+	culture = "dragon"
+	10000.1.1 = {
+		birth = yes
+	}
+}
+7000014 = {
+	name = "Amik"
+	dynasty = 7000014
+	religion = "saradominism"
+	culture = "asgarnian"
+	11787.1.1 = {
+		birth = yes
+	}
+}
+9000000 = {
+	name = "Khazard"
+	dynasty = 9000000
+	religion = "zamorakian"
+	culture = "mahjarrat"
+	trait = immortality_sterile
+	8207.1.1 = {
+		birth = yes
+	}
+}
+
+9000005 = {
+	name = "Lowerniel"
+	dynasty = 5000006
+	father = 9000006
+	dna = low_9000005
+	trait = immortality_vampire
+	religion = "zamorakian"
+	culture = "morytanian"
+	120.1.1 = {
+		birth = yes
+	}
+}
+
+9000006 = {
+	name = "Check"
+	dynasty = 5000006
+	trait = immortality_vampire
+	religion = "saradominism"
+	culture = "morytanian"
+	0.1.1 = {
+		birth = yes
+	}
+
+}
+
+9000007 = {
+	name = "Ranis"
+	dynasty = 5000006
+	father = 9000006
+	trait = immortality_vampire
+	religion = "zamorakian"
+	culture = "morytanian"
+	130.1.1 = {
+		birth = yes
+	}
+}
+9000008 = {
+	name = "Vanescula"
+	dynasty = 5000006
+	father = 9000006
+	trait = immortality_vampire
+	female = yes
+	religion = "zamorakian"
+	culture = "morytanian"
+	122.1.1 = {
+		birth = yes
+	}
+}
+9000508 = {
+	name = "Malak"
+	dynasty = 5000006
+	trait = immortality_vampire
+	religion = "zamorakian"
+	culture = "morytanian"
+	122.1.1 = {
+		birth = yes
+	}
+}
+
+9000009 = {
+	name = "Narnode"
+	dynasty = 9000009
+	religion = "guthixian"
+	culture = "gnomeish"
+	11767.1.1 = {
+		birth = yes
+	}
+
+}
+
+9000019 = {
+	name = "Bolren"
+	religion = "guthixian"
+	culture = "gnomeish"
+	11767.1.1 = {
+		birth = yes
+	}
+
+}
+
+9000029 = {
+	name = "Lathas"
+	dynasty = 9000029
+	father = 9000040
+	religion = "zamorakian"
+	culture = "kandarin"
+	11789.5.2 = {
+		birth = yes
+	}
+
+}
+9000039 = {
+	name = "Tyras"
+	dynasty = 9000029
+	father = 9000040
+	religion = "saradominism"
+	culture = "kandarin"
+	11795.5.2 = {
+		birth = yes
+	}
+
+}
+9000040 = {
+	name = "Ulthas"
+	dynasty = 9000029
+	father = 9000041
+	religion = "saradominism"
+	culture = "kandarin"
+	11727.5.2 = {
+		birth = yes
+	}
+	11803.5.25 = {
+		death = yes
+	}
+
+
+
+}
+
+9000041 = {
+	name = "Narras"
+	dynasty = 9000029
+	religion = "saradominism"
+	culture = "kandarin"
+	11687.8.22 = {
+		birth = yes
+	}
+	11710.1.1 = {
+		give_nickname = nick_the_mad
+	}
+
+	11752.8.5 = {
+		death = yes
+	}
+}
+9000042 = {
+	name = "Thoros"
+	dynasty = 9000029
+	father = 9000041
+	religion = "saradominism"
+	culture = "kandarin"
+	11730.2.2 = {
+		birth = yes
+	}
+	11792.1.5 = {
+		death = yes
+	}
+}
+9000043 = {
+	name = "Thoros"
+	dynasty = 9000029
+	father = 9000042
+	religion = "saradominism"
+	culture = "kandarin"
+	11803.5.2 = {
+		birth = yes
+	}
+
+}
+9000044 = {
+	name = "Zandar"
+	dynasty = 9000044
+	religion = "zamorakian"
+	culture = "asgarnian"
+	11778.5.2 = {
+		birth = yes
+	}
+
+}
+9000045 = {
+	name = "Sanfew"
+	religion = "guthixian"
+	culture = "asgarnian"
+	11783.5.2 = {
+		birth = yes
+	}
+
+}
+9000046 = {
+	name = "Kaqemeex"
+	religion = "guthixian"
+	culture = "asgarnian"
+	11782.5.2 = {
+		birth = yes
+	}
+
+}
+
+9000050 = {
+	name = "Lord"
+	religion = "saradominism"
+	dynasty = 9000050
+	culture = "kandarin"
+	11773.5.2 = {
+		birth = yes
+	}
+
+}
+
+9000051 = {
+	name = "Frank"
+	religion = "saradominism"
+	father = 9000050
+	dynasty = 9000050
+	culture = "kandarin"
+	11800.5.2 = {
+		birth = yes
+	}
+
+}
+9000052 = {
+	name = "David"
+	religion = "saradominism"
+	father = 9000050
+	dynasty = 9000050
+	culture = "kandarin"
+	11804.5.2 = {
+		birth = yes
+	}
+
+}
+9000053 = {
+	name = "Bob"
+	religion = "saradominism"
+	dynasty = 9000050
+	father = 9000050
+	culture = "kandarin"
+	11798.5.2 = {
+		birth = yes
+	}
+
+}
+9000054 = {
+	name = "Anna"
+	female = yes
+	religion = "saradominism"
+	father = 9000050
+	dynasty = 9000050
+	culture = "kandarin"
+	11805.5.2 = {
+		birth = yes
+	}
+
+}
+9000055 = {
+	name = "Carol"
+	female = yes
+	religion = "saradominism"
+	father = 9000050
+	dynasty = 9000050
+	culture = "kandarin"
+	11808.5.2 = {
+		birth = yes
+	}
+
+}
+9000056 = {
+	name = "Elizabeth"
+	female = yes
+	religion = "saradominism"
+	father = 9000050
+	dynasty = 9000050
+	culture = "kandarin"
+	11805.5.2 = {
+		birth = yes
+	}
+
+}
+
+9000057 = {
+	name = "Arthur"
+	religion = "saradominism"
+	dynasty = 9000057
+	culture = "kandarin"
+	11785.5.2 = {
+		birth = yes
+	}
+
+}
+
+k000001 = {
+	name = "Timfraku"
+	religion = "saradominism"
+	dynasty = k000001
+	culture = "karamjan"
+	11779.5.2 = {
+		birth = yes
+	}
+
+}
+k000002 = {
+	name = "Tamayu"
+	religion = "saradominism"
+	dynasty = k000001
+	father = k000001
+	culture = "karamjan"
+	11799.5.2 = {
+		birth = yes
+	}
+
+}
+k000003 = {
+	name = "Tiadeche"
+	religion = "saradominism"
+	dynasty = k000001
+	father = k000001
+	culture = "karamjan"
+	11810.5.2 = {
+		birth = yes
+	}
+
+}
+k000003 = {
+	name = "Tinsay"
+	religion = "saradominism"
+	dynasty = k000001
+	father = k000001
+	culture = "karamjan"
+	11803.5.2 = {
+		birth = yes
+	}
+
+}
+
+s000001 = {
+	name = "Icthlarin"
+	religion = "menaphite"
+	culture = "menaphite"
+	11790.4.5 = {
+		birth = yes
+	}
+
+}
+
+
+gu00001 = {
+	name = "Guthix"
+	religion = "guthixian"
+	culture = "naragi"
+	dna = guthix
+	trait = ageless
+	trait = just
+	trait = calm
+	trait = sleepofguthix
+
+	1.1.1 = {
+		birth = yes
+	}
+
+}
+
+
+
+
+kelda01 = {
+	name = "Hreidmar"
+	religion = "zamorakian"
+	culture = "dwarven"
+	11787.4.5 = {
+		birth = yes
+	}
+
+}

@@ -1,0 +1,18 @@
+dragonslayer = {
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+	is_shown = {
+		
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	effect = {
+		custom_tooltip = dragonslayer_decision_effect_tooltip
+		remove_short_term_gold = 100
+		trigger_event = DSLAYER.1
+	}
+
+	ai_check_interval = 0
+}

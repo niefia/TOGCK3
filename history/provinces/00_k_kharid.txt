@@ -1,0 +1,172 @@
+3 = {	# 1 - 1
+
+	# Misc
+	culture = kharid
+	religion = saradominism
+	holding = castle_holding
+
+}
+44 = {	# 1 - 1
+
+	# Misc
+	culture = kharid
+	religion = saradominism
+	holding = castle_holding
+
+}
+45 = {	# 1 - 1
+
+	# Misc
+	culture = kharid
+	religion = saradominism
+	holding = castle_holding
+
+}
+46 = {	# 1 - 1
+
+	# Misc
+	culture = kharid
+	religion = saradominism
+	holding = castle_holding
+
+}
+53 = {	# 1 - 1
+
+	# Misc
+	culture = kharid
+	religion = saradominism
+	holding = castle_holding
+
+}
+54 = {	# 1 - 1
+
+	# Misc
+	culture = kharid
+	religion = saradominism
+	holding = castle_holding
+
+}
+
+55 = {	# 1 - 1
+
+	# Misc
+	culture = menaphite
+	religion = menaphite
+	holding = castle_holding
+
+}
+
+
+56 = {	# 1 - 1
+
+	# Misc
+	culture = menaphite
+	religion = menaphite
+	holding = castle_holding
+
+}
+
+57 = {	# 1 - 1
+
+	# Misc
+	culture = menaphite
+	religion = menaphite
+	holding = castle_holding
+
+}
+58 = {	# 1 - 1
+
+	# Misc
+	culture = menaphite
+	religion = menaphite
+	holding = castle_holding
+
+}
+59 = {	# 1 - 1
+
+	# Misc
+	culture = menaphite
+	religion = menaphite
+	holding = castle_holding
+
+}
+
+
+125 = {	# 1 - 1
+
+	# Misc
+	culture = menaphite
+	religion = menaphite
+	holding = castle_holding
+
+}
+
+
+
+120 = {	# 1 - 1
+
+	# Misc
+	culture = menaphite
+	religion = menaphite
+	holding = castle_holding
+
+}
+
+127 = {	# 1 - 1
+
+	# Misc
+	culture = menaphite
+	religion = menaphite
+	holding = castle_holding
+
+}
+126 = {	# 1 - 1
+
+	# Misc
+	culture = menaphite
+	religion = menaphite
+	holding = castle_holding
+
+}
+124 = {	# 1 - 1
+
+	# Misc
+	culture = menaphite
+	religion = menaphite
+	holding = castle_holding
+
+}
+122 = {	# 1 - 1
+
+	# Misc
+	culture = menaphite
+	religion = zarosian
+	holding = castle_holding
+
+}
+121 = {	# 1 - 1
+
+	# Misc
+	culture = menaphite
+	religion = menaphite
+	holding = castle_holding
+
+}
+123 = {	# 1 - 1
+
+	# Misc
+	culture = menaphite
+	religion = menaphite
+	holding = castle_holding
+
+}
+
+
+125 = {	# 1 - 1
+
+	# Misc
+	culture = menaphite
+	religion = menaphite
+	holding = castle_holding
+
+}

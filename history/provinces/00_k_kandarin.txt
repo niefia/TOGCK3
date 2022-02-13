@@ -1,0 +1,405 @@
+# 1 - test
+60 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = castle_holding
+
+}
+61 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = castle_holding
+
+}
+62 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = castle_holding
+
+}
+63 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = city_holding
+
+}
+64 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = castle_holding
+
+}
+65 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = castle_holding
+
+}
+66 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = castle_holding
+
+}
+67 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = castle_holding
+
+}
+68 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = castle_holding
+
+}
+69 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = castle_holding
+
+}
+
+71 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = castle_holding
+
+}
+
+77 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = castle_holding
+
+}
+78 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = castle_holding
+
+}
+
+79 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = castle_holding
+
+}
+
+81 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = castle_holding
+
+}
+
+80 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+82 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+
+76 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+75 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+73 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+74 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+95 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+98 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+99 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+
+100 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+102 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+106 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+
+88 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+90 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+91 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+96 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+72 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+72 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+118 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+117 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+114 = {	# 1 - 1
+
+	# Misc
+	culture = ogre
+	religion = bandosian
+	holding = castle_holding
+
+}
+113 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+
+112 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+119 = {	# 1 - 1
+
+	# Misc
+	culture = ogre
+	religion = bandosian
+	holding = castle_holding
+
+}
+111 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+92 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+93 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	holding = castle_holding
+
+}
+94 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = saradominism
+	development = 5
+	holding = castle_holding
+
+}
+
+103 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = zamorakian
+	holding = castle_holding
+
+}
+108 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = zamorakian
+	holding = castle_holding
+
+}
+107 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = zamorakian
+	holding = castle_holding
+
+}
+97 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = zamorakian
+	holding = castle_holding
+
+}
+
+115 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = zamorakian
+	holding = castle_holding
+
+}
+105 = {	# 1 - 1
+
+	# Misc
+	culture = kandarin
+	religion = guthixian
+	holding = castle_holding
+
+}

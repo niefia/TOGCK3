@@ -1,0 +1,328 @@
+namespace = DSLAYER
+
+DSLAYER.1 = {
+	type = character_event
+	title = DSLAYER1_TITLE
+	desc = DSLAYER1_DESCRIPTION
+	theme = realm
+	orphan = yes
+	left_portrait = root
+    right_portrait = {
+		character = character:6000022
+		animation = disapproval
+	}
+
+
+	immediate = {
+        pan_camera_to_title = title:b_champ
+	}
+
+	option = {
+		name = DSLAYER1_TITLE
+        trigger_event = {
+			id = DSLAYER.2
+			days = 1
+		}
+	}
+}
+
+DSLAYER.2 = {
+	type = character_event
+	title = DSLAYER2_TITLE
+	desc = DSLAYER2_DESCRIPTION
+	theme = realm
+	orphan = yes
+	left_portrait = root
+    right_portrait = {
+		character = character:6000003
+		animation = disapproval
+	}
+
+	immediate = {
+        pan_camera_to_title = title:b_lumbridge
+	}
+
+	option = {
+		name = DSLAYER2.a
+        trigger_event = {
+			id = DSLAYER.3
+			days = 1
+		}
+	}
+}
+
+DSLAYER.3 = {
+	type = character_event
+	title = DSLAYER.3.t
+	desc = DSLAYER.3.d
+
+	theme = war
+	override_background = {
+		event_background = fp1_tribal_corridor
+		}
+
+	left_portrait = {
+		character = root
+		animation = war_defender
+		outfit_tags = { war_outfit1 }
+	}
+	right_portrait = {
+		character = character:7000003
+		animation = war_attacker
+		outfit_tags = { war_outfit1 }
+	}
+	trigger = {
+		is_adult = yes
+
+	}
+	immediate = {
+        pan_camera_to_title = title:b_rimmington
+		add_character_flag = {
+
+		}
+	}
+	option = {
+		name = DSLAYER.3.a
+
+		custom_tooltip = duel_melzar
+		hidden_effect = {
+			duel = {
+				skill = prowess
+				target = scope:combatant_2
+				10 = {
+					compare_modifier = {
+						value = scope:duel_value
+						multiplier = 1
+						min = -19
+					}
+					trigger_event = {
+						id = DSLAYER.4 #I won
+						days = 1
+					}
+				}
+				10 = {
+					compare_modifier = {
+						value = scope:duel_value
+						multiplier = -1
+						min = -19
+					}
+					trigger_event = {
+						id = DSLAYER.5 #I lost
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+
+
+DSLAYER.4 = {
+	type = character_event
+	title = DSLAYER.4.t
+	desc = DSLAYER.4.d
+	#
+
+	theme = war
+	override_background = {
+		event_background = fp1_tribal_corridor
+		}
+
+	left_portrait = {
+		character = root
+		animation = war_over_win
+	}
+	right_portrait = {
+		character = character:7000003
+		animation = severelywounded
+	}
+	trigger = {
+		is_adult = yes
+
+	}
+	immediate = {
+		add_character_flag = {
+
+		}
+	}
+	option = {
+		name = DSLAYER.4.a
+
+
+		root = {
+			add_prestige = 50
+			knight_increase_prowess_chance_effect = yes
+		}
+
+		scope:combatant_2 = {
+			add_prestige = -50
+			death = {
+				death_reason = death_battle }
+		}
+		character:7000003 = {
+			death = {
+				death_reason = death_battle
+				killer = root
+			}
+		}
+
+
+		trigger_event = {
+			id = DSLAYER.6
+			days = 1
+		}
+	}
+}
+
+DSLAYER.5 = {
+	type = character_event
+	title = DSLAYER.5.t
+	desc = DSLAYER.5.d
+	#
+
+	theme = war
+	override_background = {
+		event_background = fp1_tribal_corridor
+		}
+
+	left_portrait = {
+		character = root
+		animation = severelywounded
+		outfit_tags = { war_outfit1 }
+	}
+	right_portrait = {
+		character = character:7000003
+		animation = war_over_win
+		outfit_tags = { war_outfit1 }
+	}
+	trigger = {
+		is_adult = yes
+
+	}
+	immediate = {
+		add_character_flag = {
+
+		}
+	}
+
+	option = {
+		name = DSLAYER.5.a
+
+		root = {
+			add_prestige = -50
+			increase_wounds_no_death_effect = { REASON = fight }
+		}
+
+
+		trigger_event = {
+
+		}
+		character:root = {
+			death = {
+				killer = 7000003
+				death_reason = death_battle
+			}
+		}
+	}
+}
+
+
+DSLAYER.6 = {
+	type = duel_event
+	title = DSLAYER.6.t
+	desc = DSLAYER.6.desc
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+	right_portrait = {
+		character = character:7000013
+		animation = fear
+	}
+	theme = skull
+    immediate = {
+        play_music_cue = "mx_cue_stress"
+    }
+	# You are the attacker, default
+
+
+	# You are the attacker, fatal
+	option = {
+		name = DSLAYER.6.a
+
+		configure_start_single_combat_effect = {
+			SC_INITIATOR = root
+			SC_ATTACKER = root
+			SC_DEFENDER = character:7000013
+			FATALITY = always
+			FIXED = no
+			LOCALE = terrain_scope
+			OUTPUT_EVENT = DSLAYER.9
+			INVALIDATION_EVENT = single_combat.1006	#In a real event, this would obviously be a different even to the output.
+		}
+	}
+
+
+	# Actually, never mind
+	option = {
+		name = single_combat.1004.g
+	}
+
+	after = {
+		single_combat_apply_default_shirtlessness_effect = {
+			ATTACKER = scope:actor
+			DEFENDER = scope:recipient
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DSLAYER.9 = {
+	type = character_event
+	title = DSLAYER.9.t
+	desc = DSLAYER.9.d
+    play_music_cue = mx_cue_war_declared
+    left_portrait = {
+		character = root
+		animation = war_defender
+		outfit_tags = { war_outfit1 }
+	}
+	right_portrait = {
+		character = character:7000013
+		animation = war_attacker
+		outfit_tags = { war_outfit1 }
+	}
+
+
+
+    theme = war
+    override_background = {
+        event_background = wilderness_mountains
+        }
+
+        immediate = {
+            play_music_cue = "mx_cue_stress"
+        }
+
+
+        option = {
+    		name = DSLAYER6.a
+            get_title = title:c_crandor
+
+    	}
+
+
+}

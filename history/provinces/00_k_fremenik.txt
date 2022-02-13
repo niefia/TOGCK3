@@ -1,0 +1,133 @@
+153 = {	# 1 - 1
+
+	# Misc
+	culture = fremenik
+	religion = guthixian
+	holding = castle_holding
+
+}
+
+154 = {	# 1 - 1
+
+	# Misc
+	culture = fremenik
+	religion = guthixian
+	holding = castle_holding
+
+}
+155 = {	# 1 - 1
+
+	# Misc
+	culture = fremenik
+	religion = guthixian
+	holding = castle_holding
+
+}
+
+156 = {	# 1 - 1
+
+	# Misc
+	culture = fremenik
+	religion = guthixian
+	holding = castle_holding
+
+}
+157 = {	# 1 - 1
+
+	# Misc
+	culture = fremenik
+	religion = guthixian
+	holding = castle_holding
+
+}
+158 = {	# 1 - 1
+
+	# Misc
+	culture = fremenik
+	religion = guthixian
+	holding = castle_holding
+
+}
+159 = {	# 1 - 1
+
+	# Misc
+	culture = fremenik
+	religion = guthixian
+	holding = castle_holding
+
+}
+160 = {	# 1 - 1
+
+	# Misc
+	culture = fremenik
+	religion = guthixian
+	holding = castle_holding
+
+}
+161 = {	# 1 - 1
+
+	# Misc
+	culture = fremenik
+	religion = guthixian
+	holding = castle_holding
+
+}
+162 = {	# 1 - 1
+
+	# Misc
+	culture = fremenik
+	religion = guthixian
+	holding = castle_holding
+
+}
+163 = {	# 1 - 1
+
+	# Misc
+	culture = fremenik
+	religion = guthixian
+	holding = castle_holding
+
+}
+164 = {	# 1 - 1
+
+	# Misc
+	culture = fremenik
+	religion = guthixian
+	holding = castle_holding
+
+}
+194 = {	# 1 - 1
+
+	# Misc
+	culture = fremenik
+	religion = guthixian
+	holding = castle_holding
+
+}
+211= {	# 1 - 1
+
+	# Misc
+	culture = dwarven
+	religion = guthixian
+	holding = castle_holding
+
+}
+212= {	# 1 - 1
+
+	# Misc
+	culture = dwarven
+	religion = guthixian
+	holding = castle_holding
+
+}
+
+
+
+9 = {	# 1 - 1
+
+	# Misc
+	culture = fremenik
+	religion = guthixian
+	holding = castle_holding
+
+}

@@ -1,0 +1,231 @@
+﻿#*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+immortality = {
+	index = 286
+	immortal = yes
+	no_prowess_loss_from_age = yes
+
+	can_have_children = yes
+
+	genetic = no
+	physical = yes
+	health_trait  = yes
+	good = yes
+
+	health = 10
+	negate_health_penalty_add = 10
+	inherit_chance = 0
+	inbreeding_chance = -0.5
+
+	negate_fertility_penalty_add  = 1.0
+	#negate_prowess_penalty_add = 20
+	years_of_fertility = 9999
+
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = 800
+	#group = immortality
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_immortality_desc
+            }
+            desc = trait_immortality_character_desc
+        }
+    }
+}
+###############################
+immortality_vampire = {
+	index = 289
+	immortal = yes
+	no_prowess_loss_from_age = yes
+
+	can_have_children = yes
+
+	genetic = no
+	physical = yes
+	health_trait  = yes
+	good = yes
+
+	health = 10
+	negate_health_penalty_add = 10
+	inherit_chance = 0
+	inbreeding_chance = -0.5
+
+	negate_fertility_penalty_add  = 1.0
+	#negate_prowess_penalty_add = 20
+	years_of_fertility = 9999
+
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = 800
+	#group = immortality
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_immortality_desc
+            }
+            desc = trait_immortality_character_desc
+        }
+    }
+}
+
+
+#*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+immortality_sterile = {
+	index = 287
+	immortal = yes
+	no_prowess_loss_from_age = yes
+
+	can_have_children = no
+
+	genetic = no
+	physical = yes
+	health_trait  = yes
+	good = yes
+
+	health = 10
+	negate_health_penalty_add = 10
+	inherit_chance = 0
+	inbreeding_chance = -0.5
+
+	#negate_fertility_penalty_add  = 1.0
+	#negate_prowess_penalty_add = 20
+	#years_of_fertility = 9999
+
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = 400
+	#group = immortality
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_immortality_sterile_desc
+            }
+            desc = trait_immortality_sterile_character_desc
+        }
+    }
+}
+#*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+immortality_genetic = {
+	index = 288
+	immortal = yes
+	no_prowess_loss_from_age = yes
+
+	can_have_children = yes
+
+	genetic = yes
+	physical = yes
+	health_trait  = yes
+	good = yes
+
+	health = 10
+	negate_health_penalty_add = 10
+	inherit_chance = 100
+	inbreeding_chance = -0.5
+
+	negate_fertility_penalty_add  = 1.0
+	#negate_prowess_penalty_add = 20
+	years_of_fertility = 9999
+
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = 1600
+	#group = immortality
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_immortality_genetic_desc
+            }
+            desc = trait_immortality_genetic_character_desc
+        }
+    }
+}
+#*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+immortal = {
+	index = 285
+	immortal = yes
+	no_prowess_loss_from_age = yes
+
+	can_have_children = yes
+
+	genetic = no
+	physical = yes
+	health_trait  = yes
+	good = yes
+
+	health = 10
+	negate_health_penalty_add = 10
+	inherit_chance = 0
+	inbreeding_chance = -0.5
+
+	negate_fertility_penalty_add  = 1.0
+	#negate_prowess_penalty_add = 20
+	years_of_fertility = 9999
+
+	shown_in_ruler_designer = no
+	ruler_designer_cost = 500
+	#group = immortality
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_immortal_1_desc
+            }
+            desc = trait_immortal_character_1_character_desc
+        }
+    }
+}
+#*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+ageless = {
+	index = 284
+	immortal = yes
+	no_prowess_loss_from_age = yes
+
+	can_have_children = yes
+
+	genetic = no
+	physical = yes
+	health_trait  = yes
+	good = yes
+
+	health = 10
+	negate_health_penalty_add = 10
+	inherit_chance = 0
+	inbreeding_chance = -0.5
+
+	negate_fertility_penalty_add  = 1.0
+	#negate_prowess_penalty_add = 20
+	years_of_fertility = 9999
+
+	shown_in_ruler_designer = no
+	ruler_designer_cost = 500
+	#group = immortality
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_ageless_1_desc
+            }
+            desc = trait_ageless_character_1_character_desc
+        }
+    }
+}
+#*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=

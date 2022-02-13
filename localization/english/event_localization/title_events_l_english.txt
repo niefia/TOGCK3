@@ -1,0 +1,4 @@
+l_english:
+DSLAYER1_TITLE:0 "Dragon Slayer"
+DSLAYER1_DESCRIPTION:0 "Dragon"
+dragonslayer_desc:0 "Slay Elvarg"
