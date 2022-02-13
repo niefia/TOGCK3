@@ -1,2 +1,23 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+#NOTE: Run `git add : --renormalize` after editing this file.
+
+## Defaults
+## -----------------------------------------------------------------------------
+* text=auto eol=lf
+
+## Code
+*.csv text
+*.heightmap text
+*.mod text
+*.txt text
+
+## Documentation
+*.md text
+
+## Images
+*.dds binary
+*.png binary
+*.tga binary
+
+## Fonts
+*.otf binary
+*.ttf binary
