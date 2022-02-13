@@ -2,13 +2,14 @@
 
 ## Defaults
 ## -----------------------------------------------------------------------------
-* text=auto eol=lf
+* text=auto eol=crlf
 
 ## Code
 *.csv text
 *.heightmap text
 *.mod text
 *.txt text
+*.yml text
 
 ## Documentation
 *.md text
