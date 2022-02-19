@@ -1,0 +1,29 @@
+root=true
+
+## Defaults
+## -----------------------------------------------------------------------------
+[*]
+
+## Tabulation
+indent_style = space
+indent_size  = 4
+
+## Lines
+end_of_line = crlf
+insert_final_newline = true
+max_line_length = off
+
+## Required for most files in Paradox Interactive mods
+charset = windows-1252
+
+## Extension-specific settings
+## -----------------------------------------------------------------------------
+
+## Files that require 2-space indents
+[{*.md, *.yml}]
+indent_style = space
+indent_size = 2
+
+## Localisation files require UTF-8 with BOM.
+[{*.yml}]
+charset = utf-8-bom
