@@ -1,0 +1,247 @@
+﻿seren_religion = {
+	family = rf_rspan
+
+	doctrine = doctrine_monogamy
+	doctrine = heresy_hostility_doctrine # Needs to be before eastern_hostility_doctrine in order to override the same religion hostility
+	doctrine = eastern_hostility_doctrine
+	doctrine = doctrine_gender_equal
+	doctrine = doctrine_no_head
+	doctrine = doctrine_concubines
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_witchcraft_shunned
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_consanguinity_cousins
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_lay_clergy
+	doctrine = doctrine_clerical_function_taxation
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_fixed_appointment
+	piety_icon_group = "zoroastrian"
+
+	traits = {
+		virtues = { honest just diligent }
+		sins = { deceitful lazy sadistic }
+	}
+
+	reserved_male_names = {
+		Hormazd Maziar Shapur Vandad Zartosht
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_immortals" }
+		{ name = "holy_order_ahura_mazdas_champions" }
+		{ name = "holy_order_fire_walkers" }
+	}
+
+	holy_order_maa = { mubarizun }
+
+	localization = {
+		HighGodName = seren_high_god_name
+		HighGodNamePossessive = seren_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = seren_high_god_name_alternate
+		HighGodNameAlternatePossessive = seren_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = seren_creator_god_name
+		CreatorNamePossessive = seren_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+		HealthGodName = seren_health_god_name
+		HealthGodNamePossessive = seren_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#FertilityGod
+		FertilityGodName = seren_fertility_god_name
+		FertilityGodNamePossessive = seren_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_HE
+		FertilityGodHerHis = CHARACTER_HERHIS_HIS
+		FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WealthGod
+		WealthGodName = seren_wealth_god_name
+		WealthGodNamePossessive = seren_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = seren_household_god_name
+		HouseholdGodNamePossessive = seren_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+		#FateGod
+		FateGodName = seren_fate_god_name
+		FateGodNamePossessive = seren_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_IT
+		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHim = CHARACTER_HERHIM_IT
+
+		#KnowledgeGod
+		KnowledgeGodName = seren_knowledge_god_name
+		KnowledgeGodNamePossessive = seren_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = seren_war_god_name
+		WarGodNamePossessive = seren_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#TricksterGod
+		TricksterGodName = seren_trickster_god_name
+		TricksterGodNamePossessive = seren_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_SHE
+		TricksterGodHerHis = CHARACTER_HERHIS_HER
+		TricksterGodHerHim = CHARACTER_HERHIM_HER
+
+		#NightGod
+		NightGodName = seren_night_god_name
+		NightGodNamePossessive = seren_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WaterGod
+		WaterGodName = seren_water_god_name
+		WaterGodNamePossessive = seren_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+
+
+		PantheonTerm = seren_high_god_name
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = {
+			seren_high_god_name
+			seren_high_god_name_alternate
+			seren_good_god_zoroaster
+			seren_good_god_asha
+			seren_good_god_truth
+			seren_good_god_amesha_spenta
+			seren_good_god_divine_spark
+			seren_good_god_saoshyant
+		}
+		DevilName = seren_devil_name
+		DevilNamePossessive = seren_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = {
+			seren_devil_name
+			seren_evil_god_angra_mainyu
+			seren_evil_god_daevas
+		}
+		HouseOfWorship = seren_house_of_worship
+		HouseOfWorshipPlural = seren_house_of_worship_plural
+		ReligiousSymbol = seren_religious_symbol
+		ReligiousText = seren_religious_text
+		ReligiousHeadName = seren_religious_head_title
+		ReligiousHeadTitleName = dualism_religious_head_title_name
+		DevoteeMale = seren_devotee_male
+		DevoteeMalePlural = seren_devotee_male_plural
+		DevoteeFemale = seren_devotee_female
+		DevoteeFemalePlural = seren_devotee_female_plural
+		DevoteeNeuter = seren_devotee_male
+		DevoteeNeuterPlural = seren_devotee_male_plural
+		PriestMale = seren_priest_male
+		PriestMalePlural = seren_priest_male_plural
+		PriestFemale = seren_priest_female
+		PriestFemalePlural = seren_priest_female_plural
+		PriestNeuter = seren_priest_male
+		PriestNeuterPlural = seren_priest_male_plural
+		AltPriestTermPlural = seren_alternate_priest_term_plural
+		BishopMale = seren_bishop_male
+		BishopMalePlural = seren_bishop_male_plural
+		BishopFemale = seren_bishop_female
+		BishopFemalePlural = seren_bishop_female_plural
+		BishopNeuter = seren_bishop_male
+		BishopNeuterPlural = seren_bishop_male_plural
+		DivineRealm = seren_divine_realm
+		PositiveAfterLife = seren_positive_afterlife
+		NegativeAfterLife = seren_negative_afterlife
+		DeathDeityName = seren_devil_name
+		DeathDeityNamePossessive = seren_devil_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = seren_devil_name
+		WitchGodHerHis = CHARACTER_SHEHE_HE
+		WitchGodSheHe = CHARACTER_HERHIS_HIS
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = master
+		WitchGodMotherFather = father
+
+		GHWName = ghw_purification
+		GHWNamePlural = ghw_purifications
+	}
+
+	faiths = {
+
+		serenist = {
+			color = { 0.3 0.3 0.3 }
+			icon = seren
+			religious_head = d_hpriestser
+			holy_site = digsite
+
+			doctrine = tenet_communal_identity
+			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_guthix_syncretism
+
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_consanguinity_unrestricted
+		}
+
+		darklord = {
+			color = { 0.3 0.5 0.3 }
+			icon = seren
+			religious_head = d_hpriestdark
+			holy_site = digsite
+
+			doctrine = tenet_communal_identity
+			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_human_sacrifice
+
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_consanguinity_unrestricted
+		}
+		tarddiadian = {
+			color = { 0.3 0.5 0.3 }
+			icon = seren
+			religious_head = d_hpriesttardia
+			holy_site = digsite
+
+			doctrine = tenet_communal_identity
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_inner_journey
+
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_consanguinity_unrestricted
+		}
+
+
+
+	}
+}

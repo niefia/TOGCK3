@@ -1,0 +1,48 @@
+c_varrock = {
+	11765.1.1 = {
+		holder = 6000002
+		government = feudal_government
+	}
+}
+k_misthalin = {
+	11765.1.1 = {
+		holder = 6000002
+		government = feudal_government
+	}
+}
+
+
+
+
+c_lumbridge = {
+	11765.1.1 = {
+		holder = 6000003
+		government = feudal_government
+	}
+}
+d_lumbridge = {
+	11765.1.1 = {
+		holder = 6000003
+		liege = k_misthalin
+		government = feudal_government
+	}
+}
+
+c_draynor = { 
+	11765.1.1 = {
+		holder = 6000006
+		government = feudal_government
+	}
+}
+c_kingston = { 
+	11765.1.1 = {
+		holder = 6000006
+		government = feudal_government
+	}
+}
+c_fenwick = { 
+	11765.1.1 = {
+		holder = 6000006
+		government = feudal_government
+	}
+}

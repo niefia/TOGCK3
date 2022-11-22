@@ -4,7 +4,7 @@
 	doctrine = doctrine_monogamy
 	doctrine = heresy_hostility_doctrine # Needs to be before eastern_hostility_doctrine in order to override the same religion hostility
 	doctrine = eastern_hostility_doctrine
-	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_gender_equal
 	doctrine = doctrine_no_head
 	doctrine = doctrine_concubines
 	doctrine = doctrine_divorce_approval
@@ -203,12 +203,11 @@
 			color = { 0.5 0.1 0.5 }
 			icon = bandos
 			religious_head = d_hpriestban
-			holy_site = entrana
 			holy_site = digsite
 
 			doctrine = tenet_warmonger
-			doctrine = tenet_sky_burials
-			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_unrelenting_faith
 
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_consanguinity_unrestricted

@@ -1,0 +1,28 @@
+britan = {
+	color = hsv { 0.64 0.6 0.72 }
+
+	ethos = ethos_stoic
+	heritage = heritage_brythonic
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_concubines
+		tradition_highland_warriors
+		tradition_stalwart_defenders
+	}
+
+	name_list = name_list_cumbrian
+
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}

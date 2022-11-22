@@ -2,11 +2,11 @@
 @better_than_the_alternatives_score = 50
 @always_primary_score = 1000
 
-e_test = {
+e_zaros = {
 	color =  hsv{ 0.9 1 0.3 } #hsv{ 0.73 0.8 0.4 }  #hsv{ 0.77 0.8 0.6 } #{ 143 12 125 }
 	color2 = { 255 255 255 }
 
-	capital = c_digsite
+	capital = c_senntisten
 
 	definite_form = yes
 
@@ -19,11 +19,11 @@ e_test = {
 		}
 	}
 
-	k_misthalin = {
-		color = { 128 1 182 }
-		color2 = { 255 255 255 }
+k_polonia = {
+		color = { 85 153 221 }
+		color2 = { 255 255 23 }
 
-		capital = c_pvar
+		capital = c_varrock
 
 		ai_primary_priority = {
 			if = {
@@ -34,3282 +34,5948 @@ e_test = {
 			}
 		}
 
-		d_lumbridge = {
-			color = { 17 70 127 }
+		d_aldreth = {
+			color = { 155 155 90 }
 			color2 = { 255 255 255 }
-			capital = c_lumbridge
-			
-			c_lumbridge = {
-				color = { 17 70 127 }
+
+			capital = upware
+
+			c_upware = {
+				color = { 155 155 90 }
 				color2 = { 255 255 255 }
 
-				b_lumbridge = {
+				b_upware = {
 					province = 1
 
-					color = { 17 70 127 }
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-				
-				
-				b_lumvill = {
-					province = 196
 
-					color = { 17 70 127 }
-					color2 = { 255 255 255 }
-				}
-				b_lumabbey = {
-					province = 197
+				b_upfarm = {
+					province = 2
 
-					color = { 17 70 127 }
+					color = { 170 65 90 }
 					color2 = { 255 255 255 }
 				}
-				
-				b_lumfarm = {
+				b_upeast = {
+					province = 3
+
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+				b_upnorth = {
+					province = 4
+
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+			}
+
+
+
+			c_hamwick = {
+				color = { 155 155 90 }
+				color2 = { 255 255 255 }
+
+				b_hamwick = {
+					province = 8
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hamwickb = {
+					province = 9
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hamwickc = {
+					province = 10
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hamwickd = {
+					province = 11
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hamwicke = {
+					province = 12
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+			}
+
+
+
+			c_millston = {
+				color = { 155 155 90 }
+				color2 = { 255 255 255 }
+
+				b_millston = {
+					province = 13
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_millstona = {
+					province = 14
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_millstonb = {
+					province = 15
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_millstonc = {
+					province = 16
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+			}
+
+
+
+			c_aldreth = {
+				color = { 155 155 90 }
+				color2 = { 255 255 255 }
+
+				b_aldreth = {
+					province = 17
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_aldretha = {
+					province = 18
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_aldrethb = {
+					province = 19
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_aldrethc = {
+					province = 20
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_aldrethd = {
+					province = 21
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+			}
+
+
+
+		}
+
+		d_draynor = {
+		color = { 255 80 80 }
+				color2 = { 255 255 255 }
+
+		c_halburn = {
+				color = { 220 85 60 }
+				color2 = { 255 255 255 }
+
+				b_halburn = {
+					province = 22
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_halburna = {
+					province = 23
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_halburnb = {
+					province = 24
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_halburnc = {
+					province = 25
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_halburnd = {
+					province = 26
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+			}
+
+
+			c_fenwick = {
+				color = { 255 85 80 }
+				color2 = { 255 255 255 }
+
+				b_fenwick = {
+					province = 27
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_fenwicka = {
+					province = 28
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_fenwickb = {
 					province = 29
 
-					color = { 17 70 127 }
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-				
-				
-				
-				
-				
-			}
-		
-			c_lumbnor = {
-			 color = { 17 70 127 }
-			 
-			b_lumnorth = {
+				b_fenwickc = {
 					province = 30
 
-					color = { 17 70 127 }
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-				
-			b_lumnor = {
+				b_fenwickd = {
 					province = 31
 
-					color = { 17 70 127 }
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-			
-			}
-			
-			
-			c_lumeast = {
-				color = { 55 182 34 }
-				color2 = { 255 255 255 }
 
-				b_lumeast = {
-					province = 15
-					color = { 55 182 34 }
-					color2 = { 255 255 255 }
-				}
-				b_svar = {
-					province = 21
-					color = { 17 70 127 }
-					color2 = { 255 255 255 }
-				}
-				
-			}
-			
-			
-			
-			
-			
-			c_lumswamp = {
-				color = { 17 70 127 }
-				color2 = { 255 255 255 }
+				b_fenwicke = {
+					province = 32
 
-				b_lumswamp = {
-					province = 16
-					color = { 17 70 127 }
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-			}
-			
-			
-		}
-		
-		
-		d_islands = {
-			color = { 22 225 225 }
-			color2 = { 255 255 255 }
-			capital = c_wizard
-			
-		
-			c_wizard = {
-				color = { 22 225 225 }
-				color2 = { 255 255 255 }
 
-				b_wizard = {
-					province = 14
-					color = { 22 225 225 }
-					color2 = { 255 255 255 }
-				}
 			}
-			
-			c_tutorial = {
-				color = { 93 220 233 }
-				color2 = { 255 255 255 }
 
-				b_tutorial = {
-					province = 13
-					color = { 22 225 105 }
-					color2 = { 255 255 255 }
-				}
-				b_tutnw = {
-					province = 205
-					color = { 22 225 105 }
-					color2 = { 255 255 255 }
-				}
-				b_tutsw = {
-					province = 206
-					color = { 22 225 105 }
-					color2 = { 255 255 255 }
-				}
-				b_tutse = {
-					province = 207
-					color = { 22 225 105 }
-					color2 = { 255 255 255 }
-				}
-				b_tutne = {
-					province = 208
-					color = { 22 225 105 }
-					color2 = { 255 255 255 }
-				}
-				
-				
-				
-			}
-		
-		}
-		
-		
-		
-		
-		
-		
-		
-		d_draynor = {
-			color = { 221 0 0  }
-			color2 = { 255 255 255 }
-			capital = c_draynor
 			c_draynor = {
-				color = { 221 0 0 }
+				color = { 255 85 80 }
 				color2 = { 255 255 255 }
 
 				b_draynor = {
-					province = 17
-					color = { 221 0 0 }
+					province = 33
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-				b_wdraynor = {
-					province = 195
-					color = { 221 0 0 }
+				b_draynora = {
+					province = 34
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-				
-				
-				
-				
-				}
-				c_manor = {
-				color = { 102 0 0 }
-				b_manor = {
-					province = 18
-					color = { 102 0 0 }
+				b_draynorb = {
+					province = 35
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-				
-			
+				b_draynorc = {
+					province = 36
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_draynord = {
+					province = 37
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_draynore = {
+					province = 38
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_draynorf = {
+					province = 39
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
 			}
+
+			c_kingston = {
+				color = { 235 85 90 }
+				color2 = { 255 255 255 }
+
+				b_kingston = {
+					province = 58
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_kingstona = {
+					province = 59
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kingstonb = {
+					province = 60
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kingstonc = {
+					province = 61
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kingstond = {
+					province = 62
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+		}
+
+		c_fangwood  = {
+				color = { 235 85 90 }
+				color2 = { 255 255 255 }
+
+				b_fangwood = {
+					province = 193
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_fangwooda = {
+					province = 194
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_fangwoodb = {
+					province = 195
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+		}
+
+
+
+
+
+
+
+		}
+
+		d_lumbridge = {
+				color = { 85 153 221 }
+				color2 = { 255 255 255 }
+
+		c_lumbridge = {
+				color = { 85 153 221  }
+				color2 = { 255 255 255 }
+
+				b_lumbridge = {
+					province = 40
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_lumbridgea = {
+					province = 41
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lumbridgeb = {
+					province = 42
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lumbridgec = {
+					province = 43
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lumbridged = {
+					province = 44
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lumbridgee = {
+					province = 45
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lumbridgef = {
+					province = 46
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_lumbridgeg = {
+					province = 47
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+		}
+
+		c_upperlumbridge = {
+				color = { 85 153 231 }
+				color2 = { 255 255 255 }
+
+				b_norbridge = {
+					province = 48
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_norbridgea = {
+					province = 49
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_norbridgeb = {
+					province = 50
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_norbridgec = {
+					province = 51
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_norbridged = {
+					province = 52
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+		}
+
+		c_arbury = {
+				color = { 85 143 241 }
+				color2 = { 255 255 255 }
+
+				b_arbury = {
+					province = 53
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_arburya = {
+					province = 54
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_arburyb = {
+					province = 55
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_arburyc = {
+					province = 56
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_arburyd = {
+					province = 57
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+		}
+
+
+		c_wormbrain = {
+				color = { 85 143 241 }
+				color2 = { 255 255 255 }
+
+				b_wormbrain = {
+					province = 63
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_wormbraina = {
+					province = 64
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_wormbrainb = {
+					province = 65
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_wormbrainc = {
+					province = 66
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_wormbraind = {
+					province = 67
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+		}
+		}
+
+		d_lowerlum = {
+				color = { 85 153 221 }
+				color2 = { 255 255 255 }
+
+		c_swamplum = {
+				color = { 85 153 221  }
+				color2 = { 255 255 255 }
+
+				b_swamplum = {
+					province = 143
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_swampluma = {
+					province = 144
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_swamplumb = {
+					province = 145
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_swamplumc = {
+					province = 146
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_swamplumd = {
+					province = 147
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+
+
+		}
+
+		c_lowerlum = {
+				color = { 85 153 221  }
+				color2 = { 255 255 255 }
+
+				b_lowerlum = {
+					province = 148
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lowerluma = {
+					province = 149
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lowerlumb = {
+					province = 150
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lowerlumc = {
+					province = 151
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lowerlumd = {
+					province = 152
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+
+
+		}
+
+		c_paethsmouth = {
+				color = { 85 153 221  }
+				color2 = { 255 255 255 }
+
+				b_paethsmouth = {
+					province = 226
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_paethsmoutha = {
+					province = 227
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_paethsmouthb = {
+					province = 228
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+
+
+
+		}
+
+		c_huthwaite = {
+				color = { 85 153 221  }
+				color2 = { 255 255 255 }
+
+				b_huthwaite = {
+					province = 229
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_huthwaitea = {
+					province = 230
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_huthwaiteb = {
+					province = 231
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+
+
+
+		}
+
+		c_airedale = {
+				color = { 85 153 221  }
+				color2 = { 255 255 255 }
+
+				b_airedale = {
+					province = 232
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_airedalea = {
+					province = 233
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_airedaleb = {
+					province = 234
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+
+
+
+		}
+
+		c_dornwich = {
+				color = { 85 153 221  }
+				color2 = { 255 255 255 }
+
+				b_dornwich = {
+					province = 235
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_dornwicha = {
+					province = 236
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_dornwichb = {
+					province = 237
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_dornwichc = {
+					province = 238
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+
+
+
+		}
+
+
+
+
+
+
+
+		}
+
+		d_lindow = {
+				color = { 85 153 221 }
+				color2 = { 255 255 255 }
+
+				c_lindow = {
+				color = { 85 153 221  }
+				color2 = { 255 255 255 }
+
+				b_lindow = {
+					province = 239
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lindowa = {
+					province = 240
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lindowb = {
+					province = 241
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lindowc = {
+					province = 242
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+		}
+		c_sanlow = {
+				color = { 85 153 221  }
+				color2 = { 255 255 255 }
+
+				b_sanlow = {
+					province = 243
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_sanlowa = {
+					province = 244
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_sanlowb = {
+					province = 245
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_sanlowc = {
+					province = 246
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+		}
+
+		c_murkwell = {
+				color = { 85 153 221  }
+				color2 = { 255 255 255 }
+
+				b_murkwell = {
+					province = 247
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_murkwella = {
+					province = 248
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_murkwellb = {
+					province = 249
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+		}
+
+		c_hamford = {
+				color = { 85 153 221  }
+				color2 = { 255 255 255 }
+
+				b_hamford = {
+					province = 250
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hamforda = {
+					province = 251
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hamfordb = {
+					province = 252
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+		}
+
+
+
+
+		}
+
+		}
+
+
+
+
+
+	k_misthalin {
+		color = { 175 30 130 }
+		color2 = { 255 255 23 }
+
+
+		d_sennisten = {
+				color = { 175 30 130 }
+				color2 = { 255 255 255 }
+
+
+		c_alton = {
+				color = { 180 25 100 }
+				color2 = { 255 255 255 }
+
+				b_alton = {
+					province = 68
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_altona = {
+					province = 69
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_altonb = {
+					province = 70
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_altonc = {
+					province = 71
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+		}
+
+		c_senntisten = {
+				color = { 185 10 80 }
+				color2 = { 255 255 255 }
+
+				b_senntisten = {
+					province = 72
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_senntistena = {
+					province = 73
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_senntistenb = {
+					province = 74
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_senntistenc = {
+					province = 75
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_senntistend = {
+					province = 76
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_senntistene = {
+					province = 77
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+		}
+
+
+		c_contela = {
+				color = { 170 55 90 }
+				color2 = { 255 255 255 }
+
+				b_contela = {
+					province = 78
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_contelaa = {
+					province = 79
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_contelab = {
+					province = 80
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_contelac = {
+					province = 81
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+		}
+
+		c_felmond = {
+				color = { 49 43 135 }
+				color2 = { 255 255 255 }
+
+				b_felmond = {
+					province = 90
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_felmonda = {
+					province = 91
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_felmondb = {
+					province = 92
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_felmondc = {
+					province = 93
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+		}
+
+		c_albrigh = {
+				color = { 70 35 130 }
+				color2 = { 255 255 255 }
+
+				b_albrigh = {
+					province = 94
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_albrigha = {
+					province = 95
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_albrighb = {
+					province = 96
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_albrighc = {
+					province = 97
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+		}
+
+
+
+
+
+
+		}
 		
-		
+		d_dalery = {
+				color = { 175 30 130 }
+				color2 = { 255 255 255 }
+
+
+		c_dalery = {
+				color = { 180 25 100 }
+				color2 = { 255 255 255 }
+
+				b_dalery = {
+					province = 349
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_dalerya = {
+					province = 350
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_daleryb = {
+					province = 351
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+			}
+		c_pendle = {
+				color = { 180 25 100 }
+				color2 = { 255 255 255 }
+
+				b_pendle = {
+					province = 352
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_pendlea = {
+					province = 353
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_pendleb = {
+					province = 354
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_pendlec = {
+					province = 355
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+		c_mirstone = {
+				color = { 180 25 100 }
+				color2 = { 255 255 255 }
+
+				b_mirstone = {
+					province = 356
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_mirstonea = {
+					province = 357
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_mirstoneb = {
+					province = 358
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_mirstonec = {
+					province = 359
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_mirstoned = {
+					province = 360
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+		c_berxley = {
+				color = { 180 25 100 }
+				color2 = { 255 255 255 }
+
+				b_berxley = {
+					province = 361
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_berxleya = {
+					province = 362
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_berxleyb = {
+					province = 363
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_berxleyc = {
+					province = 364
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+			}
+			
+			
 		}
 		
 		
-		d_edgeville = {
-			color = { 176 123 70 }
-			color2 = { 255 255 255 }
-			capital = c_edgeville
-			
-			c_edgeville = {
-				color = { 176 123 70}
+		
+		
+
+		d_varrock = {
+				color = { 171 168 32 }
 				color2 = { 255 255 255 }
+
+
+				c_varrock = {
+
+				color = { 171 168 32 }
+				color2 = { 255 255 255 }
+
+
+
+				b_varrock = {
+					province = 82
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_varrocka = {
+					province = 83
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_varrockb = {
+					province = 84
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_varrockc = {
+					province = 85
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_varrockd = {
+					province = 86
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_varrocke = {
+					province = 87
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_varrockf = {
+					province = 88
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_varrockg = {
+					province = 89
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+		}
+
+		c_valesbury = {
+
+				color = { 171 168 32 }
+				color2 = { 255 255 255 }
+
+
+
+				b_valesbury = {
+					province = 139
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_valesburya = {
+					province = 140
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_valesburyb = {
+					province = 141
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_valesburyc = {
+					province = 142
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+		}
+
+
+		c_nvar = {
+
+				color = { 171 168 32 }
+				color2 = { 255 255 255 }
+
+
+
+				b_nvar = {
+					province = 188
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_nvara = {
+					province = 189
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_nvarb = {
+					province = 190
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_nvarc = {
+					province = 191
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_nvard = {
+					province = 192
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+		}
+		c_evar = {
+
+				color = { 171 168 32 }
+				color2 = { 255 255 255 }
+
+
+
+				b_evar = {
+					province = 305
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_evara = {
+					province = 306
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_evarb = {
+					province = 307
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_evarc = {
+					province = 308
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+		}
+		
+		c_wvar = {
+
+				color = { 171 168 32 }
+				color2 = { 255 255 255 }
+
+
+
+				b_wvar = {
+					province = 365
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_wvara = {
+					province = 366
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_wvarb = {
+					province = 367
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_wvarc= {
+					province = 368
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_wvard= {
+					province = 369
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+		}
+		
+
+
+
+
+
+				}
+
+
+
+		d_edgeville = {
+				color = { 171 168 32 }
+				color2 = { 255 255 255 }
+
+
+				c_edgeville = {
+
+				color = { 171 168 32 }
+				color2 = { 255 255 255 }
+
+
 
 				b_edgeville = {
-					province = 20
-					color = { 17 70 127 }
+					province = 158
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-				
-				b_edgef = {
+
+				b_edgevillea = {
+					province = 159
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_edgevilleb = {
+					province = 160
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_edgevillec = {
+					province = 161
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_edgevilled = {
+					province = 162
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+				}
+
+				c_paddewwa  = {
+
+				color = { 171 168 32 }
+				color2 = { 255 255 255 }
+
+
+
+				b_paddewwa = {
+					province = 180
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_paddewwaa = {
+					province = 181
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_paddewwab = {
+					province = 182
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+				}
+
+
+			}
+
+
+			d_paterdomus = {
+				color = { 220 30 75 }
+				color2 = { 255 255 255 }
+
+
+				c_paterdomus = {
+
+				color = { 220 30 75 }
+				color2 = { 255 255 255 }
+
+
+
+				b_paterdomus = {
+					province = 163
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_paterdomusa = {
+					province = 164
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_paterdomusb = {
+					province = 165
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_paterdomusc = {
+					province = 166
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_paterdomusd = {
+					province = 167
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+				}
+
+				c_silvarea = {
+
+				color = { 175 20 100 }
+				color2 = { 255 255 255 }
+
+
+
+				b_silvarea = {
+					province = 168
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_silvareaa = {
+					province = 169
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_silvareab = {
+					province = 170
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_silvareac = {
+					province = 171
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+				}
+
+				c_tolna = {
+
+				color = { 150 15 150 }
+				color2 = { 255 255 255 }
+
+
+
+				b_tolna = {
+					province = 172
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_tolnaa = {
+					province = 173
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tolnab = {
+					province = 174
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tolnac = {
+					province = 175
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+				}
+
+				c_eastbourne = {
+
+				color = { 180 10 175 }
+				color2 = { 255 255 255 }
+
+
+
+				b_eastbourne = {
+					province = 176
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_eastbournea = {
+					province = 177
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_eastbourneb = {
+					province = 178
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_eastbournec = {
+					province = 179
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+				}
+
+
+
+
+			}
+
+
+
+
+
+
+
+
+		d_skipton = {
+				color = { 189 19 130 }
+				color2 = { 255 255 255 }
+
+			c_skipton= {
+
+				color = { 189 19 130 }
+				color2 = { 255 255 255 }
+
+				b_skipton = {
+					province = 105
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_skiptona = {
+					province = 106
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_skiptonb = {
+					province = 107
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_skiptonc = {
+					province = 108
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+
+				}
+
+
+				c_marave= {
+
+				color = { 165 30 170 }
+				color2 = { 255 255 255 }
+
+				b_marave = {
+					province = 109
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_maravea = {
+					province = 110
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_maraveb = {
+					province = 111
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_maravec = {
+					province = 112
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				}
+
+				c_monzan= {
+
+				color = { 220 50 170 }
+				color2 = { 255 255 255 }
+
+				b_monzan = {
+					province = 113
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_monzana = {
+					province = 114
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_monzanb = {
+					province = 115
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_monzanc = {
+					province = 116
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_monzand = {
+					province = 117
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				}
+
+
+				}
+
+				d_guildside = {
+
+				color = { 170 30 165 }
+				color2 = { 255 255 255 }
+
+
+				c_chiston= {
+
+				color = { 170 30 165 }
+				color2 = { 255 255 255 }
+
+				b_chiston = {
+					province = 118
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_chistona = {
+					province = 119
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_chistonb = {
+					province = 120
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_chistonc = {
+					province = 121
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+				}
+
+
+				c_warlow= {
+
+				color = { 205 35 165 }
+				color2 = { 255 255 255 }
+
+				b_warlow = {
+					province = 122
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_warlowa = {
+					province = 123
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_warlowb = {
+					province = 124
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+				}
+
+				c_guildside = {
+				color = { 185 60 150 }
+				color2 = { 255 255 255 }
+
+				b_guildside = {
+					province = 5
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_guildsidesouth = {
+					province = 6
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_guildsideorth = {
+					province = 7
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+			}
+
+
+
+
+				}
+
+
+				d_ashbourne = {
+
+				color = { 134 63 109  }
+				color2 = { 255 255 255 }
+
+
+				c_ashbourne= {
+
+				color = { 134 63 109  }
+				color2 = { 255 255 255 }
+
+				b_ashbourne = {
+					province = 126
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_ashbournea = {
+					province = 127
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_ashbourneb = {
+					province = 128
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_ashbournec = {
+					province = 129
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				}
+
+				c_whiteridge= {
+
+				color = { 140 70 75 }
+				color2 = { 255 255 255 }
+
+				b_whiteridge = {
+					province = 130
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_whiteridgea = {
+					province = 131
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_whiteridgeb = {
+					province = 132
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_whiteridgec = {
+					province = 133
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_whiteridged = {
+					province = 134
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				}
+
+				c_lowestoft= {
+
+				color = { 150 100 140 }
+				color2 = { 255 255 255 }
+
+				b_lowestoft = {
+					province = 135
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lowestofta = {
+					province = 136
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lowestoftb = {
+					province = 137
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lowestoftc = {
+					province = 138
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+				}
+
+
+
+
+				}
+
+			d_kelna = {
+
+				color = { 185 130 150}
+				color2 = { 255 255 255 }
+
+
+				c_kelna= {
+
+				color = { 185 130 150 }
+				color2 = { 255 255 255 }
+
+				b_kelna = {
+					province = 196
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kelnaa = {
+					province = 197
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kelnab = {
+					province = 198
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kelnac = {
+					province = 199
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+				}
+
+				c_northon= {
+
+				color = { 137 27 99 }
+				color2 = { 255 255 255 }
+
+				b_northon = {
+					province = 276
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_northona = {
+					province = 277
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_northonb = {
+					province = 278
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+
+				}
+
+				c_hythe= {
+
+				color = { 140 65 85 }
+				color2 = { 255 255 255 }
+
+				b_hythe = {
+					province = 279
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hythea = {
+					province = 280
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hytheb = {
+					province = 281
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hythec = {
+					province = 282
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+				}
+
+
+					c_windermere= {
+
+				color = { 130 40 60 }
+				color2 = { 255 255 255 }
+
+				b_windermere = {
+					province = 283
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_windermerea = {
+					province = 284
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_windermereb = {
+					province = 285
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_windermerec = {
+					province = 286
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+				}
+
+				c_bredon= {
+
+				color = { 140 70 140 }
+				color2 = { 255 255 255 }
+
+				b_bredon = {
+					province = 287
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_bredona = {
+					province = 288
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_bredonb = {
+					province = 289
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+
+				}
+
+
+
+
+
+
+
+				}
+
+				d_arkney = {
+				color = { 180 110 85 }
+				color2 = { 255 255 255 }
+
+				c_arkney = {
+
+				color = { 180 110 85 }
+				color2 = { 255 255 255 }
+
+				b_arkney  = {
+					province = 290
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_arkneya  = {
+					province = 291
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_arkneyb  = {
+					province = 292
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_arkneyc  = {
+					province = 293
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				}
+
+					c_willsden = {
+
+				color = { 190 90 70 }
+				color2 = { 255 255 255 }
+
+				b_willsden  = {
+					province = 294
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_willsdena  = {
+					province = 295
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_willsdenb  = {
+					province = 296
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_willsdenc  = {
+					province = 297
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				}
+
+				c_harlegen = {
+
+				color = { 215 66 158 }
+				color2 = { 255 255 255 }
+
+				b_harlegen  = {
+					province = 298
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_harlegena  = {
+					province = 299
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_harlegenb  = {
+					province = 300
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+				}
+
+
+
+				}
+
+				d_fallholt = {
+				color = { 210 70 165 }
+				color2 = { 255 255 255 }
+
+				c_fallholt = {
+
+				color = { 200 70 165 }
+				color2 = { 255 255 255 }
+
+				b_fallholt  = {
+					province = 301
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_fallholta  = {
+					province = 302
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_fallholtb  = {
+					province = 303
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_fallholtc  = {
+					province = 304
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+				}
+
+				c_tunstead = {
+
+				color = { 250 65 140 }
+				color2 = { 255 255 255 }
+
+				b_tunstead  = {
+					province = 309
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tunsteada  = {
+					province = 310
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tunsteadb  = {
+					province = 311
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tunsteadc  = {
+					province = 312
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+				}
+
+				c_kilead = {
+
+				color = { 195 40 135 }
+				color2 = { 255 255 255 }
+
+				b_kilead  = {
+					province = 313
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kileada  = {
+					province = 314
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kileadb  = {
+					province = 315
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kileadc  = {
+					province = 316
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+				}
+
+
+				c_enlin = {
+
+				color = { 175 65 200 }
+				color2 = { 255 255 255 }
+
+				b_enlin  = {
+					province = 317
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_enlina  = {
+					province = 318
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_enlinb  = {
+					province = 319
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+				}
+
+
+
+
+
+
+		}
+
+		k_islands {
+		color = { 11 205 70 }
+		color2 = { 255 255 23 }
+
+				d_wizard = {
+				color = { 11 205 70 }
+				color2 = { 255 255 255 }
+
+				capital = c_wtower
+
+			c_wizardne= {
+
+				color = { 25 175 75 }
+				color2 = { 255 255 255 }
+
+				b_wizardne = {
+					province = 255
+
+					color = { 25 175 75 }
+					color2 = { 255 255 255 }
+				}
+				b_wizardnea = {
+					province = 256
+
+					color = { 25 175 75 }
+					color2 = { 255 255 255 }
+				}
+				b_wizardneb = {
+					province = 257
+
+					color = { 25 175 75 }
+					color2 = { 255 255 255 }
+				}
+				b_wizardnec = {
+					province = 258
+
+					color = { 25 175 75 }
+					color2 = { 255 255 255 }
+				}
+
+				}
+
+			c_wizardnw = {
+
+				color = { 40 145 85 }
+				color2 = { 255 255 255 }
+
+				b_wizardnw = {
+					province = 259
+
+					color = { 40 145 85 }
+					color2 = { 255 255 255 }
+				}
+				b_wizardnwa = {
+					province = 260
+
+					color = { 40 145 85 }
+					color2 = { 255 255 255 }
+				}
+				b_wizardnwb = {
+					province = 261
+
+					color = { 40 145 85 }
+					color2 = { 255 255 255 }
+				}
+
+				}
+
+			c_wizards = {
+
+				color = { 100 160 40 }
+				color2 = { 255 255 255 }
+
+				b_wizards = {
+					province = 262
+
+					color = { 100 160 40 }
+					color2 = { 255 255 255 }
+				}
+				b_wizardnsa = {
+					province = 263
+
+					color = { 100 160 40 }
+					color2 = { 255 255 255 }
+				}
+
+
+				}
+
+			c_wizardis = {
+
+				color = { 95 160 35 }
+				color2 = { 255 255 255 }
+
+				b_wizardis = {
+					province = 264
+
+					color = { 21 180 70 }
+					color2 = { 255 255 255 }
+				}
+				b_wizardnisa = {
+					province = 265
+
+					color = { 21 180 70 }
+					color2 = { 255 255 255 }
+				}
+
+
+				}
+
+				c_wizardsbridge = {
+
+				color = { 61 160 70 }
+				color2 = { 255 255 255 }
+
+				b_wizardsbridge = {
+					province = 266
+
+					color = { 61 160 70 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+				}
+
+				c_wtower = {
+
+				color = { 145 197 106 }
+				color2 = { 255 255 255 }
+
+				b_wtower = {
+					province = 267
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_wtowera = {
+					province = 268
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_wtowerb = {
+					province = 269
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+				}
+				}
+
+
+
+
+				d_tutoria = {
+				color = { 85 232 20 }
+				color2 = { 255 255 255 }
+
+				c_tutoria= {
+
+				color = { 91 238 26 }
+				color2 = { 255 255 255 }
+
+				b_tutoria = {
+					province = 101
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutoriaa = {
+					province = 102
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutoriab = {
+					province = 103
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutoriac = {
+					province = 104
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				}
+
+
+
+				c_magicia= {
+
+				color = { 87 234 22 }
+				color2 = { 255 255 255 }
+
+				b_magica = {
+					province = 270
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_magicab = {
+					province = 271
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_magicac = {
+					province = 271
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+				}
+
+
+
+				c_colkirk = {
+
+				color = { 84 238 26}
+				color2 = { 255 255 255 }
+
+				b_colkirk = {
+					province = 320
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_colkirka = {
+					province = 321
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_colkirkb = {
+					province = 322
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+				}
+
+
+
+				c_tuttt= {
+
+				color = { 84 220 20 }
+				color2 = { 255 255 255 }
+
+				b_tuttt = {
+					province = 323
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tta = {
+					province = 324
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_ttb = {
+					province = 325
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_ttc = {
+					province = 342
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+				}
+
+					c_tutnor= {
+
+				color = { 182 110 45 }
+				color2 = { 255 255 255 }
+
+				b_tutnor = {
+					province = 326
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutnora = {
+					province = 327
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutnorb = {
+					province = 328
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutnorc = {
+					province = 329
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+
+				}
+
+				c_tutnea= {
+
+				color = {  175 105 45  }
+				color2 = { 255 255 255 }
+
+				b_tutnea = {
+					province = 331
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutneb = {
+					province = 332
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutnec = {
+					province = 333
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+				}
+
+				c_tuthill= {
+
+				color = { 175 125 35 }
+				color2 = { 255 255 255 }
+
+				b_tuthill = {
+					province = 334
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tuthilla = {
+					province = 335
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tuthillb = {
+					province = 336
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tuthillc = {
+					province = 337
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				}
+
+				c_tutwest= {
+
+				color = { 195 125 55 }
+				color2 = { 255 255 255 }
+
+				b_tutwest = {
+					province = 338
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutwesta = {
+					province = 339
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+				}
+
+				c_tutnhill= {
+
+				color = { 93 240 28 }
+				color2 = { 255 255 255 }
+
+				b_tutnhill = {
+					province = 340
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutnhilla = {
+					province = 341
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutnord = {
+					province = 330
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+				}
+
+
+				c_tutb= {
+
+				color = { 93 252 34 }
+				color2 = { 255 255 255 }
+
+				b_tutb = {
+					province = 343
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutba = {
+					province = 344
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutbb = {
+					province = 345
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutbcccc = {
+					province = 348
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				}
+
+				c_tutf= {
+
+				color = { 95 242 30 }
+				color2 = { 255 255 255 }
+
+				b_tutf = {
+					province = 273
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutfa = {
+					province = 274
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutfb = {
+					province = 275
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tutfc = {
+					province = 347
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				}
+
+
+				}
+
+				}
+
+
+
+
+
+		}
+
+
+
+		k_dorgesh {
+		color = { 80 88 82 }
+		color2 = { 255 255 23 }
+
+		d_dorgesh = {
+
+				color = { 80 88 82 }
+				color2 = { 255 255 255 }
+
+
+				c_dorgesh= {
+
+				color = { 60 68 32 }
+				color2 = { 255 255 255 }
+
+				b_dorgesh = {
+					province = 153
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_dorgesha = {
+					province = 154
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_dorgeshb = {
+					province = 155
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_dorgeshc = {
+					province = 156
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_dorgeshd = {
+					province = 157
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+		}
+
+
+		c_khaa= {
+
+				color = { 60 68 32 }
+				color2 = { 255 255 255 }
+
+				b_khaa = {
+					province = 183
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_khaaa = {
+					province = 184
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_khaab = {
+					province = 185
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_khaac = {
+					province = 186
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_khaad = {
+					province = 187
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+		}
+
+		c_urlum= {
+
+				color = { 60 68 32 }
+				color2 = { 255 255 255 }
+
+				b_urlum = {
+					province = 200
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_urluma = {
+					province = 201
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_urlumb = {
 					province = 202
-					color = { 17 70 127 }
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-				b_emon = {
+				b_urlumc = {
 					province = 203
-					color = { 17 70 127 }
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-				
-				
-				}
-				
-				c_barb = {
-				color = { 176 123 70 }
-				color2 = { 255 255 255 }
-				
-				b_barb = {
-					province = 19
-					color = { 176 123 70 }
+				b_urlumd = {
+					province = 204
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-				
-			
-			}
+
 		}
-		
-		
-		
-		
-		d_varrock = {
-			color = { 180 147 21 }
-			color2 = { 255 255 255 }
-			capital = c_varrock
-			
-			c_varrock = {
-				color = { 180 147 21 }
+
+		c_urmeg= {
+
+				color = { 60 68 32 }
 				color2 = { 255 255 255 }
 
-				b_var = {
-					province = 22
-					color = { 180 147 21 }
+				b_urmeg = {
+					province = 205
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-				}
-				
-			
-			
-			c_champ = {
-				color = { 180 147 21 }
-				color2 = { 255 255 255 }
-				
-				b_champ = {
-					province = 32
-					color = { 17 70 127 }
+				b_urmega = {
+					province = 206
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-			}
-			
-			c_lumber = {
-				color = { 180 147 21}
-				color2 = { 255 255 255 }
-				
-				b_lumber = {
-					province = 33
-					color = { 17 70 127 }
+				b_urmegb = {
+					province = 207
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-			}
-			
-			c_wvar = {
-				color = { 180 147 21 }
-				color2 = { 255 255 255 }
-				
-				b_wvar = {
-					province = 23
-					color = { 17 70 127 }
+				b_urmegc = {
+					province = 208
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-			}
-			
-			c_evar = {
-				color = { 180 147 21 }
-				color2 = { 255 255 255 }
-				
-				b_evar = {
-					province = 24
-					color = { 17 70 127 }
+				b_urmegd = {
+					province = 209
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-			}
-			
-					
-			
-			
-			c_pvar = {
-				color = { 180 147 21 }
-				color2 = { 255 255 255 }
-				
-				b_pvar = {
-					province = 28
-					color = { 180 147 21 }
+				b_urmege = {
+					province = 210
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-				
-				
-				b_ge = {
-					province = 27
-					color = { 17 70 127 }
-					color2 = { 255 255 255 }
-				}
-			}
-			
-			
-			
+
 		}
-		
-		d_eastmist = {
-			color = { 91 42 4 }
-			color2 = { 255 255 255 }
-			capital = c_dig
-		
-		c_dig = {
-				color = { 17 70 127 }
+
+		c_urtaal= {
+
+				color = { 60 68 32 }
 				color2 = { 255 255 255 }
-				
-				b_dig = {
-					province = 25
-					color = { 17 70 127 }
+
+				b_urtaal = {
+					province = 211
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-			}
-			
-			c_silvearea = {
-				color = { 17 70 127 }
-				color2 = { 255 255 255 }
-				
-				b_silvearea = {
-					province = 26
-					color = { 17 70 127 }
+				b_urtaala = {
+					province = 212
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-			}
-			}
-		
-		
-		
+				b_urtaalb = {
+					province = 213
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_urtaalc = {
+					province = 214
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
 		}
-		
-		
-		
-		
-		k_asgarnia = {
-			color = { 102 122 182 }
-			color2 = { 255 255 23 }
-			landless = yes
-			set_landless_title = yes	
 
-			capital = c_asgarnia
 
-			ai_primary_priority = {
-				if = {
-					limit = {
-						religion = religion:zamorakian
-					}
-					add = @correct_culture_primary_score
-				}
-			}
-			
-			d_kinshra = {
-				color = { 0 0 0 }
+		c_turgok= {
+
+				color = { 60 68 32 }
 				color2 = { 255 255 255 }
-				capital = c_asgarnia
-				definite_form = yes
-				ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:asgarnian
-					}
-					add = @correct_culture_primary_score
+
+				b_turgok = {
+					province = 215
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
 				}
-			}
-				
-				
+				b_turgoka = {
+					province = 216
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
 				}
-				
-				
-				
-				
-				
-			d_wknights = {
-				color = { 255 255 255 }
+				b_turgokb = {
+					province = 217
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_turgokc = {
+					province = 218
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+
+		}
+
+		c_urvass= {
+
+				color = { 60 68 32 }
 				color2 = { 255 255 255 }
-				capital = c_asgarnia
-				definite_form = yes
+
+				b_urvass = {
+					province = 219
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_urvassa = {
+					province = 220
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_urvassb = {
+					province = 221
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
 				}
 
-			d_asgarnia= {
-				color = { 255 255 255 }
+
+
+		}
+
+
+		c_urval= {
+
+				color = { 60 68 32 }
 				color2 = { 255 255 255 }
-				capital = c_asgarnia
-				
-				c_asgarnia = {
-					color = { 255 255 255}
+
+				b_urval = {
+					province = 222
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
-
-					b_asgarnia = {
-						province = 2
-
-						color = { 102 122 182 }
-						color2 = { 255 255 255 }
-					}
-					b_white = {
-						province = 201
-
-						color = { 102 122 182 }
-						color2 = { 255 255 255 }
-					}
-					
 				}
-				
-				c_nfal = {
-					color = { 255 255 255}
+				b_urvala = {
+					province = 223
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
-
-					b_nfal = {
-						province = 35
-
-						color = { 102 122 182 }
-						color2 = { 255 255 255 }
-					}
 				}
-				
-				
-			}
-			
-			d_taverly= {
-				color = { 125 231 254 }
+				b_urvalb = {
+					province = 224
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_urvalc = {
+					province = 225
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+
+		}
+
+		c_durgok= {
+
+				color = { 60 68 32 }
 				color2 = { 255 255 255 }
-				capital = c_taverly
-				
-			c_dwiz = {
-					color = { 255 255 255}
-					color2 = { 255 255 255 }
-
-					b_dwiz = {
-						province = 47
-
-						color = { 102 122 182 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				c_taverly = {
-					color = { 255 255 255}
-					color2 = { 255 255 255 }
-
-					b_taverly = {
-						province = 48
-
-						color = { 102 122 182 }
-						color2 = { 255 255 255 }
-					}
-				}
-			}
-			
-				d_burthorpe = {
-				color = { 125 231 254 }
-				color2 = { 255 255 255 }
-				capital = c_burthorpe
-				definite_form = yes
-			
-			c_burthorpe = {
-					color = { 255 255 255}
-					color2 = { 255 255 255 }
-
-					b_burthorpe = {
-						province = 49
-
-						color = { 102 122 182 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_druid = {
-					color = { 255 255 255}
-					color2 = { 255 255 255 }
-
-					b_druid = {
-						province = 50
-
-						color = { 102 122 182 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_wwolf = {
-					color = { 255 255 255}
-					color2 = { 255 255 255 }
-
-					b_wwolf = {
-						province = 70
-
-						color = { 102 122 182 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				
-			}
-			
-			d_sarim= {
-				color = { 125 231 254 }
-				color2 = { 255 255 255 }
-				capital = c_asgarnia
-				
-				c_sarim= {
-					color = { 125 231 254}
-					color2 = { 255 255 255 }
-
-					b_sarim = {
-						province = 37
-
-						color = { 125 231 254 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_sfalfarm= {
-					color = { 125 231 254}
-					color2 = { 255 255 255 }
-
-					b_sfalfarm = {
-						province = 34
-
-						color = { 125 231 254 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				c_mudskipper= {
-					color = { 125 231 254}
-					color2 = { 255 255 255 }
-
-					b_mudskipper = {
-						province = 39
-
-						color = { 178 133 124 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-			}
-			
-			
-			
-			d_rimmington= {
-				color = { 99 99 222}
-				color2 = { 255 255 255 }
-				capital = c_rimmington
-				
-				c_cguild= {
-					color = { 99 99 222}
-					color2 = { 255 255 255 }
-
-					b_cguild = {
-						province = 38
-
-						color = { 102 122 182 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_rimmington= {
-					color = { 99 99 222}
-					color2 = { 255 255 255 }
-
-					b_rimmington = {
-						province = 40
-
-						color = { 151 23 174 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				
-			}
-			
-			
-			d_ecran= {
-				color = { 151 23 174 }
-				color2 = { 255 255 255 }
-				capital = c_etrana
-				
-				c_etrana= {
-					color = { 102 122 182}
-					color2 = { 255 255 255 }
-
-					b_etrana = {
-						province = 51
-
-						color = { 102 122 182 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_crandor = {
-					color = { 210 0 0}
-					color2 = { 255 255 255 }
-
-					b_crandor = {
-						province = 52
-
-						color = { 151 23 174 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				
-			}
-			
-			
-			
-			d_goblin= {
-				color = { 55 182 34 }
-				color2 = { 255 255 255 }
-				capital = c_goblin
-				
-				c_goblin= {
-					color = { 55 182 34}
-					color2 = { 255 255 255 }
-
-					b_goblin = {
-						province = 36
-
-						color = { 55 182 34 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_ctemple= {
-					color = { 55 182 34}
-					color2 = { 255 255 255 }
-
-					b_ctemple = {
-						province = 42
-
-						color = { 55 182 34 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				
-			}
-			
-			d_dwarf= {
-				color = { 0 0 0 }
-				color2 = { 255 255 255 }
-				capital = c_cguild
-				
-				c_dwarf= {
-					color = { 111 37 22}
-					color2 = { 255 255 255 }
-
-					b_dwarf = {
-						province = 41
-
-						color = { 111 37 22 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_bknight= {
-					color = { 0 0 0 }
-					color2 = { 255 255 255 }
-
-					b_bknight = {
-						province = 43
-
-						color = { 102 122 182 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_eice= {
-					color = { 0 0 0 }
-					color2 = { 255 255 255 }
-
-					b_eice = {
-						province = 198
-
-						color = { 102 122 182 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_camdozaal= {
-					color = { 35 0 35 }
-					color2 = { 255 255 255 }
-
-					b_camdozaal = {
-						province = 199
-
-						color = { 102 122 182 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				
-				c_ice= {
-					color = { 0 0 0 }
-					color2 = { 255 255 255 }
-
-					b_ice = {
-						province = 200
-
-						color = { 102 122 182 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				
-			}
-			
-			
-			
-			
-			}
-			
-			
-			
-			
-			
-			
-
-			
-			
-			k_forinthry = {
-			color = { 40 40 40 }
-			color2 = { 255 255 23 }
-
-			capital = c_forinthry
-
-			ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:testish
-					}
-					add = @correct_culture_primary_score
-				}
-			}
-
-			d_forinthry= {
-				color = { 40 40 40 }
-				color2 = { 255 255 255 }
-				capital = c_forinthry
-				
-				
-				c_forinthry = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_forinthry = {
-						province = 4
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_wwild = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_wwild = {
-						province = 169
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_ewild = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_ewild = {
-						province = 170
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_wctemple = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_wctemple = {
-						province = 171
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_ferix = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_ferix = {
-						province = 172
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				c_dwarr = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_dwarr = {
-						province = 173
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				c_wruins = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_wruins = {
-						province = 174
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_gshadow = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_gshadow = {
-						province = 175
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_wband = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_wband = {
-						province = 176
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_byard = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_byard = {
-						province = 177
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_wwruins = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_wwruins = {
-						province = 178
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_frune = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_frune = {
-						province = 179
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_bears = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_bears = {
-						province = 180
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_ldrag = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_ldrag = {
-						province = 181
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_wcaltar = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_wcaltar = {
-						province = 182
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_lmaze = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_lmaze = {
-						province = 183
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_fcem = {
-					color = { 40 40 40 }
-					color2 = { 255 255 255 }
-
-					b_fcem = {
-						province = 184
-
-						color = { 40 40 40 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-			}
-			
-			
-			
-			
-			}
-			
-			
-			
-			
-			
-			
-			
-			
-			k_morytania = {
-			color = { 149 11 60 }
-			color2 = { 255 255 23 }
-
-			capital = c_morytania
-
-			ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:testish
-					}
-					add = @correct_culture_primary_score
-				}
-			}
-
-			d_morytania = {
-				color = { 149 11 60 }
-				color2 = { 255 255 255 }
-				capital = c_morytania
-				
-				
-				c_morytania = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_morytania = {
-						province = 7
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-					
-					b_darkmeyer = {
-						province = 204
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-					
-					
-					
-					
-					
-				}
-				
-				c_meiyar = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_meiyar = {
-						province = 144
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_versin = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_versin = {
-						province = 143
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_icyene = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_icyene = {
-						province = 142
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_slepe = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_slepe = {
-						province = 141
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-			}
-				d_myre = {
-				color = { 149 11 60 }
-				color2 = { 255 255 255 }
-				capital = c_morton
-				
-				c_morton = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_morton = {
-						province = 131
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_bdr = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_bdr = {
-						province = 130
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_abmin = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_abmin = {
-						province = 140
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_mortmyre = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_mortmyre = {
-						province = 139
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_barrows = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_barrows = {
-						province = 132
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_bdre = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_bdre = {
-						province = 129
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-			
-			
-			}
-			
-			d_canifis = {
-				color = { 149 11 60 }
-				color2 = { 255 255 255 }
-				capital = c_canifis
-				
-			
-			c_canifis = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_canifis = {
-						province = 128
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-			c_slayer = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_slayer = {
-						province = 134
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_hwood = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_hwood  = {
-						province = 133
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_fcastle = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_fcastle  = {
-						province = 135
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_ecto = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_ecto  = {
-						province = 136
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_phasm = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_phasm  = {
-						province = 137
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_souph = {
-					color = { 149 11 60 }
-					color2 = { 255 255 255 }
-
-					b_souph  = {
-						province = 138
-
-						color = { 149 11 60 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-			
-			
-			}
-			}
-			
-			
-			
-			k_troll = {
-			color = { 117 111 92 }
-			color2 = { 255 255 23 }
-
-			capital = c_troll
-
-			ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:testish
-					}
-					add = @correct_culture_primary_score
-				}
-			}
-
-			d_troll = {
-				color = { 117 111 92 }
-				color2 = { 255 255 255 }
-				capital = c_troll
-				
-				
-				c_troll = {
-					color = { 117 111 92 }
-					color2 = { 255 255 255 }
-
-					b_troll = {
-						province = 8
-
-						color = { 117 111 92 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_dplat = {
-					color = { 117 111 92 }
-					color2 = { 255 255 255 }
-
-					b_dplat = {
-						province = 167
-
-						color = { 117 111 92 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_tenzing = {
-					color = { 117 111 92 }
-					color2 = { 255 255 255 }
-
-					b_tenzing = {
-						province = 168
-
-						color = { 117 111 92 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_tenzing = {
-					color = { 117 111 92 }
-					color2 = { 255 255 255 }
-
-					b_tenzing = {
-						province = 168
-
-						color = { 117 111 92 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_trollheim = {
-					color = { 117 111 92 }
-					color2 = { 255 255 255 }
-
-					b_trollheim = {
-						province = 165
-
-						color = { 117 111 92 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_tarena = {
-					color = { 117 111 92 }
-					color2 = { 255 255 255 }
-
-					b_tarena = {
-						province = 166
-
-						color = { 117 111 92 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-			}
-			
-			
-			
-			
-			
-			}
-			
-			k_keldagrim = {
-			color = { 255 55 66}
-			color2 = { 255 255 23 }
-
-			capital = c_keldagrim
-
-			ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:testish
-					}
-					add = @correct_culture_primary_score
-				}
-			}
-
-			d_keldagrim = {
-				color = { 255 55 66 }
-				color2 = { 255 255 255 }
-				capital = c_keldagrim
-			
-			
-			
-			c_keldagrim = {
-					color = { 255 55 66 }
-					color2 = { 255 255 255 }
-
-					b_keldagrim = {
-						province = 211
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-					
-					
-				}
-				
-				c_keldafull = {
-					color = { 255 55 66 }
-					color2 = { 255 255 255 }
-
-					b_keldafull = {
-						province = 212
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-					
-					
-					
-					b_keldaeast = {
-						province = 213
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-					
-					
-					
-					
-				}
-				
-			
-			}
-			}
-			
-			
-			
-			k_fremenik = {
-			color = { 181 155 66 }
-			color2 = { 255 255 23 }
-
-			capital = c_fremenik
-
-			ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:testish
-					}
-					add = @correct_culture_primary_score
-				}
-			}
-
-			d_fremenik = {
-				color = { 181 155 66 }
-				color2 = { 255 255 255 }
-				capital = c_fremenik
-				
-				c_fremenik = {
-					color = { 181 155 66 }
-					color2 = { 255 255 255 }
-
-					b_fremenik = {
-						province = 9
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_lighthouse = {
-					color = { 181 155 66 }
-					color2 = { 255 255 255 }
-
-					b_lighthouse = {
-						province = 160
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_wfrem= {
-					color = { 181 155 66 }
-					color2 = { 255 255 255 }
-
-					b_wfrem = {
-						province = 164
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_gapple= {
-					color = { 181 155 66 }
-					color2 = { 255 255 255 }
-
-					b_gapple = {
-						province = 162
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_kelda= {
-					color = { 181 155 66 }
-					color2 = { 255 255 255 }
-
-					b_kelda = {
-						province = 161
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_mcamp= {
-					color = { 181 155 66 }
-					color2 = { 255 255 255 }
-
-					b_mcamp = {
-						province = 163
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				
-				
-				
-			}
-			
-			d_lunar= {
-				color = { 181 155 66 }
-				color2 = { 255 255 255 }
-				capital = c_nzt
-				
-				c_jatizo= {
-					color = { 181 155 66 }
-					color2 = { 255 255 255 }
-
-					b_jatizo = {
-						province = 155
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_nzt= {
-					color = { 181 155 66 }
-					color2 = { 255 255 255 }
-
-					b_nzt = {
-						province = 156
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_fisles= {
-					color = { 181 155 66 }
-					color2 = { 255 255 255 }
-
-					b_fisles = {
-						province = 157
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_lisle= {
-					color = { 181 155 66 }
-					color2 = { 255 255 255 }
-
-					b_lisle = {
-						province = 154
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_wbirth= {
-					color = { 181 155 66 }
-					color2 = { 255 255 255 }
-
-					b_wbirth = {
-						province = 153
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_misc {
-					color = { 181 155 66 }
-					color2 = { 255 255 255 }
-
-					b_misc = {
-						province = 159
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-					
-					b_etc = {
-						province = 158
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-					
-					
-				}
-				
-				
-				c_pcove = {
-					color = { 181 155 66 }
-					color2 = { 255 255 255 }
-
-					b_pcove = {
-						province = 194
-
-						color = { 181 155 66 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-			
-			
-			
-			
-			}
-			
-			
-			}
-			
-			
-			k_feldip = {
-			color = { 147 93 10 }
-			color2 = { 255 255 23 }
 
-			capital = c_feldip
+				b_durgok = {
+					province = 253
 
-			ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:testish
-					}
-					add = @correct_culture_primary_score
-				}
-			}
-
-			d_feldip = {
-				color = { 147 93 10 }
-				color2 = { 255 255 255 }
-				capital = c_feldip
-				c_feldip = {
-					color = { 147 93 10 }
-					color2 = { 255 255 255 }
-
-					b_feldip = {
-						province = 10
-
-						color = { 147 93 10 }
-						color2 = { 255 255 255 }
-					}
-				}
-			}
-			}
-			
-			
-			k_karamja = {
-			color = { 40 138 0 }
-			color2 = { 255 255 23 }
-
-			capital = c_karamja
-
-			ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:testish
-					}
-					add = @correct_culture_primary_score
-				}
-			}
-
-			d_karamja = {
-				color = { 40 138 0 }
-				color2 = { 255 255 255 }
-				capital = c_karamja
-				
-				c_karamja= {
-					color = { 40 138 0 }
-					color2 = { 255 255 255 }
-
-					b_karamja = {
-						province = 11
-
-						color = { 40 138 0 }
-						color2 = { 255 255 255 }
-					}
-					
-					b_ekaramja = {
-						province = 209
-
-						color = { 40 138 0 }
-						color2 = { 255 255 255 }
-					}
-					b_wkaramja = {
-						province = 210
-
-						color = { 40 138 0 }
-						color2 = { 255 255 255 }
-					}
-					
-				}
-				
-				c_cairn= {
-					color = { 40 138 0 }
-					color2 = { 255 255 255 }
-
-					b_cairn = {
-						province = 151
-
-						color = { 40 138 0 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_tempoross= {
-					color = { 40 138 0 }
-					color2 = { 255 255 255 }
-
-					b_tempoross = {
-						province = 152
-
-						color = { 40 138 0 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_shilo = {
-					color = { 40 138 0 }
-					color2 = { 255 255 255 }
-
-					b_shilo = {
-						province = 150
-
-						color = { 40 138 0 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_khazari = {
-					color = { 40 138 0 }
-					color2 = { 255 255 255 }
-
-					b_khazari = {
-						province = 149
-
-						color = { 40 138 0 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_southshilo = {
-					color = { 40 138 0 }
-					color2 = { 255 255 255 }
-
-					b_southshilo = {
-						province = 148
-
-						color = { 40 138 0 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_eastkar = {
-					color = { 40 138 0 }
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
-
-					b_eastkar  = {
-						province = 147
-
-						color = { 40 138 0 }
-						color2 = { 255 255 255 }
-					}
 				}
-				
-			}
-			
-				d_brimhaven = {
-				color = { 40 138 0 }
-				color2 = { 255 255 255 }
-				capital = c_karamja
-			
-			c_brimhaven = {
-					color = { 40 138 0 }
-					color2 = { 255 255 255 }
+				b_durgoka = {
+					province = 254
 
-					b_brimhaven= {
-						province = 146
-
-						color = { 40 138 0 }
-						color2 = { 255 255 255 }
-					}
-				}
-			c_musa = {
-					color = { 40 138 0 }
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
-
-					b_musa = {
-						province = 145
-
-						color = { 40 138 0 }
-						color2 = { 255 255 255 }
-					}
 				}
-			
-			}
-			}
-			
-			
-			
-			k_frozen = {
-			color = { 255 255 255 }
-			color2 = { 255 255 23 }
-
-			capital = c_frozen
 
-			ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:testish
-					}
-					add = @correct_culture_primary_score
-				}
-			}
 
-			d_frozen = {
-				color = { 255 255 255 }
-				color2 = { 255 255 255 }
-				capital = c_frozen
-				c_frozen = {
-					color = { 255 255 255 }
-					color2 = { 255 255 255 }
 
-					b_frozen= {
-						province = 12
+		}
 
-						color = { 255 255 255 }
-						color2 = { 255 255 255 }
-					}
-				}
-			}
-			}
-			
-			
 
 
 
 
 
 		}
-		
-		
-		
-		e_gnome = {
-			color = { 0 96 27 }
-			color2 = { 255 255 23 }
-			definite_form = yes
-			
-			k_gnome = {
-			color = { 39 104 41 }
-			color2 = { 255 255 23 }
-			
-			capital = c_grand
 
-			ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:testish
-					}
-					add = @correct_culture_primary_score
-				}
-			}
-			
-			
-			d_gnome= {
-				color = { 39 104 41}
-				color2 = { 255 255 255 }
-				capital = c_grand
-				
-				c_grand = {
-					color = { 39 104 41 }
-					color2 = { 255 255 255 }
 
-					b_grand = {
-						province = 83
 
-						color = { 39 104 41 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_gball = {
-					color = { 39 104 41 }
-					color2 = { 255 255 255 }
 
-					b_gball = {
-						province = 85
 
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_gagil = {
-					color = { 39 104 41 }
-					color2 = { 255 255 255 }
 
-					b_gagil = {
-						province = 86
 
-						color = { 39 104 41 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_egnome = {
-					color = { 39 104 41 }
-					color2 = { 255 255 255 }
 
-					b_egnome = {
-						province = 84
 
-						color = { 39 104 41 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_gnor = {
-					color = { 39 104 41 }
-					color2 = { 255 255 255 }
 
-					b_gnor = {
-						province = 87
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-			}
-			
-			
-			
-				d_treegnome= {
-				color = { 39 104 41}
-				color2 = { 255 255 255 }
-				capital = c_grand
-				
-				c_gbattle = {
-					color = { 39 104 41 }
-					color2 = { 255 255 255 }
-
-					b_gbattle = {
-						province = 101
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_treegnome = {
-					color = { 39 104 41 }
-					color2 = { 255 255 255 }
-
-					b_treegnome = {
-						province = 109
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_yanis = {
-					color = { 39 104 41 }
-					color2 = { 255 255 255 }
-
-					b_yanis = {
-						province = 116
-
-						color = { 39 104 41 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				c_gfarm = {
-					color = { 39 104 41 }
-					color2 = { 255 255 255 }
-
-					b_gfarm = {
-						province = 110
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_bfieldn = {
-					color = { 240 240 255 }
-					color2 = { 255 255 255 }
-
-					b_bfieldn = {
-						province = 97
-
-						color = { 240 240 255 }
-						color2 = { 255 255 255 }
-					}
-				}
-			
-			
-			
-			}
-			
-			
-			
-			}
-			
-			
-			
-			
-			
-			
-			
-			
-			k_kandarin = {
-			color = { 184 57 46 }
-			color2 = { 255 255 23 }
-
-			capital = c_kandarin
-
-			ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:kandarin
-					}
-					add = @correct_culture_primary_score
-				}
-			}
-
-			d_kandarin= {
-				color = { 184 57 46 }
-				color2 = { 255 255 255 }
-				capital = c_kandarin
-				c_kandarin = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_kandarin = {
-						province = 5
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-			}
-			
-			
-			d_khazard = {
-			
-				color = { 240 240 255 }
-				color2 = { 255 255 255 }
-				capital = c_khazard
-				landless = yes 
-				
-				}
-				
-				
-				d_skand = {
-			
-				color = { 255 90 90 }
-				color2 = { 255 255 255 }
-				capital = c_grand
-			
-			
-			
-			c_khazard = {
-					color = { 240 240 255 }
-					color2 = { 255 255 255 }
-
-					b_khazard = {
-						province = 107
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				c_farena = {
-					color = { 240 240 255 }
-					color2 = { 255 255 255 }
-
-					b_farena = {
-						province = 108
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_nmare = {
-					color = { 240 240 255 }
-					color2 = { 255 255 255 }
-
-					b_nmare = {
-						province = 115
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_tlife = {
-					color = { 240 240 255 }
-					color2 = { 255 255 255 }
-
-					b_tlife = {
-						province = 105
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_necromancer = {
-					color = { 240 240 255 }
-					color2 = { 255 255 255 }
-
-					b_necromancer = {
-						province = 103
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-			
-			
-			}
-			
-			
-			
-			
-			
-			d_witchhaven= {
-				color = { 184 57 46 }
-				color2 = { 255 255 255 }
-				capital = c_kandarin
-				
-				c_witchhaven = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_witchhaven = {
-						province = 74
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_leguild = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_leguild = {
-						province = 73
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_fplat = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_fplat = {
-						province = 89
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-			}
-			
-			d_emil = {
-				color = { 184 57 46 }
-				color2 = { 255 255 255 }
-				capital = c_kandarin
-				
-				c_emil = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_emil = {
-						province = 82
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_armill = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_armill = {
-						province = 75
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_arfarm = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_arfarm = {
-						province = 76
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-			}
-			
-			
-			d_barbout = {
-				color = { 184 57 46 }
-				color2 = { 255 255 255 }
-				capital = c_catherby
-				
-				c_barbout = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_barbout = {
-						province = 78
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_otto  = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_otto = {
-						province = 81
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_baxfall  = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_baxfall = {
-						province = 79
-						
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_coalt  = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_coalt = {
-						province = 77
-						
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-			
-			
-			}
-			
-			
-				
-				d_pfc = {
-			
-				color = { 90 30 30 }
-				color2 = { 255 255 255 }
-				
-				capital = c_epeak
-				
-				c_epeak= {
-					color = { 90 30 30 }
-					color2 = { 255 255 255 }
-
-					b_epeak = {
-						province = 92
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_falconer= {
-					color = { 99 30 30 }
-					color2 = { 255 255 255 }
-
-					b_falconer = {
-						province = 93
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_pfc= {
-					color = { 120 30 30 }
-					color2 = { 255 255 255 }
-
-					b_pfc = {
-						province = 94
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				
-				}
-				
-				
-				
-				
-				
-			
-			
-			
-				
-				
-				
-				d_fguild = {
-			
-				color = { 184 57 46 }
-				color2 = { 255 255 255 }
-				
-				capital = c_fguild
-				
-				c_fguild= {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_fguild = {
-						province = 72
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_hemenster= {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_hemenster = {
-						province = 71
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_kand= {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_kand = {
-						province = 80
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-					c_rguild = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_rguild = {
-						province = 68
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				}
-			
-			
-			d_catherby= {
-				color = { 184 57 46 }
-				color2 = { 255 255 255 }
-				capital = c_catherby
-				c_catherby = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_catherby = {
-						province = 60
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_flax = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_flax = {
-						province = 64
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_stower = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_stower = {
-						province = 69
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_lefaye = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_lefaye = {
-						province = 62
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				
-			}
-			
-			
-			
-		
-			
-			
-			
-			
-				d_eapal= {
-				
-				color = { 159 100 15 }
-				color2 = { 255 255 255 }
-				capital = c_eapal
-				
-				c_eapal = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_eapal = {
-						province = 95
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				c_zoo = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_zoo = {
-						province = 98
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_ardport = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_ardport = {
-						province = 99
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_ardman = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_ardman = {
-						province = 100
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_clocktower = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_clocktower = {
-						province = 102
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				c_mona = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_mona = {
-						province = 106
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				}
-				
-				
-				d_weard= {
-				
-				color = { 60 40 52 }
-				color2 = { 255 255 255 }
-				capital = c_weard
-				c_weard = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_weard = {
-						province = 96
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-					c_ctc = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_ctc = {
-						province = 88
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_nardougne = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_nardougne = {
-						province = 90
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_nardthree = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_nardthree = {
-						province = 91
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				
-				
-				}
-				
-				d_cwars= {
-				
-				color = { 164 77 22 }
-				color2 = { 255 255 255 }
-				capital = c_cwars
-				
-				c_cwars = {
-					color = { 164 77 26 }
-					color2 = { 255 255 255 }
-
-					b_cwars = {
-						province = 111
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_cwt = {
-					color = { 164 77 26 }
-					color2 = { 255 255 255 }
-
-					b_cwt = {
-						province = 113
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_cwisland = {
-					color = { 164 77 26 }
-					color2 = { 255 255 255 }
-
-					b_cwisland = {
-						province = 112
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_cwsouth = {
-					color = {  164 77 26  }
-					color2 = { 255 255 255 }
-
-					b_cwsouth = {
-						province = 119
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_obs = {
-					color = { 164 77 26 }
-					color2 = { 255 255 255 }
-
-					b_obs = {
-						province = 104
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				
-				}
-				
-				
-				
-				
-				d_yanille= {
-				
-				color = { 144 77 26  } 
-				color2 = { 255 255 255 }
-				capital = c_yanille
-				
-				
-				c_yanille = {
-					color = { 144 77 26 }
-					color2 = { 255 255 255 }
-
-					b_yanille = {
-						province = 118
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				c_yansouth = {
-					color = { 144 77 26  }
-					color2 = { 255 255 255 }
-
-					b_yansouth = {
-						province = 117
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_yanillefront = {
-					color = { 144 77 26 }
-					color2 = { 255 255 255 }
-
-					b_yanillefront = {
-						province = 114
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				
-				}
-				
-			
-			
-			
-			d_camelot= {
-				color = { 128 57 75 }
-				color2 = { 255 255 255 }
-				capital = c_camelot
-				c_camelot = {
-					color = { 128 57 75 }
-					color2 = { 255 255 255 }
-
-					b_camelot = {
-						province = 61
-
-						color = { 128 57 75 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_seers= {
-					color = { 128 57 75 }
-					color2 = { 255 255 255 }
-
-					b_seers = {
-						province = 63
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_mcgrubor = {
-					color = { 128 57 75 }
-					color2 = { 255 255 255 }
-
-					b_mcgrubor = {
-						province = 65
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_sinclair = {
-					color = { 171 69 56 }
-					color2 = { 255 255 255 }
-
-					b_sinclair= {
-						province = 66
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_wsinclair = {
-					color = { 184 57 46 }
-					color2 = { 255 255 255 }
-
-					b_swinclair= {
-						province = 67
-
-						color = { 184 57 46 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				
-			}
-			
-			
-			
-			
-			
-			}
-			
-			
-			
-			
-			
-			
-			
-			
-			k_tirannwn = {
-			color = { 0 96 27 }
-			color2 = { 255 255 23 }
-
-			capital = c_tirannwn
-
-			ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:testish
-					}
-					add = @correct_culture_primary_score
-				}
-			}
-
-			d_tirannwn = {
-				color = { 0 96 27 }
-				color2 = { 255 255 255 }
-				capital = c_tirannwn
-				c_tirannwn = {
-					color = { 0 96 27 }
-					color2 = { 255 255 255 }
-
-					b_tirannwn = {
-						province = 6
-
-						color = { 0 96 27 }
-						color2 = { 255 255 255 }
-					}
-				}
-			}
-			
-			
-			d_guthix = {
-		color = { 255 249 198 }
-		color2 = { 220 220 0 }
-	
-		definite_form = yes
-		landless = yes
-	
-	
-		ai_primary_priority = {
-		add = @always_primary_score
 		}
 
-
-
-		male_names = { Guthix }
 }
-			
+
+
+e_menaphite = {
+	color = { 232 255 86 }
+	color2 = { 255 255 255 }
+
+	capital = c_menaphos
+
+	definite_form = yes
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:testish
 			}
-			
-			k_feldip = {
-			color = { 147 93 10 }
-			color2 = { 255 255 23 }
+			add = @correct_culture_primary_score
+		}
+	}
 
-			capital = c_feldip
+	k_kharid = {
+		color = { 232 255 86 }
+		color2 = { 255 255 23 }
 
-			ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:testish
-					}
-					add = @correct_culture_primary_score
+		capital = c_varrock
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:testish
 				}
+				add = @correct_culture_primary_score
 			}
-
-			d_feldip = {
-				color = { 147 93 10 }
-				color2 = { 255 255 255 }
-				capital = c_feldip
-				c_feldip = {
-					color = { 147 93 10 }
-					color2 = { 255 255 255 }
-
-					b_feldip = {
-						province = 10
-
-						color = { 147 93 10 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_jiggig = {
-					color = { 147 93 10 }
-					color2 = { 255 255 255 }
-
-					b_jiggig = {
-						province = 186
-
-						color = { 147 93 10 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_oisle = {
-					color = { 147 93 10 }
-					color2 = { 255 255 255 }
-
-					b_oisle = {
-						province = 188
-
-						color = { 147 93 10 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_gutanoth = {
-					color = { 147 93 10 }
-					color2 = { 255 255 255 }
-
-					b_gutanoth = {
-						province = 187
-
-						color = { 147 93 10 }
-						color2 = { 255 255 255 }
-					}
-				}
-				c_myth = {
-					color = { 147 93 10 }
-					color2 = { 255 255 255 }
-
-					b_myth = {
-						province = 189
-
-						color = { 147 93 10 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_corsair = {
-					color = { 147 93 10 }
-					color2 = { 255 255 255 }
-
-					b_corsair = {
-						province = 190
-
-						color = { 147 93 10 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-			}
-			}
-		
-
 		}
 
+		d_qadeisha = {
+			color = { 232 255 86 }
+			color2 = { 255 255 255 }
 
+			capital = c_qadeisha
 
-e_kharid = {
-			color = { 96 96 27 }
-			color2 = { 255 255 23 }
-			definite_form = yes
+			c_qadeisha = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_qadeisha = {
+					province = 372
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_qadeishaa = {
+					province = 373
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_qadeishab = {
+					province = 374
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_qadeishac = {
+					province = 375
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				}
+				
+			c_haihar = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_haihar = {
+					province = 376
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_haihara = {
+					province = 377
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_haiharb = {
+					province = 378
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_haiharc = {
+					province = 379
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_haihard = {
+					province = 380
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}
+			
+			c_alsisatra = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_alsisatra = {
+					province = 386
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_alsisatraa = {
+					province = 387
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_alsisatrab = {
+					province = 388
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_alsisatrac = {
+					province = 389
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_alsisatrad = {
+					province = 390
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}
+			c_khahidah = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				
+				b_khahidaha = {
+					province = 401
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_khahidahb = {
+					province = 402
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_khahidahc = {
+					province = 403
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_khahidahd = {
+					province = 404
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}
+			
+				
+				
+				
+				
+			}
+			
+		d_citharede = {
+			color = { 232 255 86 }
+			color2 = { 255 255 255 }
+
+			capital = c_citharede
+
+			c_citharede = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_citharede = {
+					province = 381
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_citharedea = {
+					province = 382
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_citharedeb = {
+					province = 383
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_citharedec = {
+					province = 384
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_cithareded = {
+					province = 385
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}
+				
+			c_darayaan = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_darayaan = {
+					province = 391
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_darayaana = {
+					province = 392
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_darayaanb = {
+					province = 393
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_darayaanc = {
+					province = 394
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				}
+			c_mosuya = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_mosuya = {
+					province = 395
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_mosuyaa = {
+					province = 396
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_mosuyab = {
+					province = 397
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_mosuyac = {
+					province = 398
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_mosuyad = {
+					province = 399
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_mosuyae = {
+					province = 400
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}
+			}
 			
 			
+		d_sumusna = {
+			color = { 232 255 86 }
+			color2 = { 255 255 255 }
 
+			capital = c_sumusna
 
-k_kharid = {
-			color = { 214 168 65 }
-			color2 = { 255 255 23 }
+			c_sumusna = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_sumusna = {
+					province = 405
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_sumusnaa = {
+					province = 406
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_sumusnab = {
+					province = 407
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_sumusnac = {
+					province = 408
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_sumusnad = {
+					province = 409
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+			}
+			
+			
+			c_lahibar = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_lahibar = {
+					province = 410
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lahibara = {
+					province = 411
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_lahibarb = {
+					province = 412
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				
+			}
+			
+			c_sahayeh = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_sahayeh = {
+					province = 413
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_sahayeha = {
+					province = 414
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_sahayehb = {
+					province = 415
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_sahayehc = {
+					province = 416
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+			}
+			
+			c_modin = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_modin = {
+					province = 417
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_modina = {
+					province = 418
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_modinb = {
+					province = 419
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				
+			}
+		}
+		
+		
+		
+		d_kharid = {
+			color = { 232 255 86 }
+			color2 = { 255 255 255 }
 
 			capital = c_kharid
 
-			ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:testish
-					}
-					add = @correct_culture_primary_score
-				}
-			}
-
-			d_kharid= {
-				color = { 214 168 65 }
+			c_dimnataq = {
+				color = { 232 255 86 }
 				color2 = { 255 255 255 }
-				capital = c_kharid
-				c_kharid = {
-					color = { 214 168 65 }
+
+				b_dimnataq = {
+					province = 420
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
+				}
+				b_dimnataqa = {
+					province = 421
 
-					b_kharid = {
-						province = 3
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
 				}
 				
-				c_scorp = {
-					color = { 214 168 65 }
+				b_shirayeh = {
+					province = 439
+
+					color = { 170 55 90 }
 					color2 = { 255 255 255 }
-
-					b_scorp = {
-						province = 44
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
 				}
-				
-			}
 			
-			
-			d_arena= {
-				color = { 214 168 65 }
-				color2 = { 255 255 255 }
-				capital = c_darena
-				c_marena = {
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_marena = {
-						province = 45
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_darena = {
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_darena = {
-						province = 46
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-			}
-			
-			
-			d_citharede = {
-				color = { 214 168 65 }
-				color2 = { 255 255 255 }
-				capital = c_citharede
-				
-				c_citharede = {
-				
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_citharede = {
-						province = 53
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_shantay = {
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_shantay = {
-						province = 54
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-			}
-			
-			
-			
-			}
-	k_menaphos = {
-			
-			d_uzer= {
-				color = { 214 168 65 }
-				color2 = { 255 255 255 }
-				capital = c_uzer
-				
-				c_uzer = {
-				
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_uzer  = {
-						province = 55
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_lizard = {
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_lizard = {
-						province = 56
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-			}
-			
-			
-			
-			d_sophanem = {
-				color = { 214 168 65 }
-				color2 = { 255 255 255 }
-				capital = c_citharede
-				
-				c_sophanem = {
-				
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_sophanem  = {
-						province = 59
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_agpyramid= {
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_agpyramid = {
-						province = 58
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				c_nardah= {
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_nardah = {
-						province = 57
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-			}
-			
-			
-			
-			
-			
-			d_menaphos = {
-				color = { 214 168 65 }
-				color2 = { 255 255 255 }
-				capital = c_menaphos
-				
-				c_menaphos = {
-				
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_menaphos  = {
-						province = 120
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				
-				c_unkah = {
-				
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_unkah  = {
-						province = 126
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_pyramid = {
-				
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_pyramid  = {
-						province = 127
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_bandit = {
-				
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_bandit  = {
-						province = 122
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_desert = {
-				
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_desert  = {
-						province = 125
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_pollnivneach = {
-				
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_pollnivneach  = {
-						province = 123
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_bedabin = {
-				
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_bedabin  = {
-						province = 121
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
-				c_dpass = {
-				
-					color = { 214 168 65 }
-					color2 = { 255 255 255 }
-
-					b_dpass  = {
-						province = 124
-
-						color = { 214 168 65 }
-						color2 = { 255 255 255 }
-					}
-				}
-				
+		}
 		
-				
+		c_kharid = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_kharid = {
+					province = 423
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
 				}
+				b_kharida = {
+					province = 424
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kharidb = {
+					province = 425
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kharidc = {
+					province = 426
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+		}
+		c_elmanar = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_elmanar = {
+					province = 643
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_elmanara = {
+					province = 640
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_elmanarb = {
+					province = 556
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_elmanarc = {
+					province = 550
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_elmanard = {
+					province = 641
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+		}
 		
-			
-			}
-			
-			}
+		c_alqusiya = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_alqusiya = {
+					province = 434
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_alqusiyaa = {
+					province = 435
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_alqusiyab = {
+					province = 427
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_alqusiyac = {
+					province = 437
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+		}
+		
+		c_jaladina = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_jaladina = {
+					province = 649
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_jaladinaa = {
+					province = 642
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_jaladinab = {
+					province = 428
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_jaladinac = {
+					province = 429
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_jaladinad = {
+					province = 632
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_jaladinae = {
+					province = 584
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+		}
+		
+		
+	}
+	}
 }
 
+e_fremenik = {
+	color = { 76 127 76 }
+	color2 = { 255 255 255 }
+
+	capital = c_menaphos
+
+	definite_form = yes
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:testish
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	k_fremenik = {
+		color = { 76 127 76 }
+		color2 = { 255 255 23 }
+
+		capital = c_fremenik
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:testish
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		
+		d_grenivik = {
+			color = { 76 127 76}
+			color2 = { 255 255 255 }
+
+			capital = c_grenivik
+
+			c_grenivik = {
+				color = { 76 127 76 }
+				color2 = { 255 255 255 }
+
+				
+				b_grenivika = {
+					province = 445
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_grenivikb = {
+					province = 446
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_grenivikc = {
+					province = 528
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_grenivikd = {
+					province = 590
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_grenivike = {
+					province = 577
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_grenivikf = {
+					province = 874
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				}
+				
+				c_orrastaoir = {
+				color = { 76 127 76 }
+				color2 = { 255 255 255 }
+
+				
+				b_orrastaoir = {
+					province = 562
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_orrastaoira = {
+					province = 589
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_orrastaoirb = {
+					province = 566
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_orrastaoirc = {
+					province = 571
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				}
+				
+				
+			}
+		
+		
+		
+		d_relleka = {
+			color = { 76 127 76}
+			color2 = { 255 255 255 }
+
+			capital = d_relleka
+
+			c_relleka = {
+				color = { 76 127 76 }
+				color2 = { 255 255 255 }
+
+				b_relleka = {
+					province = 818
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_rellekaa = {
+					province = 829
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_rellekab = {
+					province = 821
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_rellekac = {
+					province = 818
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_rellekad = {
+					province = 806
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_rellekae = {
+					province = 810
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_rellekaf = {
+					province = 799
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}
+			}
+		
+		
+		d_reistara = {
+			color = { 76 127 76}
+			color2 = { 255 255 255 }
+
+			capital = c_reistara
+
+			c_reistara = {
+				color = { 76 127 76 }
+				color2 = { 255 255 255 }
+
+				b_reistara = {
+					province = 838
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_reistaraa = {
+					province = 843
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_reistarab = {
+					province = 848
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_reistarac = {
+					province = 855
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				}
+			
+			c_hofsfell = {
+				color = { 80 127 76 }
+				color2 = { 255 255 255 }
+
+				b_hofsfell = {
+					province = 827
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hofsfella = {
+					province = 808
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hofsfellb = {
+					province = 812
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hofsfellc = {
+					province = 804
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hofsfelld = {
+					province = 816
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}
+			
+			
+				
+			c_arnarnes = {
+				color = { 76 107 76 }
+				color2 = { 255 255 255 }
+
+				b_arnarnes = {
+					province = 824
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kiojabergsal = {
+					province = 797
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_helgafell = {
+					province = 819
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_skagafjoror = {
+					province = 773
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_geitland = {
+					province = 801
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}
+			
+			c_grimsgil = {
+				color = { 60 127 60 }
+				color2 = { 255 255 255 }
+
+				b_grimsgil = {
+					province = 780
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_grimsgila = {
+					province = 734
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_grimsgilb = {
+					province = 766
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_grimsgilc = {
+					province = 788
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_grimsgild = {
+					province = 781
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}
+				
+			c_bregentved  = {
+				color = { 76 147 76 }
+				color2 = { 255 255 255 }
+
+				b_bregentved = {
+					province = 710
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_bregentveda = {
+					province = 764
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_bregentvedb = {
+					province = 762
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_bregentvedc = {
+					province = 695
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				}
+				
+				}
+				
+				
+				
+			d_aebeltoft  = {
+			color = { 90 117 90 }
+			color2 = { 255 255 255 }
+
+			capital = c_aebeltoft
+
+			c_aebeltoft = {
+				color = { 90 117 90 }
+				color2 = { 255 255 255 }
+
+				b_aebeltoft = {
+					province = 769
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_aebeltofta = {
+					province = 790
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_aebeltoftb = {
+					province = 805
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_aebeltoftc = {
+					province = 728
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_aebeltoftd = {
+					province = 769
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_aebeltofte = {
+					province = 789
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_skufsloekr = {
+				color = { 76 127 84 }
+				color2 = { 255 255 255 }
+
+				b_skufsloekr = {
+					province = 849
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_skufsloekra = {
+					province = 850
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_skufsloekrb = {
+					province = 846
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_skufsloekrc = {
+					province = 844
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_skufsloekrd = {
+					province = 802
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}
+			
+			c_essetofte = {
+				color = { 70 117 80 }
+				color2 = { 255 255 255 }
+
+				b_essetofte = {
+					province = 705
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_essetoftea = {
+					province = 706
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_essetofteb = {
+					province = 720
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_essetoftec = {
+					province = 693
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_essetofted = {
+					province = 699
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+			}
+			
+			
+			
+			c_hofsland = {
+				color = { 90 117 80 }
+				color2 = { 255 255 255 }
+
+				b_hofsland = {
+					province = 510
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hofslanda = {
+					province = 459
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hofslandb = {
+					province = 682
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hofslandc = {
+					province = 674
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hofslandd = {
+					province = 687
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+			}
+			
+			
+		
+			c_laugarbrekka = {
+				color = { 70 107 70 }
+				color2 = { 255 255 255 }
+
+				b_laugarbrekka = {
+					province = 709
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_laugarbrekkaa = {
+					province = 767
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_laugarbrekkab = {
+					province = 793
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_laugarbrekkac = {
+					province = 800
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_laugarbrekkad = {
+					province = 771
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_laugarbrekkae = {
+					province = 708
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			
+			
+			
+			
+				
+			}
+			
+			
+			
+			
+			d_fjalltorp = {
+			color = { 232 255 86 }
+			color2 = { 255 255 255 }
+
+			capital = c_fjalltorp
+
+			c_fjalltorp = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_fjalltorp = {
+					province = 768
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			
+				b_fjalltorpa = {
+					province = 716
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_fjalltorpb = {
+					province = 791
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_fjalltorpc = {
+					province = 782
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+		}
+		
+		
+			c_ravndal  = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_ravndal = {
+					province = 692
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			
+				b_ravndala = {
+					province = 696
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_ravndalb = {
+					province = 725
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				
+		}
+		
+		
+		c_tjarn  = {
+				color = { 232 255 86 }
+				color2 = { 255 255 255 }
+
+				b_tjarn = {
+					province = 723
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			
+				b_tjarna = {
+					province = 783
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tjarnb = {
+					province = 803
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tjarnc = {
+					province = 813
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tjarnd = {
+					province = 825
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+		}
+		
+		
+		
+	}	
+	}
+	
+	
+	
+	k_misc = {
+		color = { 107 190 255 }
+		color2 = { 255 255 23 }
+
+		capital = c_misc
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:testish
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		d_etc = {
+			color = { 155 190 255}
+			color2 = { 255 255 255 }
+
+			capital = c_misc
+
+		c_kiojaberg = {
+				color = { 155 190 255 }
+				color2 = { 255 255 255 }
+
+				b_kiojaberg = {
+					province = 608
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kiojaberga = {
+					province = 612
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kiojabergb = {
+					province = 616
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kiojabergc = {
+					province = 617
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_kiojabergd = {
+					province = 623
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_etceteria= {
+				color = { 155 170 255 }
+				color2 = { 255 255 255 }
+
+				b_etceteria = {
+					province = 625
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_etceteriaa = {
+					province = 646
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_etceteriab = {
+					province = 663
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_etceteriac = {
+					province = 644
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_etceteriad = {
+					province = 666
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+			}
+			c_northetceteria= {
+				color = { 155 200 245 }
+				color2 = { 255 255 255 }
+
+				b_northetceteria = {
+					province = 678
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_northetceteriaa = {
+					province = 732
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_northetceteriab = {
+					province = 672
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_northetceteriac = {
+					province = 730
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_northetceteriad = {
+					province = 739
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+			}
+			}
+			
+			d_misce = {
+			color = { 107 190 255}
+			color2 = { 255 255 255 }
+
+			capital = c_misc
+
+			
+			c_northmisc= {
+				color = { 107 170 255 }
+				color2 = { 255 255 255 }
+
+				b_northmisc = {
+					province = 665
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_northmisca = {
+					province = 671
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_northmiscb = {
+					province = 727
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_northmiscc = {
+					province = 698
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_northmiscd = {
+					province = 628
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+			}
+			
+			c_northeastmisc= {
+				color = { 127 190 255 }
+				color2 = { 255 255 255 }
+
+				b_northeastmisc = {
+					province = 722
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_northeastmisca = {
+					province = 731
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_northeastmiscb = {
+					province = 743
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_northeastmiscc = {
+					province = 738
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_northeastmiscd = {
+					province = 756
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_northeastmisce = {
+					province = 744
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
 
 
+			c_misc = {
+				color = { 107 190 235 }
+				color2 = { 255 255 255 }
 
+				b_misc = {
+					province = 630
 
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_misca = {
+					province = 631
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_miscb = {
+					province = 645
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_miscc = {
+					province = 650
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_miscd = {
+					province = 624
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+	
+	
+			}
+			
+			
+			
+			
+			}
+		}
+		
+		
+		k_jatizso = {
+		color = { 166 160 94 }
+		color2 = { 255 255 23 }
+
+		capital = c_jatizso
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:testish
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		d_jatizso = {
+			color = { 166 160 94}
+			color2 = { 255 255 255 }
+
+			capital = c_jatizso
+
+		c_jatizso = {
+				color = { 166 160 94 }
+				color2 = { 255 255 255 }
+
+				b_jatizsoa = {
+					province = 862
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_jatizsob = {
+					province = 868
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_jatizsoc = {
+					province = 861
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_jatizsod = {
+					province = 859
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_jatizsoe = {
+					province = 871
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_jatizsof = {
+					province = 873
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				}
+				
+			c_isafjoror = {
+				color = { 145 170 94 }
+				color2 = { 255 255 255 }
+
+				b_isafjoror = {
+					province = 482
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_isafjorora = {
+					province = 483
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_isafjororb = {
+					province = 530
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_isafjororc = {
+					province = 540
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_isafjorord = {
+					province = 490
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				
+				
+				}	
+			
+			c_hjorleifshofoi = {
+				color = { 145 170 94 }
+				color2 = { 255 255 255 }
+
+				b_hjorleifshofoi = {
+					province = 593
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hjorleifshofoia = {
+					province = 601
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hjorleifshofoib = {
+					province = 609
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hjorleifshofoic = {
+					province = 606
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hjorleifshofoid = {
+					province = 574
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}
+
+			c_hegranes = {
+				color = { 145 170 94 }
+				color2 = { 255 255 255 }
+
+				b_hegranes = {
+					province = 621
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hegranesa = {
+					province = 619
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_hegranesb = {
+					province = 635
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_hegranesc = {
+					province = 660
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}
+				
+			c_holmlond = {
+				color = { 145 170 94 }
+				color2 = { 255 255 255 }
+
+				b_holmlond = {
+					province = 634
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_holmlonda = {
+					province = 638
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_holmlondb = {
+					province = 719
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_holmlondc = {
+					province = 639
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				}
+				
+			c_fnjoska = {
+				color = { 145 170 94 }
+				color2 = { 255 255 255 }
+
+				b_fnjoska = {
+					province = 668
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_fnjoskaa = {
+					province = 740
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_fnjoskab = {
+					province = 749
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_fnjoskac = {
+					province = 760
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_fnjoskad = {
+					province = 776
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}	
+			
+			c_jokulsa = {
+				color = { 145 170 94 }
+				color2 = { 255 255 255 }
+
+				b_jokulsa = {
+					province = 759
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_jokulsaa = {
+					province = 777
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_jokulsab = {
+					province = 772
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_jokulsac = {
+					province = 498
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_jokulsad = {
+					province = 496
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}
+			
+			}
+			
+		}
+		
+		k_neitiznot = {
+		color = { 215 204 79 }
+		color2 = { 255 255 23 }
+
+		capital = c_neitiznot
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:testish
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		d_neitiznot = {
+			color = { 215 204 79}
+			color2 = { 255 255 255 }
+
+			capital = c_neitiznot
+
+		c_neitiznot = {
+				color = { 215 204 79 }
+				color2 = { 255 255 255 }
+
+				b_neitiznot = {
+					province = 864
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_neitiznota = {
+					province = 857
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_neitiznotb = {
+					province = 863
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_neitiznotc = {
+					province = 869
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				
+				}
+			c_neitiznotwest = {
+				color = { 205 204 79 }
+				color2 = { 255 255 255 }
+
+				b_neitiznotwest = {
+					province = 851
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_neitiznotwesta = {
+					province = 854
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_neitiznotwestb = {
+					province = 872
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_neitiznotwestc = {
+					province = 856
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}
+				
+				
+				
+				}
+				}
+		
+		
+		
+		k_keldagrim = {
+		color = { 255 127 76 }
+		color2 = { 255 125 55 }
+
+		capital = c_keldagrim
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:testish
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		d_keldagrim = {
+			color = { 255 127 55}
+			color2 = { 255 255 255 }
+
+			capital = c_keldagrim
+
+		c_keldagrim = {
+				color = { 255 127 55 }
+				color2 = { 255 255 255 }
+
+				b_keldagrim = {
+					province = 820
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_keldagrima = {
+					province = 834
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_keldagrimb = {
+					province = 840
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_keldagrimc = {
+					province = 831
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_keldagrimd = {
+					province = 845
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}
+				
+			c_keldagrimwest = {
+				color = { 255 127 55 }
+				color2 = { 255 255 255 }
+
+				b_keldagrimwest = {
+					province = 817
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_keldagrimwesta = {
+					province = 832
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_keldagrimwestb = {
+					province = 852
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_keldagrimwestc = {
+					province = 842
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_keldagrimwestd = {
+					province = 841
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_keldagrimweste = {
+					province = 830
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				}	
+				
+				
+			}
+			}
+				
+		
+		
+	
+	}
+	
+	
+e_kandarin = {
+	color = { 255 2 2 }
+	color2 = { 255 255 255 }
+
+	capital = c_camelot
+
+	definite_form = yes
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:testish
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	k_camelot = {
+		color = { 255 2 2 }
+		color2 = { 255 255 23 }
+
+		capital = c_camelot
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:testish
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		d_camelot = {
+			color = { 255 2 2}
+			color2 = { 255 255 255 }
+
+			capital = c_camelot
+
+			c_camelot = {
+				color = { 255 2 2 }
+				color2 = { 255 255 255 }
+
+				b_camelot = {
+					province = 527
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_camelota = {
+					province = 538
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_camelotb = {
+					province = 514
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_camelotc = {
+					province = 539
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_camelotd = {
+					province = 552
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_bowden  = {
+				color = { 255 2 2 }
+				color2 = { 255 255 255 }
+
+				b_bowden = {
+					province = 564
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_bowdena = {
+					province = 557
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_bowdenb = {
+					province = 542
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_bowdenc = {
+					province = 554
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+			}
+			
+			c_richmond  = {
+				color = { 255 2 2 }
+				color2 = { 255 255 255 }
+
+				b_richmond = {
+					province = 559
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_richmonda = {
+					province = 579
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_richmondb = {
+					province = 599
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_richmondc = {
+					province = 600
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_richmondc = {
+					province = 568
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_aval  = {
+				color = { 255 2 2 }
+				color2 = { 255 255 255 }
+
+				b_aval = {
+					province = 548
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_avala = {
+					province = 569
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_avalb = {
+					province = 583
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_avalc = {
+					province = 573
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_avald = {
+					province = 567
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+		}
+		
+		d_catherby = {
+			color = { 255 42 2}
+			color2 = { 255 255 255 }
+
+			capital = c_catherby
+
+			c_catherby = {
+				color = { 255 42 2 }
+				color2 = { 255 255 255 }
+
+				b_catherby = {
+					province = 467
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_catherbya = {
+					province = 473
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_catherbyb = {
+					province = 475
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_catherbyc = {
+					province = 477
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_catherbyd = {
+					province = 468
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_caerleon = {
+				color = { 255 42 2 }
+				color2 = { 255 255 255 }
+
+				b_caerleon = {
+					province = 493
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_caerleona = {
+					province = 494
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_caerleonb = {
+					province = 515
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_caerleonc = {
+					province = 521
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_caerleond = {
+					province = 518
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_caerleone = {
+					province = 541
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_caerleonf = {
+					province = 536
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_penrhionydd = {
+				color = { 255 42 2 }
+				color2 = { 255 255 255 }
+
+				b_penrhionydd = {
+					province = 489
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_penrhionydda = {
+					province = 506
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_penrhionyddb = {
+					province = 488
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_penrhionyddc = {
+					province = 479
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_penrhionyddd = {
+					province = 469
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_arran = {
+				color = { 255 42 2 }
+				color2 = { 255 255 255 }
+
+				b_arran = {
+					province = 476
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_arrana = {
+					province = 503
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_arranb = {
+					province = 522
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_arranc = {
+					province = 492
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_arrand = {
+					province = 480
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		
+		d_seers = {
+			color = { 255 102 102}
+			color2 = { 255 255 255 }
+
+			capital = c_seers
+
+			c_seers = {
+				color = { 255 102 102 }
+				color2 = { 255 255 255 }
+
+				b_seers = {
+					province = 520
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_seersa = {
+					province = 502
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_seersb = {
+					province = 543
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_seersc = {
+					province = 545
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_seersd = {
+					province = 532
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			
+			c_guinnon  = {
+				color = { 255 102 80 }
+				color2 = { 255 255 255 }
+
+				b_guinnon = {
+					province = 464
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_guinnona = {
+					province = 471
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_guinnonb = {
+					province = 478
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_guinnonc = {
+					province = 508
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+			}
+			
+			c_tribruit   = {
+				color = { 255 80 102 }
+				color2 = { 255 255 255 }
+
+				b_tribruit = {
+					province = 531
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tribruita = {
+					province = 558
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tribruitb = {
+					province = 561
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tribruitc = {
+					province = 519
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_tribruitd = {
+					province = 547
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_saltwell   = {
+				color = { 255 80 102 }
+				color2 = { 255 255 255 }
+
+				b_saltwell = {
+					province = 486
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_saltwella = {
+					province = 485
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_saltwellb = {
+					province = 512
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_saltwellc = {
+					province = 513
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+		}
+				
+		d_sinclair = {
+			color = { 255 42 2}
+			color2 = { 255 255 255 }
+
+			capital = c_sinclair
+
+			c_sinclair = {
+				color = { 255 42 2 }
+				color2 = { 255 255 255 }
+
+				b_sinclair = {
+					province = 455
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_sinclaira = {
+					province = 454
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_sinclairb = {
+					province = 524
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_sinclairc = {
+					province = 456
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_sinclaird = {
+					province = 453
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_dinasemrys  = {
+				color = { 255 42 2 }
+				color2 = { 255 255 255 }
+
+				b_dinasemrys = {
+					province = 581
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_dinasemrysa = {
+					province = 591
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_dinasemrysb = {
+					province = 592
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_dinasemrysc = {
+					province = 572
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+			}
+			c_brocéliande  = {
+				color = { 255 42 2 }
+				color2 = { 255 255 255 }
+
+				b_brocéliande = {
+					province = 500
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_brocéliandea = {
+					province = 461
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_brocéliandeb = {
+					province = 675
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_brocélianded = {
+					province = 457
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+			}
+			
+			c_plounevez  = {
+				color = { 255 42 2 }
+				color2 = { 255 255 255 }
+
+				b_plounevez = {
+					province = 600
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_plouneveza = {
+					province = 586
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_plounevezb = {
+					province = 578
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				b_plounevezc = {
+					province = 458
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+			}
+		}
+	}
+	}
+	
+}
+	

@@ -22,6 +22,35 @@
 	name = "Miller"
 	culture = "testish"
 }
+5000008 = {
+	name = "Leptoc"
+	culture = "testish"
+}
+5000009 = {
+	name = "Prysin"
+	culture = "testish"
+}
+5000010 = {
+	name = "Raispher"
+	culture = "testish"
+}
+5000011 = {
+	name = "Halen"
+	culture = "testish"
+}
+
+5000012 = {
+	name = "Gontamue"
+	culture = "testish"
+}
+5000013 = {
+	name = "Paldock"
+	culture = "testish"
+}
+5000014 = {
+	name = "Jatizso"
+	culture = "testish"
+}
 
 8000008 = {
 	name = "Mizra"
@@ -93,4 +122,3 @@ k000001 = {
 	name = "Wannai"
 	culture = "karamjan"
 }
-

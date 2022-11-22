@@ -4,7 +4,7 @@
 	doctrine = doctrine_monogamy
 	doctrine = heresy_hostility_doctrine # Needs to be before eastern_hostility_doctrine in order to override the same religion hostility
 	doctrine = eastern_hostility_doctrine
-	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_gender_equal
 	doctrine = doctrine_no_head
 	doctrine = doctrine_concubines
 	doctrine = doctrine_divorce_approval
@@ -199,20 +199,56 @@
 	}
 
 	faiths = {
+
 		saradominism = {
 			color = { 0.1 0.1 1.0 }
 			icon = saradomin
 			religious_head = d_hpriestsar
-			holy_site = entrana
 			holy_site = digsite
+			holy_site = paterdomus
 			holy_site = citharede
 
 			doctrine = tenet_religious_legal_pronouncements
-			doctrine = tenet_pacifism
-			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_communion
+			doctrine = tenet_monasticism
 
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_consanguinity_unrestricted
 		}
+
+		ham = {
+			color = { 0.8 0.5 0.8 }
+			icon = ham
+			religious_head = d_hpriestsar
+			holy_site = digsite
+			holy_site = paterdomus
+			holy_site = hamford
+			doctrine = tenet_communion
+			doctrine = tenet_mendicant_preachers
+			doctrine = tenet_warmonger
+
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_consanguinity_unrestricted
+			doctrine = doctrine_pluralism_fundamentalist
+		}
+
+		imcando = {
+			color = { 0.1 0.6 0.2 }
+			icon = saradomin
+			religious_head = d_hpriestsar
+			holy_site = digsite
+
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_guthix_syncretism
+			doctrine = tenet_communal_identity
+
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_consanguinity_unrestricted
+			doctrine = doctrine_pluralism_fundamentalist
+		}
+
+
+
+
 	}
 }

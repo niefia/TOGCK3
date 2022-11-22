@@ -1,133 +1,281 @@
-153 = {	# 1 - 1
-
-	# Misc
-	culture = fremenik
-	religion = guthixian
-	holding = castle_holding
-
-}
-
-154 = {	# 1 - 1
-
-	# Misc
-	culture = fremenik
-	religion = guthixian
-	holding = castle_holding
-
-}
-155 = {	# 1 - 1
-
-	# Misc
-	culture = fremenik
-	religion = guthixian
-	holding = castle_holding
-
-}
-
-156 = {	# 1 - 1
-
-	# Misc
-	culture = fremenik
-	religion = guthixian
-	holding = castle_holding
-
-}
-157 = {	# 1 - 1
-
-	# Misc
-	culture = fremenik
-	religion = guthixian
-	holding = castle_holding
-
-}
-158 = {	# 1 - 1
-
-	# Misc
-	culture = fremenik
-	religion = guthixian
-	holding = castle_holding
-
-}
-159 = {	# 1 - 1
-
-	# Misc
-	culture = fremenik
-	religion = guthixian
-	holding = castle_holding
-
-}
-160 = {	# 1 - 1
-
-	# Misc
-	culture = fremenik
-	religion = guthixian
-	holding = castle_holding
-
-}
-161 = {	# 1 - 1
-
-	# Misc
-	culture = fremenik
-	religion = guthixian
-	holding = castle_holding
-
-}
-162 = {	# 1 - 1
-
-	# Misc
-	culture = fremenik
-	religion = guthixian
-	holding = castle_holding
-
-}
-163 = {	# 1 - 1
-
-	# Misc
-	culture = fremenik
-	religion = guthixian
-	holding = castle_holding
-
-}
-164 = {	# 1 - 1
-
-	# Misc
-	culture = fremenik
-	religion = guthixian
-	holding = castle_holding
-
-}
-194 = {	# 1 - 1
-
-	# Misc
-	culture = fremenik
-	religion = guthixian
-	holding = castle_holding
-
-}
-211= {	# 1 - 1
-
-	# Misc
-	culture = dwarven
-	religion = guthixian
-	holding = castle_holding
-
-}
-212= {	# 1 - 1
-
-	# Misc
-	culture = dwarven
-	religion = guthixian
-	holding = castle_holding
-
-}
-
-
-
-9 = {	# 1 - 1
-
-	# Misc
-	culture = fremenik
-	religion = guthixian
-	holding = castle_holding
-
-}
+510 = { culture = fremenik religion = fremenik}
+600 = { culture = fremenik religion = fremenik}
+601 = { culture = fremenik religion = fremenik}
+602 = { culture = fremenik religion = fremenik}
+603 = { culture = fremenik religion = fremenik}
+604 = { culture = fremenik religion = fremenik}
+605 = { culture = fremenik religion = fremenik}
+606 = { culture = fremenik religion = fremenik}
+607 = { culture = fremenik religion = fremenik}
+608 = { culture = fremenik religion = fremenik}
+609 = { culture = fremenik religion = fremenik}
+610 = { culture = fremenik religion = fremenik}
+611 = { culture = fremenik religion = fremenik}
+612 = { culture = fremenik religion = fremenik}
+613 = { culture = fremenik religion = fremenik}
+614 = { culture = fremenik religion = fremenik}
+615 = { culture = fremenik religion = fremenik}
+616 = { culture = fremenik religion = fremenik}
+617 = { culture = fremenik religion = fremenik}
+618 = { culture = fremenik religion = fremenik}
+619 = { culture = fremenik religion = fremenik}
+620 = { culture = fremenik religion = fremenik}
+621 = { culture = fremenik religion = fremenik}
+622 = { culture = fremenik religion = fremenik}
+623 = { culture = fremenik religion = fremenik}
+624 = { culture = fremenik religion = fremenik}
+625 = { culture = fremenik religion = fremenik}
+626 = { culture = fremenik religion = fremenik}
+627 = { culture = fremenik religion = fremenik}
+628 = { culture = fremenik religion = fremenik}
+629 = { culture = fremenik religion = fremenik}
+630 = { culture = fremenik religion = fremenik}
+631 = { culture = fremenik religion = fremenik}
+632 = { culture = fremenik religion = fremenik}
+633 = { culture = fremenik religion = fremenik}
+634 = { culture = fremenik religion = fremenik}
+635 = { culture = fremenik religion = fremenik}
+636 = { culture = fremenik religion = fremenik}
+637 = { culture = fremenik religion = fremenik}
+638 = { culture = fremenik religion = fremenik}
+639 = { culture = fremenik religion = fremenik}
+640 = { culture = fremenik religion = fremenik}
+641 = { culture = fremenik religion = fremenik}
+642 = { culture = fremenik religion = fremenik}
+643 = { culture = fremenik religion = fremenik}
+644 = { culture = fremenik religion = fremenik}
+645 = { culture = fremenik religion = fremenik}
+646 = { culture = fremenik religion = fremenik}
+647 = { culture = fremenik religion = fremenik}
+648 = { culture = fremenik religion = fremenik}
+649 = { culture = fremenik religion = fremenik}
+650 = { culture = fremenik religion = fremenik}
+651 = { culture = fremenik religion = fremenik}
+652 = { culture = fremenik religion = fremenik}
+653 = { culture = fremenik religion = fremenik}
+654 = { culture = fremenik religion = fremenik}
+655 = { culture = fremenik religion = fremenik}
+656 = { culture = fremenik religion = fremenik}
+657 = { culture = fremenik religion = fremenik}
+658 = { culture = fremenik religion = fremenik}
+659 = { culture = fremenik religion = fremenik}
+660 = { culture = fremenik religion = fremenik}
+661 = { culture = fremenik religion = fremenik}
+662 = { culture = fremenik religion = fremenik}
+663 = { culture = fremenik religion = fremenik}
+664 = { culture = fremenik religion = fremenik}
+665 = { culture = fremenik religion = fremenik}
+666 = { culture = fremenik religion = fremenik}
+667 = { culture = fremenik religion = fremenik}
+668 = { culture = fremenik religion = fremenik}
+669 = { culture = fremenik religion = fremenik}
+670 = { culture = fremenik religion = fremenik}
+671 = { culture = fremenik religion = fremenik}
+672 = { culture = fremenik religion = fremenik}
+673 = { culture = fremenik religion = fremenik}
+674 = { culture = fremenik religion = fremenik}
+675 = { culture = fremenik religion = fremenik}
+676 = { culture = fremenik religion = fremenik}
+677 = { culture = fremenik religion = fremenik}
+678 = { culture = fremenik religion = fremenik}
+679 = { culture = fremenik religion = fremenik}
+680 = { culture = fremenik religion = fremenik}
+681 = { culture = fremenik religion = fremenik}
+682 = { culture = fremenik religion = fremenik}
+683 = { culture = fremenik religion = fremenik}
+684 = { culture = fremenik religion = fremenik}
+685 = { culture = fremenik religion = fremenik}
+686 = { culture = fremenik religion = fremenik}
+687 = { culture = fremenik religion = fremenik}
+688 = { culture = fremenik religion = fremenik}
+689 = { culture = fremenik religion = fremenik}
+690 = { culture = fremenik religion = fremenik}
+691 = { culture = fremenik religion = fremenik}
+692 = { culture = mountainfremenik religion = fremenik}
+693 = { culture = fremenik religion = fremenik}
+694 = { culture = fremenik religion = fremenik}
+695 = { culture = fremenik religion = fremenik}
+696 = { culture = mountainfremenik religion = fremenik}
+697 = { culture = fremenik religion = fremenik}
+698 = { culture = fremenik religion = fremenik}
+699 = { culture = fremenik religion = fremenik}
+700 = { culture = fremenik religion = fremenik}
+701 = { culture = fremenik religion = fremenik}
+702 = { culture = fremenik religion = fremenik}
+703 = { culture = fremenik religion = fremenik}
+704 = { culture = fremenik religion = fremenik}
+705 = { culture = fremenik religion = fremenik}
+706 = { culture = fremenik religion = fremenik}
+707 = { culture = fremenik religion = fremenik}
+708 = { culture = fremenik religion = fremenik}
+709 = { culture = fremenik religion = fremenik}
+710 = { culture = fremenik religion = fremenik}
+711 = { culture = fremenik religion = fremenik}
+712 = { culture = fremenik religion = fremenik}
+713 = { culture = fremenik religion = fremenik}
+714 = { culture = fremenik religion = fremenik}
+715 = { culture = fremenik religion = fremenik}
+716 = { culture = fremenik religion = fremenik}
+717 = { culture = fremenik religion = fremenik}
+718 = { culture = fremenik religion = fremenik}
+719 = { culture = fremenik religion = fremenik}
+720 = { culture = fremenik religion = fremenik}
+721 = { culture = fremenik religion = fremenik}
+722 = { culture = fremenik religion = fremenik}
+723 = { culture = mountainfremenik religion = fremenik}
+724 = { culture = fremenik religion = fremenik}
+725 = { culture = fremenik religion = fremenik}
+726 = { culture = fremenik religion = fremenik}
+727 = { culture = fremenik religion = fremenik}
+728 = { culture = fremenik religion = fremenik}
+729 = { culture = fremenik religion = fremenik}
+730 = { culture = fremenik religion = fremenik}
+731 = { culture = fremenik religion = fremenik}
+732 = { culture = fremenik religion = fremenik}
+733 = { culture = fremenik religion = fremenik}
+734 = { culture = fremenik religion = fremenik}
+735 = { culture = fremenik religion = fremenik}
+736 = { culture = fremenik religion = fremenik}
+737 = { culture = fremenik religion = fremenik}
+738 = { culture = fremenik religion = fremenik}
+739 = { culture = fremenik religion = fremenik}
+740 = { culture = fremenik religion = fremenik}
+741 = { culture = fremenik religion = fremenik}
+742 = { culture = fremenik religion = fremenik}
+743 = { culture = fremenik religion = fremenik}
+744 = { culture = fremenik religion = fremenik}
+745 = { culture = fremenik religion = fremenik}
+746 = { culture = fremenik religion = fremenik}
+747 = { culture = fremenik religion = fremenik}
+748 = { culture = fremenik religion = fremenik}
+749 = { culture = fremenik religion = fremenik}
+750 = { culture = fremenik religion = fremenik}
+751 = { culture = fremenik religion = fremenik}
+752 = { culture = fremenik religion = fremenik}
+753 = { culture = fremenik religion = fremenik}
+754 = { culture = fremenik religion = fremenik}
+755 = { culture = fremenik religion = fremenik}
+756 = { culture = fremenik religion = fremenik}
+757 = { culture = fremenik religion = fremenik}
+758 = { culture = fremenik religion = fremenik}
+759 = { culture = fremenik religion = fremenik}
+760 = { culture = fremenik religion = fremenik}
+761 = { culture = fremenik religion = fremenik}
+762 = { culture = fremenik religion = fremenik}
+763 = { culture = fremenik religion = fremenik}
+764 = { culture = fremenik religion = fremenik}
+765 = { culture = fremenik religion = fremenik}
+766 = { culture = fremenik religion = fremenik}
+767 = { culture = fremenik religion = fremenik}
+768 = { culture = mountainfremenik religion = fremenik}
+769 = { culture = fremenik religion = fremenik}
+770 = { culture = fremenik religion = fremenik}
+771 = { culture = fremenik religion = fremenik}
+772 = { culture = fremenik religion = fremenik}
+773 = { culture = fremenik religion = fremenik}
+774 = { culture = fremenik religion = fremenik}
+775 = { culture = fremenik religion = fremenik}
+776 = { culture = fremenik religion = fremenik}
+777 = { culture = fremenik religion = fremenik}
+778 = { culture = fremenik religion = fremenik}
+779 = { culture = fremenik religion = fremenik}
+780 = { culture = fremenik religion = fremenik}
+781 = { culture = fremenik religion = fremenik}
+782 = { culture = fremenik religion = fremenik}
+783 = { culture = fremenik religion = fremenik}
+784 = { culture = fremenik religion = fremenik}
+785 = { culture = fremenik religion = fremenik}
+786 = { culture = fremenik religion = fremenik}
+787 = { culture = fremenik religion = fremenik}
+788 = { culture = fremenik religion = fremenik}
+789 = { culture = fremenik religion = fremenik}
+790 = { culture = fremenik religion = fremenik}
+791 = { culture = fremenik religion = fremenik}
+792 = { culture = fremenik religion = fremenik}
+793 = { culture = fremenik religion = fremenik}
+794 = { culture = fremenik religion = fremenik}
+795 = { culture = fremenik religion = fremenik}
+796 = { culture = fremenik religion = fremenik}
+797 = { culture = fremenik religion = fremenik}
+798 = { culture = fremenik religion = fremenik}
+799 = { culture = fremenik religion = fremenik}
+800 = { culture = fremenik religion = fremenik}
+801 = { culture = fremenik religion = fremenik}
+802 = { culture = fremenik religion = fremenik}
+803 = { culture = fremenik religion = fremenik}
+804 = { culture = fremenik religion = fremenik}
+805 = { culture = fremenik religion = fremenik}
+806 = { culture = fremenik religion = fremenik}
+807 = { culture = fremenik religion = fremenik}
+808 = { culture = fremenik religion = fremenik}
+809 = { culture = fremenik religion = fremenik}
+810 = { culture = fremenik religion = fremenik}
+811 = { culture = fremenik religion = fremenik}
+812 = { culture = fremenik religion = fremenik}
+813 = { culture = fremenik religion = fremenik}
+814 = { culture = fremenik religion = fremenik}
+815 = { culture = fremenik religion = fremenik}
+816 = { culture = fremenik religion = fremenik}
+817 = { culture = dwarven religion = guthixian}
+818 = { culture = fremenik religion = fremenik}
+819 = { culture = fremenik religion = fremenik}
+820 = { culture = dwarven religion = guthixian}
+821 = { culture = fremenik religion = fremenik}
+822 = { culture = fremenik religion = fremenik}
+823 = { culture = fremenik religion = fremenik}
+824 = { culture = fremenik religion = fremenik}
+825 = { culture = fremenik religion = fremenik}
+826 = { culture = fremenik religion = fremenik}
+827 = { culture = fremenik religion = fremenik}
+828 = { culture = fremenik religion = fremenik}
+829 = { culture = fremenik religion = fremenik}
+830 = { culture = fremenik religion = fremenik}
+831 = { culture = fremenik religion = fremenik}
+832 = { culture = fremenik religion = fremenik}
+833 = { culture = fremenik religion = fremenik}
+834 = { culture = fremenik religion = fremenik}
+835 = { culture = fremenik religion = fremenik}
+836 = { culture = fremenik religion = fremenik}
+837 = { culture = fremenik religion = fremenik}
+838 = { culture = fremenik religion = fremenik}
+839 = { culture = fremenik religion = fremenik}
+840 = { culture = fremenik religion = fremenik}
+841 = { culture = fremenik religion = fremenik}
+842 = { culture = fremenik religion = fremenik}
+843 = { culture = fremenik religion = fremenik}
+844 = { culture = fremenik religion = fremenik}
+845 = { culture = fremenik religion = fremenik}
+846 = { culture = fremenik religion = fremenik}
+847 = { culture = fremenik religion = fremenik}
+848 = { culture = fremenik religion = fremenik}
+849 = { culture = fremenik religion = fremenik}
+850 = { culture = fremenik religion = fremenik}
+851 = { culture = fremenik religion = fremenik}
+852 = { culture = fremenik religion = fremenik}
+853 = { culture = fremenik religion = fremenik}
+854 = { culture = fremenik religion = fremenik}
+855 = { culture = fremenik religion = fremenik}
+856 = { culture = fremenik religion = fremenik}
+857 = { culture = fremenik religion = fremenik}
+858 = { culture = fremenik religion = fremenik}
+859 = { culture = fremenik religion = fremenik}
+860 = { culture = fremenik religion = fremenik}
+861 = { culture = fremenik religion = fremenik}
+862 = { culture = fremenik religion = fremenik}
+863 = { culture = fremenik religion = fremenik}
+864 = { culture = fremenik religion = fremenik}
+865 = { culture = fremenik religion = fremenik}
+866 = { culture = fremenik religion = fremenik}
+867 = { culture = fremenik religion = fremenik}
+868 = { culture = fremenik religion = fremenik}
+869 = { culture = fremenik religion = fremenik}
+870 = { culture = fremenik religion = fremenik}
+871 = { culture = fremenik religion = fremenik}
+872 = { culture = fremenik religion = fremenik}
+873 = { culture = fremenik religion = fremenik}
+874 = { culture = fremenik religion = fremenik}
+875 = { culture = fremenik religion = fremenik}
+876 = { culture = fremenik religion = fremenik}
+877 = { culture = fremenik religion = fremenik}
+878 = { culture = fremenik religion = fremenik}
+879 = { culture = fremenik religion = fremenik}

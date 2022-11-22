@@ -455,22 +455,6 @@
 		mask=		"india_farmlands_mask.bmp"
 		id =		"india_farmlands"
 	}
-	{
-		name=		"Lava"
-		diffuse=	"lava_diffuse.dds"
-		normal=		"lava_normal.dds"
-		material=	"lava_properties.dds"
-		mask=		"lava_mask.bmp"
-		id =		"lava"
-	}
-	{
-		name=		"Rock European"
-		diffuse=	"rock_european_diffuse.dds"
-		normal=		"rock_european_normal.dds"
-		material=	"rock_european_properties.dds"
-		mask=		"rock_european_mask.bmp"
-		id =		"rock_european"
-	}
 	
 	{
 		name=		"Hardened Lava"
@@ -480,6 +464,16 @@
 		mask=		"hardened_lava_mask.bmp"
 		id =		"hardened_lava"
 	}
+	{
+		name=		"Lava"
+		diffuse=	"lava_diffuse.dds"
+		normal=		"lava_normal.dds"
+		material=	"lava_properties.dds"
+		mask=		"lava_mask.bmp"
+		id =		"lava"
+	}
+	
+	
 	
 	
 	
@@ -490,5 +484,3 @@
 #    diffuse  - relative path
 #    normal   - relative path
 #    material - relative path
-{
-}

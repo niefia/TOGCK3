@@ -1,0 +1,43 @@
+
+
+153 = { culture = dorgeshuun religion = dorgushuun}
+154 = { culture = dorgeshuun religion = dorgushuun}
+155 = { culture = dorgeshuun religion = dorgushuun}
+156 = { culture = dorgeshuun religion = dorgushuun}
+157 = { culture = dorgeshuun religion = dorgushuun}
+
+183 = { culture = dorgeshuun religion = dorgushuun}
+184 = { culture = dorgeshuun religion = dorgushuun}
+185 = { culture = dorgeshuun religion = dorgushuun}
+186 = { culture = dorgeshuun religion = dorgushuun}
+187 = { culture = dorgeshuun religion = dorgushuun}
+
+200 = { culture = dorgeshuun religion = dorgushuun}
+201 = { culture = dorgeshuun religion = dorgushuun}
+202 = { culture = dorgeshuun religion = dorgushuun}
+203 = { culture = dorgeshuun religion = dorgushuun}
+204 = { culture = dorgeshuun religion = dorgushuun}
+205 = { culture = dorgeshuun religion = dorgushuun}
+206 = { culture = dorgeshuun religion = dorgushuun}
+207 = { culture = dorgeshuun religion = dorgushuun}
+208 = { culture = dorgeshuun religion = dorgushuun}
+209 = { culture = dorgeshuun religion = dorgushuun}
+210 = { culture = dorgeshuun religion = dorgushuun}
+211 = { culture = dorgeshuun religion = dorgushuun}
+212 = { culture = dorgeshuun religion = dorgushuun}
+213 = { culture = dorgeshuun religion = dorgushuun}
+214 = { culture = dorgeshuun religion = dorgushuun}
+215 = { culture = dorgeshuun religion = dorgushuun}
+216 = { culture = dorgeshuun religion = dorgushuun}
+217 = { culture = dorgeshuun religion = dorgushuun}
+218 = { culture = dorgeshuun religion = dorgushuun}
+219 = { culture = dorgeshuun religion = dorgushuun}
+220 = { culture = dorgeshuun religion = dorgushuun}
+221 = { culture = dorgeshuun religion = dorgushuun}
+222 = { culture = dorgeshuun religion = dorgushuun}
+223 = { culture = dorgeshuun religion = dorgushuun}
+224 = { culture = dorgeshuun religion = dorgushuun}
+225 = { culture = dorgeshuun religion = dorgushuun}
+
+254 = { culture = dorgeshuun religion = dorgushuun}
+253 = { culture = dorgeshuun religion = dorgushuun}

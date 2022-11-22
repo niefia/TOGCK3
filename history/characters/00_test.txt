@@ -61,7 +61,7 @@
 	father = 9000006
 	trait = disinherited
 	trait = immortality_vampire
-	religion = "saradominism"
+	religion = "drakanite"
 	culture = "testish"
 	115.1.1 = {
 		birth = yes
@@ -286,7 +286,98 @@
 
 
 }
+6000023 = {
+	name = "Draul"
+	dynasty = 5000008
+	religion = "saradominism"
+	culture = "testish"
+	11786.1.1 = {
+		birth = yes
+	}
 
+
+}
+6000024 = {
+	name = "Aeonisig "
+	dynasty = 5000010
+	religion = "saradominism"
+	culture = "testish"
+	11806.1.1 = {
+		birth = yes
+	}
+
+
+}
+6000025 = {
+	name = "Ehntor"
+	dynasty = 5000009
+	religion = "saradominism"
+	culture = "testish"
+	11806.1.1 = {
+		birth = yes
+	}
+
+
+}
+6000026 = {
+	name = "Drezel"
+	dynasty = lowborn
+	religion = "saradominism"
+	culture = "testish"
+	11769.1.1 = {
+		birth = yes
+	}
+
+
+}
+
+
+6000027 = {
+	name = "Wormbrain"
+	dynasty = lowborn
+	religion = "bandosian"
+	culture = "goblin"
+	11799.1.1 = {
+		birth = yes
+	}
+
+
+}
+6000028 = {
+	name = "Haig"
+	dynasty = 5000011
+	religion = "saradominism"
+	culture = "testish"
+	11776.1.1 = {
+		birth = yes
+	}
+
+
+}
+6000029 = {
+	name = "Romeo"
+	dynasty = 5000012
+	religion = "saradominism"
+	culture = "testish"
+	11811.1.1 = {
+		birth = yes
+	}
+
+
+}
+
+
+6000030 = {
+	name = "Archibald"
+	dynasty = 5000013
+	religion = "saradominism"
+	culture = "testish"
+	11761.1.1 = {
+		birth = yes
+	}
+
+
+}
 
 
 
@@ -761,7 +852,7 @@
 	name = "Arthur"
 	religion = "saradominism"
 	dynasty = 9000057
-	culture = "kandarin"
+	culture = "britan"
 	11785.5.2 = {
 		birth = yes
 	}
@@ -850,4 +941,167 @@ kelda01 = {
 		birth = yes
 	}
 
+}
+
+
+jatizso01 = {
+	name = "Gjuki Sorvott"
+	religion = "fremenik"
+	culture = "fremenik"
+	dynasty = 5000014
+	father = jatizso02
+	11777.4.5 = {
+		birth = yes
+	}
+
+}
+jatizso02 = {
+	name = "Gjuki Sorvott"
+	religion = "fremenik"
+	culture = "fremenik"
+	dynasty = 5000014
+	father = jatizso03
+	11717.4.5 = {
+		birth = yes
+	}
+	11792.2.1 = {
+		death = yes
+	}
+
+
+}
+jatizso03 = {
+	name = "Gjuki Sorvott"
+	religion = "fremenik"
+	culture = "fremenik"
+	dynasty = 5000014
+	father = jatizso04
+	11677.7.7 = {
+		birth = yes
+	}
+	11742.3.3 = {
+		death = yes
+	}
+
+}
+jatizso04 = {
+	name = "Gjuki Sorvott"
+	religion = "fremenik"
+	culture = "fremenik"
+	dynasty = 5000014
+	11623.3.3 = {
+		birth = yes
+	}
+	11693.3.3 = {
+		death = yes
+	}
+
+}
+
+
+miscellania01 = {
+	name = "Vargas"
+	religion = "fremenik"
+	culture = "fremenik"
+	11788.3.4 = {
+		birth = yes
+	}
+	11810.3.4 = {
+		add_spouse = miscellania04
+	}
+
+
+}
+miscellania02 = {
+	name = "Brand"
+	religion = "fremenik"
+	culture = "fremenik"
+	father = miscellania01
+	mother = miscellania04
+	11816.1.4 = {
+		birth = yes
+	}
+
+
+}
+miscellania03 = {
+	name = "Astrid"
+	religion = "fremenik"
+	culture = "fremenik"
+	father = miscellania01
+	mother = miscellania04
+	female = yes
+	11814.5.1 = {
+		birth = yes
+	}
+
+
+}
+miscellania04 = {
+	name = "Sigrid"
+	religion = "fremenik"
+	culture = "fremenik"
+	female = yes
+
+	11790.5.1 = {
+		birth = yes
+	}
+
+
+}
+
+
+mcamp01 = {
+	name = "Hamal"
+	religion = "fremenik"
+	culture = "mountainfremenik"
+	father = mcamp03
+	11765.5.1 = {
+		birth = yes
+	}
+
+
+}
+
+mcamp02 = {
+	name = "Asleif"
+	religion = "fremenik"
+	culture = "mountainfremenik"
+	female = yes
+	father = mcamp01
+	11790.5.1 = {
+		birth = yes
+	}
+	11821.5.1 = {
+		death = yes
+	}
+
+}
+mcamp03 = {
+	name = "Wulfgard"
+	religion = "fremenik"
+	culture = "mountainfremenik"
+	11742.5.1 = {
+		birth = yes
+	}
+
+
+}
+
+rellekka01 = {
+	name = "Brundt"
+	religion = "fremenik"
+	culture = "fremenik"
+	11798.5.1 = {
+		birth = yes
+	}
+}
+rellekka02 = {
+	name = "Armod"
+	religion = "fremenik"
+	culture = "fremenik"
+	father = rellekka01
+	11823.5.1 = {
+		birth = yes
+	}
 }

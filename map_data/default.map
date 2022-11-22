@@ -16,8 +16,7 @@ seasons = "seasons.txt"
 #############
 # SEA ZONES
 #############
-sea_zones = RANGE { 191 193 }
-sea_zones = RANGE { 215 220 }
+
 ###############
 # MAJOR RIVERS
 ###############

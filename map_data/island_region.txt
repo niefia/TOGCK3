@@ -7,15 +7,3 @@
 #	duchies = { }, takes county title names declared in landed_titles.txt
 #	counties = { }, takes county title names declared in landed_titles.txt
 #	provinces = { }, takes province id numbers declared in /history/provinces
-
-island_region_entrana = {
-	counties = {	c_etrana }
-}
-
-island_region_crandor = {
-	counties = {	c_crandor }
-}
-island_region_karamja = {
-	duchies = {	d_karamja }
-	duchies = {	d_brimhaven }
-}

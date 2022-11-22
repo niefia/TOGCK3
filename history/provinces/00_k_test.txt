@@ -8,6 +8,124 @@
 
 }
 
+2 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}
+
+3 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}
+
+4 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}
+
+5 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}
+
+6 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}
+
+7 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}
+
+8 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}
+9 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}
+10 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}
+11 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}
+12 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}
+13 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}
+14 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}
+15 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}
 16 = {	# 1 - 1
 
 	# Misc
@@ -16,118 +134,12 @@
 	holding = castle_holding
 
 }
-
 17 = {	# 1 - 1
 
 	# Misc
 	culture = testish
 	religion = saradominism
-	holding = city_holding
-
-}
-
-30 = {	# 1 - 1
-
-	# Misc
-	culture = testish
-	religion = saradominism
 	holding = castle_holding
-
-}
-
-31 = {	# 1 - 1
-
-	# Misc
-	culture = testish
-	religion = saradominism
-	holding = castle_holding
-
-}
-
-21 = {	# 1 - 1
-
-	# Misc
-	culture = testish
-	religion = saradominism
-	holding = castle_holding
-
-}
-
-15 = {	# 1 - 1
-
-	# Misc
-	culture = testish
-	religion = bandosian
-	holding = none
-
-}
-
-32 = {	# 1 - 1
-
-	# Misc
-	culture = testish
-	religion = saradominism
-	holding = castle_holding
-
-}
-
-25 = {	# 1 - 1
-
-	# Misc
-	culture = testish
-	religion = saradominism
-	holding = castle_holding
-
-}
-
-26 = {	# 1 - 1
-
-	# Misc
-	culture = testish
-	religion = saradominism
-	holding = castle_holding
-
-}
-
-33 = {	# 1 - 1
-
-	# Misc
-	culture = testish
-	religion = saradominism
-	holding = castle_holding
-
-}
-
-24 = {	# 1 - 1
-
-	# Misc
-	culture = testish
-	religion = saradominism
-	holding = castle_holding
-
-}
-28 = {	# 1 - 1
-
-	# Misc
-	culture = testish
-	religion = saradominism
-	holding = castle_holding
-
-}
-23 = {	# 1 - 1
-
-	# Misc
-	culture = testish
-	religion = saradominism
-	holding = castle_holding
-
-}
-20 = {	# 1 - 1
-
-	# Misc
-	culture = testish
-	religion = saradominism
-	holding = city_holding
 
 }
 18 = {	# 1 - 1
@@ -138,99 +150,960 @@
 	holding = castle_holding
 
 }
-
-29 = {	# 1 - 1
-
-	# Misc
-	culture = testish
-	religion = saradominism
-	holding = none
-
-}
-195 = {	# 1 - 1
+19 = {	# 1 - 1
 
 	# Misc
 	culture = testish
 	religion = saradominism
-	holding = none
+	holding = castle_holding
 
-}
-
-196 = {	# 1 - 1
+}20 = {	# 1 - 1
 
 	# Misc
 	culture = testish
 	religion = saradominism
-	holding = city_holding
+	holding = castle_holding
 
-}
-
-197 = {	# 1 - 1
+}21 = {	# 1 - 1
 
 	# Misc
 	culture = testish
 	religion = saradominism
-	holding = temple_holding
+	holding = castle_holding
 
-}
-
-202 = {	# 1 - 1
+}22 = {	# 1 - 1
 
 	# Misc
 	culture = testish
 	religion = saradominism
-	holding = none
+	holding = castle_holding
 
-}
-
-203 = {	# 1 - 1
+}23 = {	# 1 - 1
 
 	# Misc
 	culture = testish
 	religion = saradominism
-	holding = temple_holding
+	holding = castle_holding
 
-}
-
-
-206 = {	# 1 - 1
+}24 = {	# 1 - 1
 
 	# Misc
 	culture = testish
 	religion = saradominism
-	holding = none
+	holding = castle_holding
 
-}
-
-205 = {	# 1 - 1
+}25 = {	# 1 - 1
 
 	# Misc
 	culture = testish
 	religion = saradominism
-	holding = none
+	holding = castle_holding
 
-}
-207 = {	# 1 - 1
-
-	# Misc
-	culture = testish
-	religion = saradominism
-	holding = temple_holding
-
-}
-208 = {	# 1 - 1
+}26 = {	# 1 - 1
 
 	# Misc
 	culture = testish
 	religion = saradominism
-	holding = none
+	holding = castle_holding
 
-}
-14 = {	# 1 - 1
+}27 = {	# 1 - 1
 
 	# Misc
 	culture = testish
 	religion = saradominism
-	holding = none
+	holding = castle_holding
+
+}28 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}29 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}30 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}31 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}32 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}33 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+	holding = castle_holding
+
+}34 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
 
 }
+35 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+36 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+37 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+38 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+39 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+40 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+41 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+42 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+43 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+
+44 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+45 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+46 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+47 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+48 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+49 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+50 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+51 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+52 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+53 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+54 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+55 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+56 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+57 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+58 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+59 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+60 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+61 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+62 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+63 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+64= {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+65 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+66 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+67 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+68= {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+69 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+70 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+71= {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+72 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+73 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+
+74 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+75 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+76 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+77 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+78 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+79 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+80 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+81= {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+82 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+83 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+84 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+85 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+
+86 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+87 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+
+88 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+89 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+90 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+91 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+92 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+93= {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+94 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+95 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+96 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+97 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+98 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+99 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+100 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+101 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+102 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+103 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+104 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+105 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+106 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+107 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+108 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+109 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+110 = {	# 1 - 1
+
+	# Misc
+	culture = testish
+	religion = saradominism
+
+}
+
+
+110 = { culture = testish religion = saradominism}
+111 = { culture = testish religion = saradominism}
+112 = { culture = testish religion = saradominism}
+113 = { culture = testish religion = saradominism}
+114 = { culture = testish religion = saradominism}
+115 = { culture = testish religion = saradominism}
+116 = { culture = testish religion = saradominism}
+117 = { culture = testish religion = saradominism}
+118 = { culture = testish religion = saradominism}
+119 = { culture = testish religion = saradominism}
+120 = { culture = testish religion = saradominism}
+121 = { culture = testish religion = saradominism}
+122 = { culture = testish religion = saradominism}
+123 = { culture = testish religion = saradominism}
+124 = { culture = testish religion = saradominism}
+125 = { culture = testish religion = saradominism}
+126 = { culture = testish religion = saradominism}
+127 = { culture = testish religion = saradominism}
+128 = { culture = testish religion = saradominism}
+129 = { culture = testish religion = saradominism}
+130 = { culture = testish religion = saradominism}
+131 = { culture = testish religion = saradominism}
+132 = { culture = testish religion = saradominism}
+133 = { culture = testish religion = saradominism}
+134 = { culture = testish religion = saradominism}
+135 = { culture = testish religion = saradominism}
+136 = { culture = testish religion = saradominism}
+137 = { culture = testish religion = saradominism}
+138 = { culture = testish religion = saradominism}
+139 = { culture = testish religion = saradominism}
+140 = { culture = testish religion = saradominism}
+141 = { culture = testish religion = saradominism}
+142 = { culture = testish religion = saradominism}
+143 = { culture = testish religion = saradominism}
+144 = { culture = testish religion = saradominism}
+145 = { culture = testish religion = saradominism}
+146 = { culture = testish religion = saradominism}
+147 = { culture = testish religion = saradominism}
+148 = { culture = testish religion = saradominism}
+149 = { culture = testish religion = saradominism}
+150 = { culture = testish religion = saradominism}
+151 = { culture = testish religion = saradominism}
+152 = { culture = testish religion = saradominism}
+158 = { culture = testish religion = saradominism}
+159 = { culture = testish religion = saradominism}
+160 = { culture = testish religion = saradominism}
+161 = { culture = testish religion = saradominism}
+162 = { culture = testish religion = saradominism}
+163 = { culture = testish religion = saradominism}
+164 = { culture = testish religion = saradominism}
+165 = { culture = testish religion = saradominism}
+166 = { culture = testish religion = saradominism}
+167 = { culture = testish religion = saradominism}
+168 = { culture = testish religion = saradominism}
+169 = { culture = testish religion = saradominism}
+170 = { culture = testish religion = saradominism}
+171 = { culture = testish religion = saradominism}
+172 = { culture = testish religion = saradominism}
+173 = { culture = testish religion = saradominism}
+174 = { culture = testish religion = saradominism}
+175 = { culture = testish religion = saradominism}
+176 = { culture = testish religion = saradominism}
+177 = { culture = testish religion = saradominism}
+178 = { culture = testish religion = saradominism}
+179 = { culture = testish religion = saradominism}
+180 = { culture = testish religion = saradominism}
+181 = { culture = testish religion = saradominism}
+182 = { culture = testish religion = saradominism}
+188 = { culture = testish religion = saradominism}
+189 = { culture = testish religion = saradominism}
+190 = { culture = testish religion = saradominism}
+191 = { culture = testish religion = saradominism}
+192 = { culture = testish religion = saradominism}
+193 = { culture = testish religion = saradominism}
+194 = { culture = testish religion = saradominism}
+195 = { culture = testish religion = saradominism}
+196 = { culture = testish religion = saradominism}
+197 = { culture = testish religion = saradominism}
+198 = { culture = testish religion = saradominism}
+199 = { culture = testish religion = saradominism}
+226 = { culture = testish religion = saradominism}
+227 = { culture = testish religion = saradominism}
+228 = { culture = testish religion = saradominism}
+229 = { culture = testish religion = saradominism}
+230 = { culture = testish religion = saradominism}
+231 = { culture = testish religion = saradominism}
+232 = { culture = testish religion = saradominism}
+233 = { culture = testish religion = saradominism}
+234 = { culture = testish religion = saradominism}
+235 = { culture = testish religion = saradominism}
+236 = { culture = testish religion = saradominism}
+237 = { culture = testish religion = saradominism}
+238 = { culture = testish religion = saradominism}
+239 = { culture = testish religion = saradominism}
+240 = { culture = testish religion = saradominism}
+241 = { culture = testish religion = saradominism}
+242 = { culture = testish religion = saradominism}
+243 = { culture = testish religion = saradominism}
+244 = { culture = testish religion = saradominism}
+245 = { culture = testish religion = saradominism}
+246 = { culture = testish religion = saradominism}
+247 = { culture = testish religion = saradominism}
+248 = { culture = testish religion = saradominism}
+249 = { culture = testish religion = saradominism}
+250 = { culture = testish religion = ham}
+251 = { culture = testish religion = ham}
+252 = { culture = testish religion = ham}
+255 = { culture = testish religion = saradominism}
+256 = { culture = testish religion = saradominism}
+257 = { culture = testish religion = saradominism}
+258 = { culture = testish religion = saradominism}
+259 = { culture = testish religion = saradominism}
+260 = { culture = testish religion = saradominism}
+261 = { culture = testish religion = saradominism}
+262 = { culture = testish religion = saradominism}
+263 = { culture = testish religion = saradominism}
+264 = { culture = testish religion = saradominism}
+265 = { culture = testish religion = saradominism}
+266 = { culture = testish religion = saradominism}
+267 = { culture = testish religion = saradominism}
+268 = { culture = testish religion = saradominism}
+269 = { culture = testish religion = saradominism}
+270 = { culture = testish religion = saradominism}
+271 = { culture = testish religion = saradominism}
+272 = { culture = testish religion = saradominism}
+273 = { culture = testish religion = saradominism}
+274 = { culture = testish religion = saradominism}
+275 = { culture = testish religion = saradominism}
+276 = { culture = testish religion = saradominism}
+277 = { culture = testish religion = saradominism}
+278 = { culture = testish religion = saradominism}
+279 = { culture = testish religion = saradominism}
+280 = { culture = testish religion = saradominism}
+281 = { culture = testish religion = saradominism}
+282 = { culture = testish religion = saradominism}
+283 = { culture = testish religion = saradominism}
+284 = { culture = testish religion = saradominism}
+285 = { culture = testish religion = saradominism}
+286 = { culture = testish religion = saradominism}
+287 = { culture = testish religion = saradominism}
+288 = { culture = testish religion = saradominism}
+289 = { culture = testish religion = saradominism}
+290 = { culture = testish religion = saradominism}
+291 = { culture = testish religion = saradominism}
+292 = { culture = testish religion = saradominism}
+293 = { culture = testish religion = saradominism}
+294 = { culture = testish religion = saradominism}
+295 = { culture = testish religion = saradominism}
+296 = { culture = testish religion = saradominism}
+297 = { culture = testish religion = saradominism}
+298 = { culture = testish religion = saradominism}
+299 = { culture = testish religion = saradominism}
+300 = { culture = testish religion = saradominism}
+301 = { culture = testish religion = saradominism}
+302 = { culture = testish religion = saradominism}
+303 = { culture = testish religion = saradominism}
+304 = { culture = testish religion = saradominism}
+305 = { culture = testish religion = saradominism}
+306 = { culture = testish religion = saradominism}
+307 = { culture = testish religion = saradominism}
+308 = { culture = testish religion = saradominism}
+309 = { culture = testish religion = saradominism}
+310 = { culture = testish religion = saradominism}
+311 = { culture = testish religion = saradominism}
+312 = { culture = testish religion = saradominism}
+313 = { culture = testish religion = saradominism}
+314 = { culture = testish religion = saradominism}
+315 = { culture = testish religion = saradominism}
+316 = { culture = testish religion = saradominism}
+317 = { culture = testish religion = saradominism}
+318 = { culture = testish religion = saradominism}
+319 = { culture = testish religion = saradominism}
+320 = { culture = testish religion = saradominism}
+321 = { culture = testish religion = saradominism}
+322 = { culture = testish religion = saradominism}
+323 = { culture = testish religion = saradominism}
+324 = { culture = testish religion = saradominism}
+325 = { culture = testish religion = saradominism}
+326 = { culture = testish religion = saradominism}
+327 = { culture = testish religion = saradominism}
+328 = { culture = testish religion = saradominism}
+329 = { culture = testish religion = saradominism}
+330 = { culture = testish religion = saradominism}
+331 = { culture = testish religion = saradominism}
+332 = { culture = testish religion = saradominism}
+333 = { culture = testish religion = saradominism}
+334 = { culture = testish religion = saradominism}
+335 = { culture = testish religion = saradominism}
+336 = { culture = testish religion = saradominism}
+337 = { culture = testish religion = saradominism}
+338 = { culture = testish religion = saradominism}
+339 = { culture = testish religion = saradominism}
+340 = { culture = testish religion = saradominism}
+341 = { culture = testish religion = saradominism}
+342 = { culture = testish religion = saradominism}
+343 = { culture = testish religion = saradominism}
+344 = { culture = testish religion = saradominism}
+345 = { culture = testish religion = saradominism}
+346 = { culture = testish religion = saradominism}
+347 = { culture = testish religion = saradominism}
+348 = { culture = testish religion = saradominism}
+349 = { culture = testish religion = saradominism}
+350 = { culture = testish religion = saradominism}
+351 = { culture = testish religion = saradominism}
+352 = { culture = testish religion = saradominism}
+353 = { culture = testish religion = saradominism}
+354 = { culture = testish religion = saradominism}
+355 = { culture = testish religion = saradominism}
+356 = { culture = testish religion = saradominism}
+357 = { culture = testish religion = saradominism}
+358 = { culture = testish religion = saradominism}
+359 = { culture = testish religion = saradominism}
+360 = { culture = testish religion = saradominism}
+361 = { culture = testish religion = saradominism}
+362 = { culture = testish religion = saradominism}
+363 = { culture = testish religion = saradominism}
+364 = { culture = testish religion = saradominism}
+365 = { culture = testish religion = saradominism}
+366 = { culture = testish religion = saradominism}
+367 = { culture = testish religion = saradominism}
+368 = { culture = testish religion = saradominism}
+369 = { culture = testish religion = saradominism}
+370 = { culture = testish religion = saradominism}
+371 = { culture = testish religion = saradominism}
+372 = { culture = kharid religion = kharidian}
+373 = { culture = kharid religion = kharidian}
+374 = { culture = kharid religion = kharidian}
+375 = { culture = kharid religion = kharidian}
+376 = { culture = kharid religion = kharidian}
+377 = { culture = kharid religion = kharidian}
+378 = { culture = kharid religion = kharidian}
+379 = { culture = kharid religion = kharidian}
+380 = { culture = kharid religion = kharidian}
+381 = { culture = kharid religion = saradominism}
+382 = { culture = kharid religion = saradominism}
+384 = { culture = kharid religion = saradominism}
+385 = { culture = kharid religion = saradominism}
+386 = { culture = kharid religion = kharidian}
+387 = { culture = kharid religion = kharidian}
+388 = { culture = kharid religion = kharidian}
+389 = { culture = kharid religion = kharidian}
+390 = { culture = kharid religion = kharidian}
+391 = { culture = kharid religion = kharidian}
+392 = { culture = kharid religion = kharidian}
+393 = { culture = kharid religion = kharidian}
+394 = { culture = kharid religion = kharidian}
+395 = { culture = kharid religion = kharidian}
+396 = { culture = kharid religion = kharidian}
+397 = { culture = kharid religion = kharidian}
+398 = { culture = kharid religion = kharidian}
+399 = { culture = kharid religion = kharidian}
+400 = { culture = kharid religion = kharidian}
+401 = { culture = kharid religion = kharidian}
+402 = { culture = kharid religion = kharidian}
+403 = { culture = kharid religion = kharidian}
+404 = { culture = kharid religion = kharidian}
+405 = { culture = kharid religion = kharidian}
+406 = { culture = kharid religion = kharidian}
+407 = { culture = kharid religion = kharidian}
+408 = { culture = kharid religion = kharidian}
+409 = { culture = kharid religion = kharidian}
+410 = { culture = kharid religion = kharidian}
+411 = { culture = kharid religion = kharidian}
+412 = { culture = kharid religion = kharidian}
+413 = { culture = kharid religion = kharidian}
+414 = { culture = kharid religion = kharidian}
+415 = { culture = kharid religion = kharidian}
+416 = { culture = kharid religion = kharidian}
+417 = { culture = kharid religion = kharidian}
+418 = { culture = kharid religion = kharidian}
+419 = { culture = kharid religion = kharidian}
+420 = { culture = kharid religion = kharidian}
+421 = { culture = kharid religion = kharidian}
+422 = { culture = kharid religion = kharidian}
+423 = { culture = kharid religion = kharidian}
+424 = { culture = kharid religion = kharidian}
+425 = { culture = kharid religion = kharidian}
+426 = { culture = kharid religion = kharidian}
+427 = { culture = kharid religion = kharidian}
+428 = { culture = kharid religion = kharidian}
+429 = { culture = kharid religion = kharidian}
+430 = { culture = kharid religion = kharidian}
+431 = { culture = kharid religion = kharidian}
+432 = { culture = kharid religion = kharidian}
+433 = { culture = kharid religion = kharidian}
+434 = { culture = kharid religion = kharidian}
+435 = { culture = kharid religion = kharidian}
+436 = { culture = kharid religion = kharidian}
+437 = { culture = kharid religion = kharidian}
+438 = { culture = kharid religion = kharidian}
+439 = { culture = kharid religion = kharidian}
+440 = { culture = kharid religion = kharidian}
+441 = { culture = kharid religion = kharidian}
+442 = { culture = kharid religion = kharidian}
+443 = { culture = kharid religion = kharidian}
+444 = { culture = kharid religion = kharidian}
+445 = { culture = kharid religion = kharidian}
+446 = { culture = kharid religion = kharidian}
+447 = { culture = kharid religion = kharidian}
+448 = { culture = kharid religion = kharidian}
+449 = { culture = kharid religion = kharidian}
+450 = { culture = kharid religion = kharidian}
+451 = { culture = kharid religion = kharidian}
+452 = { culture = kharid religion = kharidian}
+453 = { culture = kharid religion = kharidian}
+643 = { culture = kharid religion = kharidian}
+649 = { culture = kharid religion = kharidian}

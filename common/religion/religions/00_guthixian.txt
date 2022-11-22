@@ -4,7 +4,7 @@
 	doctrine = doctrine_monogamy
 	doctrine = heresy_hostility_doctrine # Needs to be before eastern_hostility_doctrine in order to override the same religion hostility
 	doctrine = eastern_hostility_doctrine
-	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_gender_equal
 	doctrine = doctrine_spiritual_head
 	doctrine = doctrine_concubines
 	doctrine = doctrine_divorce_approval
@@ -214,5 +214,26 @@
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_consanguinity_unrestricted
 		}
+
+		oldguth = {
+			color = { 0.1 1 0.1 }
+			icon = oldguth
+			religious_head = d_guthix
+			holy_site = entrana
+			holy_site = gtree
+			holy_site = druid
+
+			doctrine = tenet_adaptive
+			doctrine = tenet_pacifism
+			doctrine = tenet_ritual_celebrations
+
+			doctrine = doctrine_no_head
+			doctrine = doctrine_consanguinity_unrestricted
+		}
+
+
+
+
+
 	}
 }

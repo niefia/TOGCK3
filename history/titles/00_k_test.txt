@@ -1,9 +1,4 @@
-d_wknights {
-	11765.1.1 = {
-		holder = 7000014
-		government = feudal_government
-	}
-}
+
 
 k_misthalin = {
 
@@ -50,9 +45,114 @@ k_misthalin = {
 
 
 }
-c_champ = {
-	11825.1.1 = {
+
+
+d_guildside {
+	11765.1.1 = {
 		holder = 6000022
+		change_development_level = 2
+		liege = k_misthalin
+		government = feudal_government
+	}
+}
+c_paterdomus {
+	11765.1.1 = {
+		holder = 6000026
+		change_development_level = 4
+		liege = k_misthalin
+		government = theocracy_government
+	}
+}
+c_wvar {
+	11765.1.1 = {
+		holder = 6000023
+		change_development_level = 2
+		liege = k_misthalin
+		government = feudal_government
+	}
+}
+c_berxley {
+	11765.1.1 = {
+		holder = 6000023
+		change_development_level = 2
+		liege = k_misthalin
+		government = feudal_government
+	}
+}
+
+c_fallholt {
+	11765.1.1 = {
+		holder = 6000029
+		change_development_level = 2
+		liege = k_misthalin
+		government = feudal_government
+	}
+}
+
+c_tunstead {
+	11765.1.1 = {
+		holder = 6000029
+		change_development_level = 2
+		liege = k_misthalin
+		government = feudal_government
+	}
+}
+
+c_kilead {
+	11765.1.1 = {
+		holder = 6000029
+		change_development_level = 2
+		liege = k_misthalin
+		government = feudal_government
+	}
+}
+d_fallholt {
+	11765.1.1 = {
+		holder = 6000029
+		change_development_level = 2
+		liege = k_misthalin
+		government = feudal_government
+	}
+}
+
+d_kelna {
+	11765.1.1 = {
+		holder = 6000025
+		change_development_level = 2
+		liege = k_misthalin
+		government = feudal_government
+	}
+}
+
+c_wormbrain {
+	11765.1.1 = {
+		holder = 6000027
+		change_development_level = 2
+		government = feudal_government
+	}
+}
+
+c_senntisten {
+	11765.1.1 = {
+		holder = 6000028
+		change_development_level = 2
+		liege = k_misthalin
+		government = feudal_government
+	}
+}
+c_alton {
+	11765.1.1 = {
+		holder = 6000028
+		change_development_level = 2
+		liege = k_misthalin
+		government = feudal_government
+	}
+}
+
+c_silvarea {
+	11765.1.1 = {
+		holder = 6000030
+		change_development_level = 1
 		liege = k_misthalin
 		government = feudal_government
 	}
@@ -61,27 +161,8 @@ c_champ = {
 
 
 
-d_varrock = {
-	11765.1.1 = {
-		holder = 6000002
-		government = feudal_government
-	}
-}
 
-c_varrock = {
-	11765.1.1 = {
-		holder = 6000002
-		government = feudal_government
-	}
-}
 
-c_pvar = {
-	11765.1.1 = {
-		holder = 6000002
-		change_development_level = 16
-		government = feudal_government
-	}
-}
 
 d_lumbridge = {
 	11765.1.1 = {
@@ -107,11 +188,20 @@ c_barb {
 	}
 }
 
-c_wizard  {
+c_wtower  {
 	11765.1.1 = {
 		holder = 6000005
-		change_development_level = 5
+		change_development_level = 10
 		government = feudal_government
+	}
+}
+
+
+d_wizard  {
+	11765.1.1 = {
+		holder = 6000005
+		change_development_level = 3
+		government = republic_government
 	}
 }
 
@@ -155,29 +245,7 @@ c_kharid {
 	}
 }
 
-c_scorp {
-	11765.1.1 = {
-		holder = 8000008
-		change_development_level = 3
-		government = feudal_government
-	}
-}
 
-c_darena {
-	11765.1.1 = {
-		holder = 8000008
-		change_development_level = 10
-		government = feudal_government
-	}
-}
-c_marena {
-	11765.1.1 = {
-		holder = 8000008
-		change_development_level = 6
-		government = feudal_government
-
-	}
-}
 
 d_kharid{
 	11765.1.1 = {
@@ -186,7 +254,53 @@ d_kharid{
 	}
 }
 
+k_jatizso  {
 
+	11623.1.1 = {
+		holder = jatizso04
+		change_development_level = 4
+		government = feudal_government
+	}
+	11693.1.1 = {
+		holder = jatizso03
+		change_development_level = 4
+		government = feudal_government
+	}
+	11742.1.1 = {
+		holder = jatizso02
+		change_development_level = 4
+		government = feudal_government
+	}
+	11792.1.1 = {
+		holder = jatizso01
+		change_development_level = 4
+		government = feudal_government
+	}
+}
+
+k_misc  {
+	11765.1.1 = {
+		holder = miscellania01
+		change_development_level = 3
+		government = feudal_government
+	}
+}
+
+d_fjalltorp {
+	11765.1.1 = {
+		holder = mcamp01
+		change_development_level = 2
+		government = feudal_government
+	}
+}
+
+d_fremenik {
+	11798.1.1 = {
+		holder = rellekka01
+		change_development_level = 2
+		government = feudal_government
+	}
+}
 
 k_asgarnia  {
 	11765.1.1 = {
@@ -195,6 +309,9 @@ k_asgarnia  {
 		government = feudal_government
 	}
 }
+
+
+
 
 
 
@@ -849,5 +966,11 @@ c_keldafull {
 		change_development_level = 17
 		holder = kelda01
 		government = republic_government
+	}
+}
+d_wknights {
+	11765.1.1 = {
+		holder = 7000014
+		government = feudal_government
 	}
 }

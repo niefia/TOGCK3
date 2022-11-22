@@ -4,7 +4,7 @@
 	doctrine = doctrine_monogamy
 	doctrine = heresy_hostility_doctrine # Needs to be before eastern_hostility_doctrine in order to override the same religion hostility
 	doctrine = eastern_hostility_doctrine
-	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_gender_equal
 	doctrine = doctrine_no_head
 	doctrine = doctrine_concubines
 	doctrine = doctrine_divorce_approval
@@ -16,7 +16,7 @@
 	doctrine = doctrine_witchcraft_shunned
 	doctrine = doctrine_deviancy_shunned
 	doctrine = doctrine_consanguinity_cousins
-	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_pluralism_fundamentalist
 	doctrine = doctrine_theocracy_temporal
 	doctrine = doctrine_clerical_function_taxation
 	doctrine = doctrine_clerical_gender_either
@@ -25,8 +25,8 @@
 	piety_icon_group = "zoroastrian"
 
 	traits = {
-		virtues = { honest just diligent }
-		sins = { deceitful lazy sadistic }
+		virtues = { honest just diligent deceitful }
+		sins = { lazy sadistic }
 	}
 
 	reserved_male_names = {
@@ -206,9 +206,9 @@
 			holy_site = entrana
 			holy_site = digsite
 
-			doctrine = tenet_pacifism
-			doctrine = tenet_sky_burials
-			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_human_sacrifice
 
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_consanguinity_unrestricted
@@ -220,13 +220,73 @@
 			holy_site = entrana
 			holy_site = digsite
 
-			doctrine = tenet_warmonger
-			doctrine = tenet_sky_burials
-			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_legalism
+			doctrine = tenet_unrelenting_faith
 
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_consanguinity_unrestricted
 		}
+		drakanite  = {
+			color = { 0.7 0.1 0.2 }
+			icon = drakan
+			religious_head = d_hpriestdrak
+			holy_site = digsite
+
+			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_religious_legal_pronouncements
+			doctrine = tenet_human_sacrifice
+
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_consanguinity_unrestricted
+		}
+		chaosdruid  = {
+			color = { 0.8 0.2 0.1 }
+			icon = cdruid
+			religious_head = d_hpriestcdr
+			holy_site = digsite
+
+			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_guthix_syncretism
+			doctrine = tenet_human_sacrifice
+
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_consanguinity_unrestricted
+			doctrine = doctrine_pluralism_righteous
+		}
+		chaosdwarf  = {
+			color = { 0.6 0.2 0.2 }
+			icon = cdwarf
+			religious_head = d_hpriestcdw
+			holy_site = digsite
+
+			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_warmonger
+			doctrine = tenet_mendicant_preachers
+
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_consanguinity_unrestricted
+		}
+		dagon''hai  = {
+			color = { 0.6 0.2 0.2 }
+			icon = dagon
+			religious_head = d_hpriestdagon
+			holy_site = digsite
+
+			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_religious_legal_pronouncements
+			doctrine = tenet_human_sacrifice
+
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_consanguinity_unrestricted
+		}
+
+
+
+
+
+
+
 		}
 
 

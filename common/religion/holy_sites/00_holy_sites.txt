@@ -1,14 +1,6 @@
-﻿entrana = {
-	county = c_etrana
-
-	character_modifier = {
-		monthly_piety_gain_mult = 0.2
-	}
-	flag = jerusalem_conversion_bonus # +20% County Conversion
-}
-
+﻿
 digsite = {
-	county = c_dig
+	county = c_senntisten
 
 	character_modifier = {
 		name = holy_site_kent_effect_name
@@ -18,8 +10,8 @@ digsite = {
 }
 
 
-druid = {
-	county = c_druid
+paterdomus = {
+	county = c_paterdomus
 
 	character_modifier = {
 		name = holy_site_kent_effect_name
@@ -27,18 +19,44 @@ druid = {
 		sway_scheme_power_mult = 0.1
 	}
 }
-gtree = {
-	county = c_grand
-
-	character_modifier = {
-		name = holy_site_kent_effect_name
-		religious_vassal_opinion = 5
-		sway_scheme_power_mult = 0.1
-	}
-}
-
 citharede = {
 	county = c_citharede
+
+	character_modifier = {
+		name = holy_site_kent_effect_name
+		religious_vassal_opinion = 5
+		sway_scheme_power_mult = 0.1
+	}
+}
+hamford = {
+	county = c_hamford
+
+	character_modifier = {
+		name = holy_site_kent_effect_name
+		religious_vassal_opinion = 5
+		sway_scheme_power_mult = 0.1
+	}
+}
+hamford = {
+	county = c_hamford
+
+	character_modifier = {
+		name = holy_site_kent_effect_name
+		religious_vassal_opinion = 5
+		sway_scheme_power_mult = 0.1
+	}
+}
+apple = {
+	county = c_aebeltoft
+
+	character_modifier = {
+		name = holy_site_kent_effect_name
+		religious_vassal_opinion = 5
+		sway_scheme_power_mult = 0.1
+	}
+}
+mlake = {
+	county = c_tjarn
 
 	character_modifier = {
 		name = holy_site_kent_effect_name

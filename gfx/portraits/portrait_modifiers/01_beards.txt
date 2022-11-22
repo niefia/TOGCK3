@@ -1,12 +1,6 @@
 ﻿
 beards = {
 
-modifier = {
-			add = 200
-			exists = character:6000003
-			this = character:6000003
-					}
-
 	usage = game
 
     selection_behavior = weighted_random
@@ -77,14 +71,6 @@ modifier = {
         weight = {
             base = 70
         }
-		
-		
-		modifier = {
-			add = 200
-			exists = character:<6000002>
-			this = character:<6000002>
-					}
-		
     }
 
 }
